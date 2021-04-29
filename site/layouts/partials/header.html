@@ -1,0 +1,157 @@
+<div id="logo" class="z-50">
+  <a href="./"><img src="img/baked-logo.svg" alt="baked logo"></a>
+</div>
+
+<div id="menu" class="z-50 pointer">
+  <div class="relative group">
+    <img class="sun" src="img/sun-bg.svg" alt="">
+    <img id="sun-idle" class="sun-face group-hover:hidden" src="img/sun-idle.svg" alt="">
+    <img id="sun-active" class="sun-face hidden group-hover:block" src="img/sun-active.svg" alt="">
+  </div>
+</div>
+
+<div class="nav">
+	<div class="nav__content p-4">
+		<ul class="nav__list text-9xl italic font-semibold mb-20 leading-tight">
+			<li class="nav__list-item"><a href="./case-studies/nf/">Work</a></li>
+			<li class="nav__list-item"><a href="./about">About</a></li>
+			<li class="nav__list-item">Contact</li>
+			<li class="nav__list-item"><a href="./jobs">Jobs</a></li>
+		</ul>
+    <hr class="mb-10">
+    <p class="text-4xl w-full normal-case mb-10">
+      We bring consumer brands to life through creative strategy, advertising, design, brand development & content creation.
+    </p>
+    <hr class="mb-10">
+    <div class="w-full flex flex-wrap">
+      <ul class="w-1/5 normal-case">
+        <li class="uppercase font-semibold mb-2">brands we bake with:</li>
+        <li class="mb-2">Under Armour</li>
+        <li class="mb-2">Asics</li>
+        <li class="mb-2">Timerland</li>
+        <li class="mb-2">Haglöfs</li>
+        <li>The North Face</li>
+      </ul>
+      <ul class="w-1/5 normal-case">
+        <li class="uppercase font-semibold mb-2">Services:</li>
+        <li class="mb-2">Creative Strategy</li>
+        <li class="mb-2">Advertising</li>
+        <li class="mb-2">Design</li>
+        <li class="mb-2">Brand Development</li>
+        <li>Content Creation</li>
+      </ul>
+      <ul class="w-1/5 normal-case">
+        <li class="uppercase font-semibold mb-2">Contact:</li>
+        <li>hello@bakedcreative.co﻿</li>
+      </ul>
+    </div>
+    <hr class="my-10">
+    <h2 class="text-4xl normal-case mb-10">Featured Projects</h2>
+    <div class="flex flex-wrap normal-case">
+      <div class="w-2/12">
+        2021
+      </div>
+      <div class="w-3/12">
+        Under Armour — Back Yourself
+      </div>
+      <div class="w-7/12">
+        A 'back to fitness' campaign to showcase Under Armour at JD Sports. Keeping it simple. Atypically raw, bright and focussed on the product fit, style and detail.
+      </div>
+    </div>
+    <hr class="my-5">
+    <div class="flex flex-wrap normal-case">
+      <div class="w-2/12">
+        2021
+      </div>
+      <div class="w-3/12">
+        Under Armour — Back Yourself
+      </div>
+      <div class="w-7/12">
+        A 'back to fitness' campaign to showcase Under Armour at JD Sports. Keeping it simple. Atypically raw, bright and focussed on the product fit, style and detail.
+      </div>
+    </div>
+    <hr class="my-5">
+    <div class="flex flex-wrap normal-case">
+      <div class="w-2/12">
+        2021
+      </div>
+      <div class="w-3/12">
+        Under Armour — Back Yourself
+      </div>
+      <div class="w-7/12">
+        A 'back to fitness' campaign to showcase Under Armour at JD Sports. Keeping it simple. Atypically raw, bright and focussed on the product fit, style and detail.
+      </div>
+    </div>
+    <hr class="my-5">
+    <div class="flex flex-wrap normal-case">
+      <div class="w-2/12">
+        2021
+      </div>
+      <div class="w-3/12">
+        Under Armour — Back Yourself
+      </div>
+      <div class="w-7/12">
+        A 'back to fitness' campaign to showcase Under Armour at JD Sports. Keeping it simple. Atypically raw, bright and focussed on the product fit, style and detail.
+      </div>
+    </div>
+    <hr class="my-5">
+    <div class="flex flex-wrap normal-case">
+      <div class="w-2/12">
+        2021
+      </div>
+      <div class="w-3/12">
+        Under Armour — Back Yourself
+      </div>
+      <div class="w-7/12">
+        A 'back to fitness' campaign to showcase Under Armour at JD Sports. Keeping it simple. Atypically raw, bright and focussed on the product fit, style and detail.
+      </div>
+    </div>
+	</div>
+</div>
+
+<div class="px-2 pt-2">
+  <div class="marquee" data-duplicated='true' data-direction='left' data-pauseOnHover='true' data-speed='50' data-startVisible='true'>
+    <span>Under Armour — Back Yourself</span>
+    <span>Haglöfs — L.I.M Series</span>
+    <span>The North Face — 1994 Retro Him Parka</span>
+    <span>Under Armour — Homegrown Champion</span>
+    <span>USC — SNKR EDIT</span>
+    <span>ASICS — GT-Xpress</span>
+    <span>5 Rings Coffee — In A Spin</span>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/jquery.marquee@1.6.0/jquery.marquee.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+  $('.marquee').marquee({});
+
+  const app = (() => {
+    let body;
+    let menu;
+    let menuItems;
+
+    const init = () => {
+      body = document.querySelector('body');
+      menu = document.querySelector('#menu');
+      menuItems = document.querySelectorAll('.nav__list-item');
+
+      applyListeners();
+    };
+
+    const applyListeners = () => {
+      menu.addEventListener('click', () => toggleClass(body, 'nav-active'));
+    };
+
+    const toggleClass = (element, stringClass) => {
+      if (element.classList.contains(stringClass))
+      element.classList.remove(stringClass);else
+
+      element.classList.add(stringClass);
+    };
+
+    init();
+  })();
+
+</script>

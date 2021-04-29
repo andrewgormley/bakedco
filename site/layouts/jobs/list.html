@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+<div class="animate__animated animate__fadeIn">
+  <div class="max-w-3xl mx-auto pt-20 pb-10">
+
+    <ul>
+      {{ range .Pages }}
+
+        <li class="text-gray-900 mb-1" style="background-color:#16FFBD;">
+          <a href="{{.Permalink}}">
+
+            <div class="px-3 py-2 text-4xl normal-case border-b border-solid border-gray-900">
+              {{.Title}}
+            </div>
+
+            <div class="w-full flex flex-wrap">
+              <div class="w-1/2 border-r border-solid border-gray-900 px-3 py-2">
+                {{.Params.type}}
+              </div>
+              <div class="w-1/2 px-3 py-2">
+                {{.Params.location}}
+              </div>
+            </div>
+
+          </a>
+        </li>
+
+      {{ end }}
+    </ul>
+
+  </div>
+</div>
+
+{{ end }}

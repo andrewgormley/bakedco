@@ -65,5 +65,13 @@
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10",
     "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "animate.css": "^4.1.1",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0"
   }
 }

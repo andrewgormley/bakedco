@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="animate__animated animate__fadeIn">
+  <div class="max-w-3xl mx-auto pt-20 pb-10">
+
+    <div class="mb-10">
+      <h1 class="text-4xl normal-case">{{.Title}}</h1>
+      <ul class="font-semibold">
+        <li>Category: <span class="normal-case font-normal">{{.Params.category}}</span></li>
+        <li>Type: <span class="normal-case font-normal">{{.Params.jobType}}</span></li>
+        <li>Location: <span class="normal-case font-normal">{{.Params.location}}</span></li>
+        <li>Salary: <span class="normal-case font-normal">{{.Params.salary}}</span></li>
+        <li>Note: <span class="normal-case font-normal">{{.Params.note}}</span></li>
+      </ul>
+    </div>
+
+    <div class="normal-case markdown">
+      {{ .Content }}
+    </div>
+
+  </div>
+</div>
+
+{{ end }}

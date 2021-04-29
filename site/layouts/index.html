@@ -1,13 +1,49 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+  <div id="feed" class="animate__animated animate__fadeIn p-2 grid grid-cols-3 grid-rows-11 auto-rows-max gap-2">
+    <div class="group relative tile bg-red-200 row-span-3 overflow-hidden cursor-pointer" style="background:url(img/about-jumbotron.jpg); background-size:cover; background-position: center;">
+      <div class="overlay-text hidden group-hover:block text-4xl mix-blend-difference text-center leading-none">
+        Example Text
+      </div>
+      <video autoplay muted loop id="myVideo">
+        <source src="img/Trabaco_Sundew_RnD_Feed.mp4" type="video/mp4">
+      </video>
 
-{{ partial "short-text" .Params.blurb}}
-
-{{ partial "2-up" .Params }}
-
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
-
-{{ partial "blog" . }}
+    </div>
+    <div class="tile bg-red-200 col-span-2 row-span-2 overflow-hidden cursor-pointer" style="background:url(img/haglofs.png); background-size:cover; background-position: center;"></div>
+    <div class="group relative tile bg-red-200 row-span-3 overflow-hidden cursor-pointer" style="background:url(img/northface.jpg); background-size:cover; background-position: center;">
+      <div class="overlay-text hidden group-hover:block text-center z-30 text-4xl mix-blend-difference text-center leading-none">
+        Example Text
+      </div>
+    </div>
+    <div class="group relative tile bg-red-200 row-span-2 overflow-hidden cursor-pointer" style="background:url(img/about-jumbotron.jpg); background-size:cover; background-position: center;">
+      <div class="overlay-text hidden group-hover:block text-4xl mix-blend-difference text-center leading-none">
+        Example Text
+      </div>
+      <video autoplay muted loop id="myVideo">
+        <source src="img/Say_when.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="tile bg-red-200 row-span-2 overflow-hidden cursor-pointer" style="background:url(img/haglofs2.png); background-size:cover; background-position: center;"></div>
+    <div class="tile bg-red-200 row-span-2 overflow-hidden cursor-pointer" style="background:url(img/ua.png); background-size:cover; background-position: center;"></div>
+    <div class="tile bg-red-200 col-span-2 row-span-2 overflow-hidden cursor-pointer" style="background:url(img/nb.png); background-size:cover; background-position: center;">
+      <video autoplay muted loop id="myVideo">
+        <source src="img/USC_snkredit_1080p.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="tile bg-red-200 row-span-3 overflow-hidden cursor-pointer" style="background:url(img/ua.png); background-size:cover; background-position: center;">
+      <video autoplay muted loop id="myVideo" class="video-height">
+        <source src="img/Mossy_balls_loop.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="tile bg-red-200 row-span-2 overflow-hidden cursor-pointer" style="background:url(img/trent.png); background-size:cover; background-position: center;"></div>
+    <div class="tile bg-red-200 row-span-2 overflow-hidden cursor-pointer" style="background:url(img/less-is-more.png); background-size:cover; background-position: center;"></div>
+    <div class="tile bg-red-200 row-span-2 overflow-hidden cursor-pointer" style="background:url(img/ua.png); background-size:cover; background-position: center;">
+      <video autoplay muted loop id="myVideo">
+        <source src="img/Glass_ball.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="tile bg-red-200 col-span-2 row-span-2 overflow-hidden cursor-pointer" style="background:url(img/skate.png); background-size:cover; background-position: center;"></div>
+  </div>
 
 {{ end }}

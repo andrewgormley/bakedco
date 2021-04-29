@@ -1,13 +1,15 @@
 <!doctype html>
-<html lang="{{ $.Site.Language.Lang }}">
+<html class="bg-gray-900" lang="{{ $.Site.Language.Lang }}">
   {{ partial "head" . }}
-  <body class="sans-serif">
+  <body class="text-xxs uppercase text-white bg-gray-900 tracking-wide">
 
-    {{ block "header" . }}{{ partial "nav" . }}{{end}}
+    {{ partial "header" . }}
+
+    {{ partial "nav" . }}
 
     {{ block "main" . }}{{ end }}
 
-    {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+    {{ partial "footer" . }}
 
     {{ $script := .Site.Data.webpack.main }}
     {{ with $script.js }}
