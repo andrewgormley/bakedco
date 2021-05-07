@@ -1,6 +1,6 @@
 module.exports = {
   purge: ['layouts/**/*.html'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     fontSize: {
       '3xs': '.5rem',
@@ -32,13 +32,15 @@ module.exports = {
         'span-9': 'span 9 / span 9',
       },
       transitionProperty: {
-        'fontSize': 'fontSize'
+        'fontSize': 'fontSize',
+        'rotate': 'rotate'
       }
     },
   },
   variants: {
     extend: {
-      display: ['group-hover'],
+      display: ['group-hover', 'dark'],
+      fill: ['dark'],
       opacity: ['group-hover'],
       fontSize: ['group-hover'],
     },
