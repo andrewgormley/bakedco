@@ -23,19 +23,24 @@ module.exports = {
     backgroundColor: theme => ({
       ...theme('colors'),
       'primary': '#FF3300',
+      'aqua': '#16FFBD'
     }),
     extend: {
       gridRow: {
         'span-7': 'span 7 / span 7',
         'span-8': 'span 8 / span 8',
         'span-9': 'span 9 / span 9',
+      },
+      transitionProperty: {
+        'fontSize': 'fontSize'
       }
     },
   },
   variants: {
     extend: {
       display: ['group-hover'],
-      opacity: ['group-hover']
+      opacity: ['group-hover'],
+      fontSize: ['group-hover'],
     },
   },
   plugins: [],

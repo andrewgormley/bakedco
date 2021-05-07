@@ -1,33 +1,33 @@
 <!-- Contact -->
 <div class="mb4">
-  <h4 class="f3 b lh-title mb3 tc">Drop us a line below</h4>
+  <h4 class="text-4xl py-5 normal-case">Fancy a chat?</h4>
 
-  <form action="">
-    <div class="flex-l mhn1-l">
+  <form action="" class="border border-solid border-white mb-3">
+    <div class="w-full flex flex-wrap mb-2">
       <!-- Name -->
-      <div class="ph1-l w-50-l">
-        <fieldset>
-          <input type="text" id="name" name="name" placeholder="Name" class="w-100 mb2">
-          <label for="name">Name</label>
+      <div class="w-1/2">
+        <fieldset class="border-b border-solid border-white p-3">
+          <label for="name" class="uppercase font-semibold">Name</label>
+          <input type="text" id="name" name="name" placeholder="Name" class="w-full bg-transparent text-xxs pt-1">
         </fieldset>
       </div>
       <!-- Email -->
-      <div class="ph1-l w-50-l">
-        <fieldset>
-          <input type="email" id="email" name="email" placeholder="Email" class="w-100 mb2">
-          <label for="email">Email</label>
+      <div class="w-1/2">
+        <fieldset class="border-b border-l border-solid border-white p-3">
+          <label for="email" class="uppercase font-semibold">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email" class="w-full bg-transparent text-xxs pt-1">
         </fieldset>
       </div>
     </div>
 
     <!-- Message -->
-    <fieldset>
-      <textarea id="message" name="message" placeholder="Your message" rows="8" cols="80" class="w-100"></textarea>
-      <label for="message">Your message</label>
+    <fieldset class="p-3">
+      <label for="message" class="uppercase font-semibold">Message</label>
+      <textarea id="message" name="message" placeholder="Tell us about yourself" rows="7" class="w-full bg-transparent text-xxs pt-1"></textarea>
     </fieldset>
-    <!-- Button -->
-    <div class="tc">
-      <button type="submit" class="btn w-100 w-auto-ns raise">Submit</button>
-    </div>
   </form>
+  <!-- Button -->
+  <div class="">
+    <button type="submit" class="text-center p-3 text-4xl bg-primary shadow-lg">Send Message</button>
+  </div>
 </div>

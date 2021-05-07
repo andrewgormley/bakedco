@@ -1,24 +1,13 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
+<div class="animate__animated animate__fadeIn w-full flex flex-wrap p-1">
 
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
+		<div class="max-w-3xl mx-auto py-20 normal-case markdown">
+			{{ .Content }}
 
-		{{ .Content }}
-
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
-				</div>
-			{{ end }}
+			{{ partial "contact-form" . }}
 		</div>
 
-		{{ partial "contact-form" . }}
-
-	</div>
 </div>
 
 {{ end }}

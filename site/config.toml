@@ -4,6 +4,76 @@ languageLang = "en"
 title = "Homepage"
 
 # RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
+# See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[Params]
+  description = "We bring consumer brands to life through creative strategy, advertising, design, brand development & content creation."
+  random = "test"
+  contact = "hello@bakedcreative.co﻿"
+
+[[menu.main]]
+  weight = 1
+  name = "Home"
+  URL = "/"
+
+[[menu.main]]
+  weight = 2
+  name = "work"
+  URL = "work"
+
+[[menu.main]]
+  weight = 3
+  name = "About"
+  URL = "about"
+
+[[menu.main]]
+  weight = 4
+  name = "Contact"
+  URL = "contact"
+
+[[menu.main]]
+  weight = 5
+  name = "Jobs"
+  URL = "jobs"
+
+[[menu.brands]]
+  weight = 1
+  name = "Under Armour"
+
+[[menu.brands]]
+  weight = 2
+  name = "Asics"
+
+[[menu.brands]]
+  weight = 3
+  name = "Timerland"
+
+[[menu.brands]]
+  weight = 4
+  name = "Haglöfs"
+
+[[menu.brands]]
+  weight = 5
+  name = "The North Face"
+
+[[menu.services]]
+  weight = 1
+  name = "Creative Strategy"
+
+[[menu.services]]
+  weight = 2
+  name = "Advertising"
+
+[[menu.services]]
+  weight = 3
+  name = "Design"
+
+[[menu.services]]
+  weight = 4
+  name = "Brand Development"
+
+[[menu.services]]
+  weight = 5
+  name = "Content Creation"

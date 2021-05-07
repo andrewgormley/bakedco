@@ -1,8 +1,12 @@
-<!-- <nav class="fixed left-0">
+<nav class="fixed left-0 z-10">
 	<ul>
-		<li class="mb-4"><span class="bg-gray-900 hover:bg-primary cursor-pointer pl-2 py-1 pr-1">Work</span></li>
-		<li class="mb-4"><span class="bg-gray-900 hover:bg-primary cursor-pointer pl-2 py-1 pr-1">About</span></li>
-		<li class="mb-4"><span class="bg-gray-900 hover:bg-primary cursor-pointer pl-2 py-1 pr-1">Jobs</span></li>
-		<li class="mb-4"><span class="bg-gray-900 hover:bg-primary cursor-pointer pl-2 py-1 pr-1">Contact</span></li>
+    {{ range .Site.Menus.main }}
+			<li class="mb-4 group">
+				<a class="bg-gray-900 cursor-pointer group-hover:text-lg pl-2 py-1 pr-1 transition-all" href="{{ .URL | absURL }}">
+					{{ .Name }}
+					<span class="hidden group-hover:inline-block pr-1">👈</span>
+				</a>
+			</li>
+    {{ end }}
 	</ul>
-</nav> -->
+</nav>

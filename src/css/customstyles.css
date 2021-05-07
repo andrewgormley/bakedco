@@ -94,7 +94,6 @@ ul li {
 
 .nav {
   position: fixed;
-  z-index: 1;
 }
 .nav:before, .nav:after {
   content: "";
