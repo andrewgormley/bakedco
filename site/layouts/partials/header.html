@@ -45,7 +45,7 @@
     <h2 class="text-4xl normal-case mb-10">Featured Projects</h2>
       {{ range where site.RegularPages "Section" "work" | first 5 }}
       <a href="{{.Permalink}}">
-        <div class="flex flex-wrap normal-case border-t border-solid border-white py-5">
+        <div class="flex flex-wrap normal-case border-t border-solid border-white py-5 hover:bg-aqua hover:text-gray-900">
           <div class="w-2/12">
             {{.Date.Format "Jan 2, 2006"}}
           </div>
