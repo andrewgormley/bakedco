@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['layouts/**/*.html'],
+  purge: ['site/layouts/**/*.html'],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     fontSize: {
