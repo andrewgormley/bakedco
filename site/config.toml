@@ -12,6 +12,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   description = "We bring consumer brands to life through creative strategy, advertising, design, brand development & content creation."
   random = "test"
   contact = "hello@bakedcreative.co﻿"
+  footerText = "Baked Creative Limited is a company registered in England, company number 12099792."
 
 [[menu.main]]
   weight = 1
@@ -77,3 +78,18 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 [[menu.services]]
   weight = 5
   name = "Content Creation"
+
+[[menu.footer]]
+  weight = 1
+  name = "Privacy Policy"
+  URL = "/"
+
+[[menu.footer]]
+  weight = 2
+  name = "Cookie Policy"
+  URL = "/"
+
+[[menu.footer]]
+  weight = 3
+  name = "Modern Slavery Statement"
+  URL = "/"

@@ -90,24 +90,10 @@ nav {
   }
 }
 
-ul li {
-  mix-blend-mode: difference;
-}
-
-.social-icons li {
-  float: left;
-  max-width: 20px;
-  margin-right: 10px;
-}
-
-.social-icons li svg path {
-  fill: black;
-  mix-blend-mode: difference;
-}
-
 .nav {
   position: fixed;
 }
+
 .nav:before, .nav:after {
   content: "";
   position: fixed;
