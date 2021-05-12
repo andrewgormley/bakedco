@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Homepage"
+title = "Baked | Creative Agency | Independent Creative Studio"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:
@@ -10,9 +10,22 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [Params]
   description = "We bring consumer brands to life through creative strategy, advertising, design, brand development & content creation."
-  random = "test"
   contact = "hello@bakedcreative.co﻿"
   footerText = "Baked Creative Limited is a company registered in England, company number 12099792."
+  instagram = true
+  instagramURL = "https://www.instagram.com/bakedagency/"
+  linkedin = true
+  linkedinURL = "https://www.linkedin.com/company/bakedagency/"
+  youtube = false
+  youtubeURL = ""
+  vimeo = true
+  vimeoURL = "https://vimeo.com/bakedagency"
+  dribbble = false
+  dribbbleURL = ""
+  twitter = false
+  twitterURL = ""
+  spotify = true
+  spotifyURL = "https://open.spotify.com/user/e94lblworgg9ogus8wk7zob9z?si=5111737c44b847c3"
 
 [[menu.main]]
   weight = 1
@@ -82,14 +95,14 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 [[menu.footer]]
   weight = 1
   name = "Privacy Policy"
-  URL = "/"
+  URL = "privacy-policy"
 
 [[menu.footer]]
   weight = 2
   name = "Cookie Policy"
-  URL = "/"
+  URL = "cookie-policy"
 
 [[menu.footer]]
   weight = 3
   name = "Modern Slavery Statement"
-  URL = "/"
+  URL = "modern-slavery"

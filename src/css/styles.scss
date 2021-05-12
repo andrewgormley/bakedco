@@ -1,0 +1,264 @@
+html {
+  @apply bg-gray-100;
+
+  &.dark {
+    @apply bg-gray-900;
+  }
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+  top: 62px;
+}
+
+p {
+  @apply mb-10
+}
+
+#logo {
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+}
+
+#menu {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+
+  .sun-face {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+#feed {
+  grid-template-rows: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+
+  @media (min-width: 1536px) {
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+  }
+}
+
+.about-grid {
+  grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+
+  @media (min-width: 1536px) {
+    grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+  }
+}
+
+.tile .video-height {
+  max-width: unset;
+  height: 100%;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+
+  span:hover {
+    background-color: #FF3300;
+    cursor: pointer;
+  }
+}
+
+.sun {
+  animation: rotation 10s infinite linear;
+  fill: #FD5715;
+}
+
+.nav-active .sun {
+  fill: #16FFBD;
+}
+
+#menu:hover .sun {
+  animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.nav {
+  position: fixed;
+
+  &:before {
+    content: "";
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #16FFBD;
+    z-index: 40;
+    transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
+    transform: translateX(0%) translateY(-100%);
+  }
+
+  &:after {
+    content: "";
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #16FFBD;
+    z-index: 40;
+    transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
+    transform: translateX(0%) translateY(-100%);
+    background: #FF3300;
+    transition-delay: 0s;
+  }
+
+  &:before {
+    transition-delay: 0.1s;
+  }
+}
+
+.nav__content {
+  position: fixed;
+  height: 100%;
+  overflow-y: scroll;
+  top: 50%;
+  transform: translate(0%, -50%);
+  width: 100%;
+  z-index: 50;
+  visibility: hidden;
+
+  p {
+    max-width: none;
+    opacity: 0;
+    transform: translate(0%, 100%);
+    transition: opacity 0.2s ease, transform 0.3s ease;
+  }
+}
+
+.nav__list-item {
+  position: relative;
+  transition-delay: 0.8s;
+  opacity: 0;
+  transform: translate(0%, 100%);
+  transition: opacity 0.2s ease, transform 0.3s ease;
+  width: fit-content;
+
+  &:before {
+    content: "";
+    position: absolute;
+    background: white;
+    width: 20px;
+    height: 10px;
+    top: 100%;
+    transform: translate(0%, 0%);
+    transition: all 0.3s ease;
+    z-index: -1;
+  }
+
+  &:hover:before {
+    width: 100%;
+  }
+}
+
+body.nav-active {
+  .nav__content {
+    visibility: visible;
+  }
+
+  .nav {
+    visibility: visible;
+
+    &:before {
+      transform: translateX(0%) translateY(0%);
+    }
+
+    &:after {
+      transform: translateX(0%) translateY(0%);
+      transition-delay: 0.1s;
+    }
+
+    &:before {
+      transition-delay: 0s;
+    }
+  }
+
+  .nav__list-item, p {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
+  }
+
+  .nav__list-item {
+    &:nth-child(0) {
+      transition-delay: 0.5s;
+    }
+
+    &:nth-child(1) {
+      transition-delay: 0.6s;
+    }
+
+    &:nth-child(2) {
+      transition-delay: 0.7s;
+    }
+
+    &:nth-child(3) {
+      transition-delay: 0.8s;
+    }
+
+    &:nth-child(4) {
+      transition-delay: 0.9s;
+    }
+
+    &:nth-child(5) {
+      transition-delay: 1s;
+    }
+  }
+
+  p {
+    transition-delay: 0.9s;
+  }
+}
+
+.markdown {
+  h2 {
+    @apply uppercase font-semibold pt-5 pb-2 text-4xl;
+  }
+  h3 {
+    @apply font-semibold text-2xl;
+  }
+  h4 {
+  }
+  ul {
+    @apply list-inside list-disc pb-5;
+  }
+  p {
+    @apply normal-case;
+  }
+}
+
+.carousel-arrow {
+  position: absolute;
+  display: block;
+  top: 45%;
+  z-index: 2;
+  cursor: pointer;
+  transform: translateY(-45%);
+}
