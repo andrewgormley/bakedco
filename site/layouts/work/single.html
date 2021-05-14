@@ -24,14 +24,7 @@
     </div>
 
     <div class="max-w-3xl 2xl:max-w-5xl mx-auto py-10 normal-case markdown p-5 flex flex-wrap">
-
-      {{ $cols := split .Content "split" }}
-
-      {{ range $cols }}
-         <div class="w-1/2 px-2">
-         {{ . }}
-         </div>
-      {{ end }}
+      {{ .Content }}
     </div>
 
     <div class="carousel pb-10 mx-auto px-5 md:px-0">
