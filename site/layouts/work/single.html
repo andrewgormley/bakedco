@@ -2,7 +2,7 @@
 <div class="animate__animated animate__fadeIn p-2">
   <div class="border border-solid border-gray-900 dark:border-white overflow-hidden">
 
-    <div class="marquee2" data-duplicated='true' data-direction='left' data-pauseOnHover='false' data-speed='100' data-startVisible='true'>
+    <div class="marquee2" data-duplicated='true' data-direction='left' data-pauseOnHover='false' data-gap='200' data-speed='100' data-startVisible='true'>
       <span class="text-9xl font-semibold">{{.Title}}</span>
     </div>
 
@@ -11,11 +11,11 @@
         {{ .Date.Format "Jan 2, 2006" }}
       </div>
       <div class="p-5 w-1/2 border-l border-solid border-gray-900 dark:border-white">
-        {{ .Params.tags }}
+        {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
       </div>
     </div>
 
-    <div class="max-w-3xl 2xl:max-w-5xl mx-auto py-10 text-4xl normal-case p-5">
+    <div class="max-w-5xl mx-auto py-10 text-4xl normal-case p-5">
       {{.Description}}
     </div>
 
@@ -25,8 +25,17 @@
       </div>
     {{ end }}
 
-    <div class="max-w-3xl 2xl:max-w-5xl mx-auto py-10 normal-case markdown p-5 flex flex-wrap">
-      {{ .Content }}
+    <div class="max-w-5xl mx-auto py-10 normal-case markdown p-5 flex flex-wrap">
+      {{ range .Params.sections }}
+        <div class="w-full md:w-1/2 p-2">
+          {{ if .subtitle }}
+            <h4 class="font-semibold mb-2">{{ .subtitle }}</h4>
+          {{ end }}
+          {{ if .copy }}
+            <p>{{ .copy }}</p>
+          {{ end }}
+        </div>
+      {{ end }}
     </div>
 
     <div class="carousel pb-10 mx-auto px-5 md:px-0">
@@ -37,7 +46,7 @@
               <li class="glide__slide">
 
                 {{ if .image }}
-                  <img src="{{ .image }}"/>
+                  <img class="w-full" src="{{ .image }}"/>
                 {{ end }}
 
                 {{ if .video }}
@@ -64,11 +73,11 @@
 
   </div>
 
-  <div class="flex flex-wrap max-w-3xl 2xl:max-w-5xl mx-auto py-10">
+  <div class="flex flex-wrap max-w-5xl mx-auto py-10">
     <h2 class="text-4xl normal-case mb-5 w-full">Recent Projects</h2>
     {{ range where site.RegularPages "Section" "work" | first 3 }}
       <a href="{{.Permalink}}" class="w-1/3 p-1">
-        <div class="h-64 relative" style="background:url({{.Params.image}}); background-size:cover; background-position: center;"></div>
+        <div class="h-56 relative" style="background:url({{.Params.image}}); background-size:cover; background-position: center;"></div>
         <h4 class="py-2">
           {{ .Title }}
         </h4>
@@ -76,7 +85,7 @@
     {{ end }}
   </div>
 
-  <div class="max-w-3xl 2xl:max-w-5xl mx-auto mb-10">
+  <div class="max-w-5xl mx-auto mb-10">
     {{ partial "contact-form" . }}
   </div>
 
@@ -90,7 +99,7 @@
   new Glide('.glide', {
     autoplay: 5000,
     hoverpause: true,
-    perView: 1,
+    perView: 2,
     peek: 200,
     startAt: 1,
     breakpoints: {
@@ -101,6 +110,8 @@
       1024: {
         peek: 100,
         startAt: 0,
+      },
+      1600: {
         perView: 1,
       }
     }

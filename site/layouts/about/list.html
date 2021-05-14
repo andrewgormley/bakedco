@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class="animate__animated animate__fadeIn test">
-  <div class="max-w-3xl 2xl:max-w-5xl mx-auto pt-20 pb-10">
+  <div class="max-w-5xl mx-auto pt-20 pb-10">
     <p class="max-w-none font-semibold">{{ .Title }}</p>
     <p class="max-w-none text-4xl normal-case">{{ .Description }}</p>
   </div>
@@ -14,7 +14,7 @@
     <div class="bg-red-200 col-span-2 col-start-7 row-span-6 row-start-1" style="background:url({{ (index .Params.imageRow1 4).image }}); background-size:cover; background-position: center;"></div>
   </div>
 
-  <div class="max-w-3xl 2xl:max-w-5xl mx-auto">
+  <div class="max-w-5xl mx-auto">
     <ul class="w-1/5 normal-case">
       <h4 class="uppercase font-semibold mb-2">services:</h4>
       {{ range .Site.Menus.services }}
@@ -74,7 +74,7 @@
     <div class="bg-red-200 col-span-3 col-start-7 row-span-4 row-start-6" style="background:url({{ (index .Params.imageRow2 3).image }}); background-size:cover; background-position: center;"></div>
   </div>
 
-  <div class="max-w-3xl 2xl:max-w-5xl mx-auto flex flex-wrap py-20 border-b border-solid border-gray-300">
+  <div class="max-w-5xl mx-auto flex flex-wrap py-20 border-b border-solid border-gray-300">
     <div class="w-1/5 font-semibold">
       Our Values
     </div>
@@ -88,7 +88,7 @@
     </div>
   </div>
 
-  <div class="max-w-3xl 2xl:max-w-5xl mx-auto flex flex-wrap normal-case py-10">
+  <div class="max-w-5xl mx-auto flex flex-wrap normal-case py-10">
       <div class="w-1/2 text-4xl">
         <p>{{ .Params.sectionTitle }}</p>
       </div>
@@ -104,7 +104,7 @@
     <div class="bg-red-200 col-start-3 row-span-6 row-start-3" style="background:url({{ (index .Params.imageRow3 3).image }}); background-size:cover; background-position: center;"></div>
   </div>
 
-  <div class="max-w-3xl 2xl:max-w-5xl mx-auto mb-10">
+  <div class="max-w-5xl mx-auto mb-10">
     {{ partial "contact-form" . }}
   </div>
 </div>
