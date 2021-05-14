@@ -1,5 +1,5 @@
 ---
-title: Haglöfs — Duality - Part 1
+title: Haglöfs - Duality - Part 1
 date: 2021-04-29T15:04:10.000Z
 tags:
 - Creative Strategy

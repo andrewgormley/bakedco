@@ -76,9 +76,9 @@
 </div>
 
 <div class="px-2 pt-2">
-  <div class="marquee" data-duplicated='true' data-direction='left' data-pauseOnHover='true' data-speed='50' data-startVisible='true'>
+  <div class="marquee overflow-hidden w-full" data-duplicated='true' data-direction='left' data-pauseOnHover='true' data-speed='50' data-gap='0' data-startVisible='true'>
     {{ range where site.RegularPages "Section" "work" }}
-      <span class="transition-all px-1"><a href="{{.Permalink}}">{{ .Title }}</a></span>
+      <span class=""><a class="hover:bg-aqua hover:text-gray-900 transition-all py-1 px-2 mr-2" href="{{.Permalink}}">{{ .Title }}</a>*</span>
     {{ end }}
   </div>
 </div>

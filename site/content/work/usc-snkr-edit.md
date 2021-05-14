@@ -1,5 +1,5 @@
 ---
-title: USC — SNKR Edit
+title: USC - SNKR Edit
 date: 2021-05-03T15:04:10.000Z
 tags:
 - Live Action

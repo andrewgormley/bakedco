@@ -1,5 +1,5 @@
 ---
-title: Dolce and Gabbana — Sorrento
+title: Dolce and Gabbana - Sorrento
 date: 2021-04-25T15:04:10.000Z
 tags:
 - Motion Graphics

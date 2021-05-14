@@ -1,5 +1,5 @@
 ---
-title: Haglöfs — Mimic Graphene
+title: Haglöfs - Mimic Graphene
 date: 2021-05-02T15:04:10.000Z
 tags:
 - Creative Strategy

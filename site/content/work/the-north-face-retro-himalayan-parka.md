@@ -1,5 +1,5 @@
 ---
-title: The North Face — Retro Himalayan Parka
+title: The North Face - Retro Himalayan Parka
 date: 2021-05-04T15:04:10.000Z
 tags:
 - Live Action

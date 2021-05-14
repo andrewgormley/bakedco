@@ -1,5 +1,5 @@
 ---
-title: Under Armour — Homegrown Champion
+title: Under Armour - Homegrown Champion
 date: 2021-05-04T15:04:10.000Z
 tags:
 - Live Action

@@ -1,5 +1,5 @@
 ---
-title: Twelfthman — Kye Forte
+title: Twelfthman - Kye Forte
 date: 2021-04-26T15:04:10.000Z
 tags:
 - Live Action

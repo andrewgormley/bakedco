@@ -64,20 +64,8 @@ p {
 }
 
 .overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
-.marquee {
-  width: 100%;
-  overflow: hidden;
-
-  span:hover {
-    background-color: #FF3300;
-    cursor: pointer;
-  }
+  @apply absolute top-1/2 left-1/2 font-semibold text-2xl tracking-widest;
+  transform:translateX(-50%)translateY(-50%);
 }
 
 .sun {

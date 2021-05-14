@@ -1,5 +1,5 @@
 ---
-title: New Balance — Fresh Foam
+title: New Balance - Fresh Foam
 date: 2021-04-30T15:04:10.000Z
 tags:
 - Motion Graphics

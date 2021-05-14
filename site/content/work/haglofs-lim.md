@@ -1,5 +1,5 @@
 ---
-title: Haglöfs —L.I.M.
+title: Haglöfs - L.I.M.
 date: 2021-05-05T15:04:10.000Z
 tags:
 - Live Action
