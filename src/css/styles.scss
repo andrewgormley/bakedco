@@ -68,6 +68,13 @@ p {
   transform:translateX(-50%)translateY(-50%);
 }
 
+.thumbnail-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+
 .sun {
   animation: rotation 10s infinite linear;
   fill: #FD5715;

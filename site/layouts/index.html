@@ -18,8 +18,8 @@
 
   <div id="feed" class="hidden md:grid animate__animated animate__fadeIn p-2 grid-cols-3 grid-rows-11 auto-rows-max gap-2 text-white">
 
-    <div class="tile bg-aqua col-span-3 md:col-span-1 row-span-3 overflow-hidden cursor-pointer">
-      <video autoplay muted loop id="myVideo">
+    <div class="tile relative bg-aqua col-span-3 md:col-span-1 row-span-3 overflow-hidden cursor-pointer">
+      <video autoplay muted loop id="myVideo" class="thumbnail-video">
         <source src="img/Trabaco_Sundew_RnD_Feed.mp4" type="video/mp4">
       </video>
     </div>
@@ -42,8 +42,8 @@
       </div>
     </a>
 
-    <div class="tile bg-aqua col-span-3 md:col-span-1 row-span-2 overflow-hidden cursor-pointer">
-      <video autoplay muted loop id="myVideo">
+    <div class="tile relative bg-aqua col-span-3 md:col-span-1 row-span-2 overflow-hidden cursor-pointer">
+      <video autoplay muted loop id="myVideo" class="thumbnail-video">
         <source src="img/Say_when.mp4" type="video/mp4">
       </video>
     </div>
@@ -66,19 +66,19 @@
       </div>
     </a>
 
-    <div class="tile bg-aqua col-span-3 md:col-span-2 row-span-2 overflow-hidden cursor-pointer">
-      <video autoplay muted loop id="myVideo">
+    <div class="tile relative bg-aqua col-span-3 md:col-span-2 row-span-2 overflow-hidden cursor-pointer">
+      <video autoplay muted loop id="myVideo" class="thumbnail-video">
         <source src="img/USC_snkredit_1080p.mp4" type="video/mp4">
       </video>
     </div>
 
-    <div class="tile bg-aqua col-span-3 md:col-span-1 row-span-3 overflow-hidden cursor-pointer">
-      <video autoplay muted loop id="myVideo" class="video-height">
+    <div class="tile relative bg-aqua col-span-3 md:col-span-1 row-span-3 overflow-hidden cursor-pointer">
+      <video autoplay muted loop id="myVideo" class="video-height" class="thumbnail-video">
         <source src="img/Mossy_balls_loop.mp4" type="video/mp4">
       </video>
     </div>
 
-    <a 
+    <a
       href="{{ (index (where site.RegularPages "Section" "work") 4).Permalink }}"
       class="tile bg-aqua col-span-3 md:col-span-1 row-span-2 overflow-hidden cursor-pointer group relative"
       style="background:url({{ (index (where site.RegularPages "Section" "work") 4).Params.image }}); background-size:cover; background-position: center;">
@@ -96,8 +96,8 @@
       </div>
     </a>
 
-    <div class="tile bg-aqua col-span-3 md:col-span-1 row-span-2 overflow-hidden cursor-pointer">
-      <video autoplay muted loop id="myVideo">
+    <div class="tile relative bg-aqua col-span-3 md:col-span-1 row-span-2 overflow-hidden cursor-pointer">
+      <video autoplay muted loop id="myVideo" class="thumbnail-video">
         <source src="img/Glass_ball.mp4" type="video/mp4">
       </video>
     </div>
