@@ -181,7 +181,7 @@ p {
   z-index: 50;
   visibility: hidden;
 
-  p {
+  p, .trio, .menu-projects {
     max-width: none;
     opacity: 0;
     transform: translate(0%, 100%);
@@ -236,7 +236,7 @@ body.nav-active {
     }
   }
 
-  .nav__list-item, p {
+  .nav__list-item, p, .trio, .menu-projects{
     opacity: 1;
     transform: translateX(0%);
     transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
@@ -267,9 +267,14 @@ body.nav-active {
       transition-delay: 1s;
     }
   }
-
   p {
-    transition-delay: 0.9s;
+    transition-delay: 1.1s;
+  }
+  .trio {
+    transition-delay: 1.2s;
+  }
+  .menu-projects {
+    transition-delay: 1.3s;
   }
 }
 
