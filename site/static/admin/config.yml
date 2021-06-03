@@ -59,33 +59,33 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Intro Blurb", name: "description", widget: "text"}
           - {label: Section title, name: sectionTitle, widget: string}
           - {label: "Section description", name: "sectionDescription", widget: "text"}
-        - label: Image Row 1
-          name: imageRow1
-          widget: list
-          allow_add: false
-          fields:
-            - {label: "Image", name: "image", widget: "image"}
-            - {label: "Alt text", name: "alt", widget: "string"}
-        - label: Values
-          name: values
-          widget: list
-          fields:
-            - {label: "Value title", name: "title", widget: "string"}
-            - {label: "Value description", name: "description", widget: "text"}
-        - label: Image Row 2
-          name: imageRow2
-          widget: list
-          allow_add: false
-          fields:
-            - {label: "Image", name: "image", widget: "image"}
-            - {label: "Alt text", name: "alt", widget: "string"}
-        - label: Image Row 3
-          name: imageRow3
-          widget: list
-          allow_add: false
-          fields:
-            - {label: "Image", name: "image", widget: "image"}
-            - {label: "Alt text", name: "alt", widget: "string"}
+          - label: Image Row 1
+            name: imageRow1
+            widget: list
+            allow_add: false
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Alt text", name: "alt", widget: "string"}
+          - label: Values
+            name: values
+            widget: list
+            fields:
+              - {label: "Value title", name: "title", widget: "string"}
+              - {label: "Value description", name: "description", widget: "text"}
+          - label: Image Row 2
+            name: imageRow2
+            widget: list
+            allow_add: false
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Alt text", name: "alt", widget: "string"}
+          - label: Image Row 3
+            name: imageRow3
+            widget: list
+            allow_add: false
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Alt text", name: "alt", widget: "string"}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
