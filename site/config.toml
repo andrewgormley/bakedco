@@ -9,8 +9,6 @@ title = "Baked | Creative Agency | Independent Creative Studio"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [Params]
-  description = "We bring consumer brands to life through creative strategy, advertising, design, brand development & content creation."
-  contact = "hello@bakedcreative.co﻿"
   footerText = "Baked Creative Limited is a company registered in England, company number 12099792."
   instagram = true
   instagramURL = "https://www.instagram.com/bakedagency/"
@@ -26,71 +24,6 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
   twitterURL = ""
   spotify = true
   spotifyURL = "https://open.spotify.com/user/e94lblworgg9ogus8wk7zob9z?si=5111737c44b847c3"
-
-[[menu.main]]
-  weight = 1
-  name = "Home"
-  URL = "/"
-
-[[menu.main]]
-  weight = 2
-  name = "work"
-  URL = "work"
-
-[[menu.main]]
-  weight = 3
-  name = "About"
-  URL = "about"
-
-[[menu.main]]
-  weight = 4
-  name = "Contact"
-  URL = "contact"
-
-[[menu.main]]
-  weight = 5
-  name = "Jobs"
-  URL = "jobs"
-
-[[menu.brands]]
-  weight = 1
-  name = "Under Armour"
-
-[[menu.brands]]
-  weight = 2
-  name = "Asics"
-
-[[menu.brands]]
-  weight = 3
-  name = "Timerland"
-
-[[menu.brands]]
-  weight = 4
-  name = "Haglöfs"
-
-[[menu.brands]]
-  weight = 5
-  name = "The North Face"
-
-[[menu.services]]
-  weight = 1
-  name = "Creative Strategy"
-
-[[menu.services]]
-  weight = 2
-  name = "Advertising"
-
-[[menu.services]]
-  weight = 3
-  name = "Design"
-
-[[menu.services]]
-  weight = 4
-  name = "Brand Development"
-
-[[menu.services]]
-  weight = 5
-  name = "Content Creation"
 
 [[menu.footer]]
   weight = 1

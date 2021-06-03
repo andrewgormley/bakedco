@@ -1,0 +1,24 @@
+nav:
+  - {label: 'Home', URL: '/'}
+  - {label: 'Work', URL: '/work/'}
+  - {label: 'About', URL: '/about/'}
+  - {label: 'Contact', URL: '/contact/'}
+  - {label: 'Jobs', URL: '/jobs/'}
+
+description: 'We bring consumer brands to life through creative strategy, advertising, design, brand development & content creation.'
+
+brands:
+  - {label: 'Under Armour'}
+  - {label: 'Asics'}
+  - {label: 'Timerland'}
+  - {label: 'Haglöfs'}
+  - {label: 'The North Face'}
+
+services:
+  - {label: 'Creative Strategy'}
+  - {label: 'Advertising'}
+  - {label: 'Design'}
+  - {label: 'Brand Development'}
+  - {label: 'Content Creation'}
+
+contact: 'hello@bakedcreative.co﻿'

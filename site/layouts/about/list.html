@@ -17,8 +17,8 @@
   <div class="max-w-5xl mx-auto">
     <ul class="w-1/5 normal-case">
       <h4 class="uppercase font-semibold mb-2">services:</h4>
-      {{ range .Site.Menus.services }}
-        <li class="mb-2">{{ .Name }}</li>
+      {{ range .Site.Data.navigation.services }}
+        <li class="mb-2">{{ .name }}</li>
       {{ end }}
     </ul>
   </div>
