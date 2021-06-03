@@ -14,11 +14,12 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Thumbnail Image", name: "image", widget: "image"}
-      - {label: "Thumbnail Video", name: "thumbnailVideo", widget: "image"}
+      - {label: "Thumbnail Video", name: "thumbnailVideo", widget: "file"}
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - label: Body section
         name: sections
         widget: list
+        collapsed: false
         fields:
           - {label: "Sub title", name: "subtitle", widget: "string"}
           - {label: "Copy", name: "copy", widget: "text"}
@@ -27,8 +28,21 @@ collections: # A list of collections the CMS should be able to edit
         widget: list
         fields:
           - {label: "Image", name: "image", widget: "image"}
-          - {label: "Video", name: "video", widget: "image"}
+          - {label: "Video", name: "video", widget: "file"}
           - {label: "Alt text", name: "alt", widget: "string"}
+  - name: "jobs"
+    label: "Jobs"
+    folder: "site/content/jobs"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Job Type", name: "jobType", widget: "string"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Salary", name: "salary", widget: "string"}
+      - {label: "Note", name: "note", widget: "string"}
+      - {label: Body, name: body, widget: markdown}
   - name: "pages"
     label: "Pages"
     files:
@@ -37,60 +51,44 @@ collections: # A list of collections the CMS should be able to edit
         name: "home"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: "Blurb", name: blurb, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Intro", name: intro, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Products", name: products, widget: list, fields: [
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Values", name: "values", widget: "object", fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
+      - file: "site/content/about/_index.md"
+        label: "About Page"
+        name: "about"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: "Intro Blurb", name: "description", widget: "text"}
+          - {label: Section title, name: sectionTitle, widget: string}
+          - {label: "Section description", name: "sectionDescription", widget: "text"}
+        - label: Image Row 1
+          name: imageRow1
+          widget: list
+          allow_add: false
+          fields:
+            - {label: "Image", name: "image", widget: "image"}
+            - {label: "Alt text", name: "alt", widget: "string"}
+        - label: Values
+          name: values
+          widget: list
+          fields:
+            - {label: "Value title", name: "title", widget: "string"}
+            - {label: "Value description", name: "description", widget: "text"}
+        - label: Image Row 2
+          name: imageRow2
+          widget: list
+          allow_add: false
+          fields:
+            - {label: "Image", name: "image", widget: "image"}
+            - {label: "Alt text", name: "alt", widget: "string"}
+        - label: Image Row 3
+          name: imageRow3
+          widget: list
+          allow_add: false
+          fields:
+            - {label: "Image", name: "image", widget: "image"}
+            - {label: "Alt text", name: "alt", widget: "string"}
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
           - {label: Body, name: body, widget: markdown}
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
-      - file: "site/content/products/_index.md"
-        label: "Products Page"
-        name: "products"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-          - {label: Full_image, name: full_image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
-      - file: "site/content/values/_index.md"
-        label: "Values Page"
-        name: "values"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - label: Values
-            name: values
-            widget: list
-            fields:
-              - {label: Heading, name: heading, widget: string}
-              - {label: Text, name: text, widget: text}
-              - {label: Image, name: imageUrl, widget: image}

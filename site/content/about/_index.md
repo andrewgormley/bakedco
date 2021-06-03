@@ -1,6 +1,5 @@
 ---
 title: About us
-date: 2017-01-04T15:04:10.000Z
 description: >-
   We bring consumer brands to life through creative strategy, advertising, design, brand development & content creation.
 imageRow1:
