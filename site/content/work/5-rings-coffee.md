@@ -8,7 +8,7 @@ tags:
 description: >-
   Introducing a new coffee brand with a cycling twist. Three Olympic champions with passion for coffee.
 image:
-thumbnailVideo: img/work/5-rings-coffee/CIRCLE_01.mp4
+thumbnailVideo: img/CIRCLE_01.mp4
 video:
 sections:
   - subtitle:
@@ -17,18 +17,18 @@ sections:
     copy: First, we drank a tonne of coffee. So much coffee. I can still feel it running through my veins as I write this. Why am I shaking? After we tasted the product, we set to work in a cafe-come-studio environment producing over 20 separate pieces of video content to give the brand the biggest bang for their buck. Or should that be bean for their grinder?
 carousel:
   - image:
-    video: img/work/5-rings-coffee/CIRCLE_01.mp4
+    video: img/CIRCLE_01.mp4
     alt: This is a test description
   - image:
-    video: img/work/5-rings-coffee/CIRCLE_02.mp4
+    video: img/CIRCLE_02.mp4
     alt: alt text
   - image:
-    video: img/work/5-rings-coffee/CIRCLE_03.mp4
+    video: img/CIRCLE_03.mp4
     alt: alt text
   - image:
-    video: img/work/5-rings-coffee/CIRCLE_04.mp4
+    video: img/CIRCLE_04.mp4
     alt: alt text
   - image:
-    video: img/work/5-rings-coffee/Cappuccino.mp4
+    video: img/Cappuccino.mp4
     alt: alt text
 ---

@@ -7,7 +7,7 @@ tags:
 - Advertising
 description: >-
   A UK fashion label, founded by Rio Ferdinand, inspired by a true love for sportswear, fitness and contemporary football culture.
-image: /img/work/five-rio-ferdinand/baked-five-thumb-01.jpg
+image: /img/baked-five-thumb-01.jpg
 video: https://player.vimeo.com/video/398552768?title=0&byline=0&portrait=0
 sections:
   - subtitle:
@@ -15,26 +15,26 @@ sections:
   - subtitle:
     copy: As the client wanted a street football vibe, we made the production feel like the audience was a part of the action. To achieve this, we used a handheld setup which enabled us to capture the correct look and feel whilst working around shooting in multiple locations in one day.
 carousel:
-  - image: img/work/five-rio-ferdinand/baked-five-rio-l-01.jpg
+  - image: img/baked-five-rio-l-01.jpg
     alt: alt text
-  - image: img/work/five-rio-ferdinand/baked-five-rio-l-02.jpg
+  - image: img/baked-five-rio-l-02.jpg
     alt: alt text
-  - image: img/work/five-rio-ferdinand/baked-five-rio-l-03.jpg
+  - image: img/baked-five-rio-l-03.jpg
     alt: alt text
-  - image: img/work/five-rio-ferdinand/baked-five-rio-l-04.jpg
+  - image: img/baked-five-rio-l-04.jpg
     alt: alt text
-  - image: img/work/five-rio-ferdinand/baked-five-rio-s-01.jpg
+  - image: img/baked-five-rio-s-01.jpg
     alt: alt text
-  - image: img/work/five-rio-ferdinand/baked-five-rio-s-02.jpg
+  - image: img/baked-five-rio-s-02.jpg
     alt: alt text
-  - image: img/work/five-rio-ferdinand/baked-five-rio-s-03.jpg
+  - image: img/baked-five-rio-s-03.jpg
     alt: alt text
-  - image: img/work/five-rio-ferdinand/baked-five-rio-s-04.jpg
+  - image: img/baked-five-rio-s-04.jpg
     alt: alt text
-  - image: img/work/five-rio-ferdinand/baked-five-rio-s-05.jpg
+  - image: img/baked-five-rio-s-05.jpg
     alt: alt text
-  - image: img/work/five-rio-ferdinand/baked-five-rio-s-06.jpg
+  - image: img/baked-five-rio-s-06.jpg
     alt: alt text
-  - image: img/work/five-rio-ferdinand/baked-five-rio-s-07.jpg
+  - image: img/baked-five-rio-s-07.jpg
     alt: alt text
 ---

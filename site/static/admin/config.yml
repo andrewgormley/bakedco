@@ -14,7 +14,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Thumbnail Image", name: "image", widget: "image"}
-      - {label: "Thumbnail Video", name: "thumbnailVideo", widget: "string"}
+      - {label: "Thumbnail Video", name: "thumbnailVideo", widget: "image"}
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - label: Body section
         name: sections
@@ -27,6 +27,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: list
         fields:
           - {label: "Image", name: "image", widget: "image"}
+          - {label: "Video", name: "video", widget: "image"}
           - {label: "Alt text", name: "alt", widget: "string"}
   - name: "pages"
     label: "Pages"

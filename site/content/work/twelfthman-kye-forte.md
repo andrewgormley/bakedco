@@ -7,7 +7,7 @@ tags:
 - Production
 description: >-
   Part of a series of films showcasing individuals within sport who embody the spirit and ethos of Twelfthman.
-image: /img/work/twelfthman-kye-forte/baked-twelthman-k-thumb-01.jpg
+image: /img/baked-twelthman-k-thumb-01.jpg
 video: https://player.vimeo.com/video/398911382?title=0&byline=0&portrait=0
 sections:
   - subtitle:
@@ -15,12 +15,12 @@ sections:
   - subtitle:
     copy: The Twelfthman series was already well established with three other films having already been produced. This meant we needed to adapt our approach to fit with their brand message and make sure this film sat well within the existing series. We worked collaboratively with Twelfthman in the development stage sourcing talent and seeking out relevant stories.
 carousel:
-  - image: img/work/twelfthman-kye-forte/baked-twelthman-kye-l-01.jpg
+  - image: img/baked-twelthman-kye-l-01.jpg
     alt: alt text
-  - image: img/work/twelfthman-kye-forte/baked-twelthman-kye-s-01.jpg
+  - image: img/baked-twelthman-kye-s-01.jpg
     alt: alt text
-  - image: img/work/twelfthman-kye-forte/baked-twelthman-kye-s-02.jpg
+  - image: img/baked-twelthman-kye-s-02.jpg
     alt: alt text
-  - image: img/work/twelfthman-kye-forte/baked-twelthman-kye-s-03.jpg
+  - image: img/baked-twelthman-kye-s-03.jpg
     alt: alt text
 ---

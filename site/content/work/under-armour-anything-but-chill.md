@@ -7,7 +7,7 @@ tags:
 - Advertising
 description: >-
   Producing content for TV, retail and digital channels, showcasing the premium autumn winter range of one of the biggest sports brands in the world.
-image: /img/work/under-armour-anything-but-chill/baked-ua-abc-thumb-03.jpg
+image: /img/baked-ua-abc-thumb-03.jpg
 video: https://player.vimeo.com/video/399086656?title=0&byline=0&portrait=0
 sections:
   - subtitle:
@@ -15,14 +15,14 @@ sections:
   - subtitle:
     copy: Shooting a winter collection at the height of summer is always a challenge. To meet the requirements of the brief we shot the majority of the campaign at night with an extensive lighting setup. The agility of our experienced production team allowed us to quickly adapt digital content for TV advertising.
 carousel:
-  - image: img/work/under-armour-anything-but-chill/baked-under-armour-abc-l-02.jpg
+  - image: img/baked-under-armour-abc-l-02.jpg
     alt: alt text
-  - image: img/work/under-armour-anything-but-chill/baked-under-armour-abc-l-03.jpg
+  - image: img/baked-under-armour-abc-l-03.jpg
     alt: alt text
-  - image: img/work/under-armour-anything-but-chill/baked-under-armour-abc-s-01.jpg
+  - image: img/baked-under-armour-abc-s-01.jpg
     alt: alt text
-  - image: img/work/under-armour-anything-but-chill/baked-under-armour-abc-s-02.jpg
+  - image: img/baked-under-armour-abc-s-02.jpg
     alt: alt text
-  - image: img/work/under-armour-anything-but-chill/baked-under-armour-abc-s-03.jpg
+  - image: img/baked-under-armour-abc-s-03.jpg
     alt: alt text
 ---

@@ -4,24 +4,24 @@ date: 2017-01-04T15:04:10.000Z
 description: >-
   We bring consumer brands to life through creative strategy, advertising, design, brand development & content creation.
 imageRow1:
-  - image: img/about/tunnel.jpg
+  - image: img/tunnel.jpg
     alt: alt text
-  - image: img/about/flag.jpg
+  - image: img/flag.jpg
     alt: alt text
-  - image: img/about/air-max-1.jpg
+  - image: img/air-max-1.jpg
     alt: alt text
-  - image: img/about/nf.jpg
+  - image: img/nf.jpg
     alt: alt text
-  - image: img/about/cotton.jpg
+  - image: img/cotton.jpg
     alt: alt text
 imageRow2:
-  - image: img/about/rio.jpg
+  - image: img/rio.jpg
     alt: alt text
-  - image: img/about/bts-1.jpg
+  - image: img/bts-1.jpg
     alt: alt text
-  - image: img/about/rocks.jpg
+  - image: img/rocks.jpg
     alt: alt text
-  - image: img/about/trent.jpg
+  - image: img/trent.jpg
     alt: alt text
 values:
   - title: We live every day with kindness & empathy
@@ -37,12 +37,12 @@ values:
 sectionTitle: How do we work with brands like yours?
 sectionDescription: We love close, long-term collaboration with brands. As your creative agency of record we can drive your creative end-to-end, from strategy to execution. Or, for individual projects, choose one of our creative services, or pick 'n' mix to suit the needs of your brand.
 imageRow3:
-  - image: img/about/haglofs.jpg
+  - image: img/haglofs.jpg
     alt: alt text
-  - image: img/about/bts-2.jpg
+  - image: img/bts-2.jpg
     alt: alt text
-  - image: img/about/band.jpg
+  - image: img/band.jpg
     alt: alt text
-  - image: img/about/air-max-2.jpg
+  - image: img/air-max-2.jpg
     alt: alt text
 ---

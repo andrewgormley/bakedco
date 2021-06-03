@@ -6,7 +6,7 @@ tags:
 - 3D Animation
 description: >-
   The L.I.M series is the flagship of Haglöfs. We created a call to action for all "The Outsiders by Nature" who want to explore further than before. This is their cry for Less.
-image: /img/work/haglofs-lim/baked-haglofs_lessismore-t.png
+image: /img/baked-haglofs_lessismore-t.png
 video: https://player.vimeo.com/video/526075524?title=0&byline=0&portrait=0
 sections:
   - subtitle:
@@ -14,14 +14,14 @@ sections:
   - subtitle:
     copy: We used a mixed media approach to show the evolution of L.I.M and the Outsiders who made it possible. Using found footage, handmade materials and user-generated content, we created a textured narrative to inspire people to join the community. L.I.M goes beyond a product. It is a state of mind. L.I.M is about a community. A community that keeps innovating to reach new heights.
 carousel:
-  - image: img/work/haglofs-lim/baked-haglofs_lessismore-l-01.png
+  - image: img/baked-haglofs_lessismore-l-01.png
     alt: alt text
-  - image: img/work/haglofs-lim/baked-haglofs_lessismore-l-02.png
+  - image: img/baked-haglofs_lessismore-l-02.png
     alt: alt text
-  - image: img/work/haglofs-lim/baked-haglofs_lessismore-l-03.png
+  - image: img/baked-haglofs_lessismore-l-03.png
     alt: alt text
-  - image: img/work/haglofs-lim/baked-haglofs_lessismore-l-04.png
+  - image: img/baked-haglofs_lessismore-l-04.png
     alt: alt text
-  - image: img/work/haglofs-lim/baked-haglofs_lessismore-l-05.png
+  - image: img/baked-haglofs_lessismore-l-05.png
     alt: alt text
 ---

@@ -9,7 +9,7 @@ tags:
 - Retail
 description: >-
   Establishing the Himalayan Parka as streetwear's essential oversized insulation of the season, and beyond.
-image: /img/work/the-north-face-retro-himalayan-parka/baked-thenorhtface-1994retrohim-t-02.png
+image: /img/baked-thenorhtface-1994retrohim-t-02.png
 video: https://player.vimeo.com/video/468137067?title=0&byline=0&portrait=0
 sections:
   - subtitle:
@@ -17,16 +17,16 @@ sections:
   - subtitle:
     copy: Using a mixture of live-action production, 3D animation and visual effects, we combined the modern technology of FUTURELIGHT™ and 700 Fill Down with heritage expedition content and an urban studio environment. Using advanced visual effect techniques such as data-moshing, we were able to seamlessly tell the story of The North Face's signature jacket from its routes in mountaineering heritage through to the present day.
 carousel:
-  - image: img/work/the-north-face-retro-himalayan-parka/baked-thenorhtface-1994retrohim-l-02.png
+  - image: img/baked-thenorhtface-1994retrohim-l-02.png
     alt: alt text
-  - image: img/work/the-north-face-retro-himalayan-parka/baked-thenorhtface-1994retrohim-l-01.png
+  - image: img/baked-thenorhtface-1994retrohim-l-01.png
     alt: alt text
-  - image: img/work/the-north-face-retro-himalayan-parka/baked-thenorhtface-1994retrohim-l-03.png
+  - image: img/baked-thenorhtface-1994retrohim-l-03.png
     alt: alt text
-  - image: img/work/the-north-face-retro-himalayan-parka/baked-thenorhtface-1994retrohim-s-01.png
+  - image: img/baked-thenorhtface-1994retrohim-s-01.png
     alt: alt text
-  - image: img/work/the-north-face-retro-himalayan-parka/baked-thenorhtface-1994retrohim-s-02.png
+  - image: img/baked-thenorhtface-1994retrohim-s-02.png
     alt: alt text
-  - image: img/work/the-north-face-retro-himalayan-parka/baked-thenorhtface-1994retrohim-s-03.png
+  - image: img/baked-thenorhtface-1994retrohim-s-03.png
     alt: alt text
 ---

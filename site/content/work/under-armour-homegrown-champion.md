@@ -12,7 +12,7 @@ tags:
 - Out Of Home
 description: >-
   Capitalising on Trent Alexander-Arnold becoming a Premier League winner for the first time, this campaign defines him as an icon in his home city.
-image: /img/work/under-armour-homegrown-champion/TAA_03-e1600772393418.png
+image: /img/TAA_03-e1600772393418.png
 video: https://player.vimeo.com/video/449712854?title=0&byline=0&portrait=0
 sections:
   - subtitle:
@@ -20,16 +20,16 @@ sections:
   - subtitle:
     copy: A campaign extension for social media, featuring 'The Kid', focuses on Trent’s journey as a homegrown talent - from growing up playing football on the streets to where he is now. Each scene is used to show the viewer a different attribute which the fan believes is crucial to the makeup of a Champion.
 carousel:
-  - image: img/work/under-armour-homegrown-champion/baked-ua-homegrown-champion-l-01.png
+  - image: img/baked-ua-homegrown-champion-l-01.png
     alt: alt text
-  - image: img/work/under-armour-homegrown-champion/baked-ua-homegrown-champion-s-01.png
+  - image: img/baked-ua-homegrown-champion-s-01.png
     alt: alt text
-  - image: img/work/under-armour-homegrown-champion/baked-ua-homegrown-champion-s-02.png
+  - image: img/baked-ua-homegrown-champion-s-02.png
     alt: alt text
-  - image: img/work/under-armour-homegrown-champion/baked-ua-homegrown-champion-s-03.png
+  - image: img/baked-ua-homegrown-champion-s-03.png
     alt: alt text
-  - image: img/work/under-armour-homegrown-champion/baked-ua-homegrown-champion-s-04.png
+  - image: img/baked-ua-homegrown-champion-s-04.png
     alt: alt text
-  - image: img/work/under-armour-homegrown-champion/TAA_01.png
+  - image: img/TAA_01.png
     alt: alt text
 ---
