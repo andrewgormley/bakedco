@@ -1,8 +1,8 @@
 <!-- Contact -->
 <div class="mb4">
-  <h4 class="text-4xl py-5 normal-case">Fancy a chat?</h4>
+  <h4 class="text-4xl py-5 normal-case">Apply for this position</h4>
 
-  <form name="contact" method="POST" data-netlify="true" class="border border-solid border-gray-900 dark:border-white mb-3">
+  <form name="job-app" method="POST" data-netlify="true" class="border border-solid border-gray-900 dark:border-white mb-3">
     <div class="w-full flex flex-wrap mb-2">
       <!-- Name -->
       <div class="w-1/2 border-b border-solid border-gray-900 dark:border-white p-3">
@@ -14,16 +14,21 @@
           <label for="email" class="uppercase font-semibold">Email</label>
           <input type="email" id="email" name="email" placeholder="jules@example.com" class="w-full bg-transparent pt-1">
       </div>
-      <!-- Company -->
-      <div class="w-full border-b border-solid border-gray-900 dark:border-white p-3">
-          <label for="company" class="uppercase font-semibold">Company</label>
-          <input type="text" id="company" name="company" placeholder="Marsellus Wallace" class="w-full bg-transparent pt-1">
+      <!-- Phone -->
+      <div class="w-1/2 border-b border-solid border-gray-900 dark:border-white p-3">
+          <label for="phone" class="uppercase font-semibold">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter phone number" class="w-full bg-transparent pt-1">
+      </div>
+      <!-- Resume -->
+      <div class="w-1/2 border-b border-l border-solid border-gray-900 dark:border-white p-3">
+        <label for="resume" class="uppercase font-semibold">Upload CV/Resume</label>
+        <input type="file" name="resume" class="w-full bg-transparent pt-1"/>
       </div>
     </div>
 
     <!-- Message -->
     <div class="p-3">
-      <label for="message" class="uppercase font-semibold">Message</label>
+      <label for="message" class="uppercase font-semibold">Cover Letter</label>
       <textarea id="message" name="message" placeholder="Tell us about yourself" rows="7" class="w-full bg-transparent pt-1"></textarea>
     </div>
 
