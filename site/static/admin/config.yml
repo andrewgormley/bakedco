@@ -95,7 +95,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "settings"
     label: "Settings"
     files:
-      - file: "data/settings/navigation.yml"
+      - file: "site/data/settings/navigation.yml"
         label: 'Navigation'
         name: 'navigation'
         fields:
