@@ -3,7 +3,7 @@
     {{ range .Site.Data.navigation.nav }}
 			<li class="mb-4 group">
 				<a class="bg-gray-100 dark:bg-gray-900 cursor-pointer group-hover:text-lg pl-2 py-1 pr-1 transition-all" href="{{ .URL | absURL }}">
-					{{ .name }}
+					{{ .label }}
 					<span class="hidden group-hover:inline-block pr-1">👈</span>
 				</a>
 			</li>
