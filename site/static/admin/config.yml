@@ -92,29 +92,32 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
-  - name: "navigation"
-    label: "Navigation"
-    file: data/navigation.yml
-    fields:
-      - label: 'Navigation'
-        name: 'nav'
-        widget: 'list'
+  - name: "settings"
+    label: "Settings"
+    files:
+      - file: "data/settings/navigation.yml"
+        label: 'Navigation'
+        name: 'navigation'
         fields:
-          - {label: Name, name: label, widget: string}
-          - {label: Path, name: URL, widget: string}
-      - label: 'Description'
-        name: 'description'
-        widget: 'text'
-      - label: 'Brands'
-        name: 'brands'
-        widget: 'list'
-        fields:
-          - {label: Brand, name: label, widget: string}
-      - label: 'Services'
-        name: 'services'
-        widget: 'list'
-        fields:
-          - {label: Service, name: label, widget: string}
-      - label: 'Contact'
-        name: 'contact'
-        widget: 'string'
+          - label: 'Navigation'
+            name: 'nav'
+            widget: 'list'
+            fields:
+              - {label: Name, name: label, widget: string}
+              - {label: Path, name: URL, widget: string}
+          - label: 'Description'
+            name: 'description'
+            widget: 'text'
+          - label: 'Brands'
+            name: 'brands'
+            widget: 'list'
+            fields:
+              - {label: Brand, name: label, widget: string}
+          - label: 'Services'
+            name: 'services'
+            widget: 'list'
+            fields:
+              - {label: Service, name: label, widget: string}
+          - label: 'Contact'
+            name: 'contact'
+            widget: 'string'
