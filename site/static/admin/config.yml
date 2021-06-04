@@ -122,8 +122,8 @@ collections: # A list of collections the CMS should be able to edit
             name: 'contact'
             widget: 'string'
       - file: "site/data/settings/footer.yml"
-        label: 'Navigation'
-        name: 'navigation'
+        label: 'Footer'
+        name: 'footer'
         fields:
           - label: 'Navigation'
             name: 'nav'
