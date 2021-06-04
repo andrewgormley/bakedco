@@ -7,35 +7,3 @@ title = "Baked | Creative Agency | Independent Creative Studio"
 # See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
-
-[Params]
-  footerText = "Baked Creative Limited is a company registered in England, company number 12099792."
-  instagram = true
-  instagramURL = "https://www.instagram.com/bakedagency/"
-  linkedin = true
-  linkedinURL = "https://www.linkedin.com/company/bakedagency/"
-  youtube = false
-  youtubeURL = ""
-  vimeo = true
-  vimeoURL = "https://vimeo.com/bakedagency"
-  dribbble = false
-  dribbbleURL = ""
-  twitter = false
-  twitterURL = ""
-  spotify = true
-  spotifyURL = "https://open.spotify.com/user/e94lblworgg9ogus8wk7zob9z?si=5111737c44b847c3"
-
-[[menu.footer]]
-  weight = 1
-  name = "Privacy Policy"
-  URL = "privacy-policy"
-
-[[menu.footer]]
-  weight = 2
-  name = "Cookie Policy"
-  URL = "cookie-policy"
-
-[[menu.footer]]
-  weight = 3
-  name = "Modern Slavery Statement"
-  URL = "modern-slavery"

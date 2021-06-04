@@ -1,0 +1,14 @@
+nav:
+  - {label: 'Privacy Policy', URL: '/privacy-policy/'}
+  - {label: 'Cookie Policy', URL: '/cookie-policy/'}
+  - {label: 'Modern Slavery Statement', URL: '/modern-slavery/'}
+
+footerText: 'Baked Creative Limited is a company registered in England, company number 12099792.'
+
+instagram: 'https://www.instagram.com/bakedagency/'
+linkedin: 'https://www.linkedin.com/company/bakedagency/'
+vimeo: 'https://vimeo.com/bakedagency'
+spotify: 'https://open.spotify.com/user/e94lblworgg9ogus8wk7zob9z?si=5111737c44b847c3'
+youtube: ''
+dribbble: ''
+twitter: ''

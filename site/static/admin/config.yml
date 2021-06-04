@@ -121,3 +121,23 @@ collections: # A list of collections the CMS should be able to edit
           - label: 'Contact'
             name: 'contact'
             widget: 'string'
+      - file: "site/data/settings/footer.yml"
+        label: 'Navigation'
+        name: 'navigation'
+        fields:
+          - label: 'Navigation'
+            name: 'nav'
+            widget: 'list'
+            fields:
+              - {label: Name, name: label, widget: string}
+              - {label: Path, name: URL, widget: string}
+          - label: 'Description'
+            name: 'footerText'
+            widget: 'text'
+          - {label: Instagram, name: instagram, widget: string}
+          - {label: LinkedIn, name: linkedin, widget: string}
+          - {label: Vimeo, name: vimeo, widget: string}
+          - {label: Spotify, name: spotify, widget: string}
+          - {label: Youtube, name: youtube, widget: string}
+          - {label: Dribbble, name: dribbble, widget: string}
+          - {label: Twitter, name: twitter, widget: string}
