@@ -106,8 +106,12 @@ p {
 }
 
 .overlay-text {
-  @apply absolute top-1/2 left-1/2 font-semibold text-2xl tracking-widest;
-  transform:translateX(-50%)translateY(-50%);
+  @apply absolute top-1/2 text-2xl font-semibold tracking-widest;
+  transform:translateY(-50%);
+}
+
+.instagram {
+  @apply text-xs tracking-normal font-light overflow-ellipsis;
 }
 
 .sun {
