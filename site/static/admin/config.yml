@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  branch: master
 
 display_url: https://vigorous-mahavira-319660.netlify.app/
 logo_url: https://vigorous-mahavira-319660.netlify.app/img/baked-logo.svg
@@ -19,16 +20,16 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Thumbnail Image", name: "image", widget: "image"}
       - {label: "Thumbnail Video", name: "thumbnailVideo", widget: "file"}
       - {label: "Intro Blurb", name: "description", widget: "text"}
-      - label: Body section
-        name: sections
-        widget: list
+      - label: "Body section"
+        name: "sections"
+        widget: "list"
         collapsed: false
         fields:
           - {label: "Sub title", name: "subtitle", widget: "string"}
           - {label: "Copy", name: "copy", widget: "text"}
-      - label: Gallery
-        name: carousel
-        widget: list
+      - label: "Gallery"
+        name: "carousel"
+        widget: "list"
         fields:
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Video", name: "video", widget: "file"}
@@ -45,7 +46,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Location", name: "location", widget: "string"}
       - {label: "Salary", name: "salary", widget: "string"}
       - {label: "Note", name: "note", widget: "string"}
-      - {label: Body, name: body, widget: markdown}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Main Pages"
     files:
@@ -53,38 +54,38 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home"
         fields:
-          - {label: Title, name: title, widget: string}
+          - {label: "Title", name: "title", widget: "string"}
       - file: "site/content/about/_index.md"
         label: "About Page"
         name: "about"
         fields:
-          - {label: Title, name: title, widget: string}
+          - {label: "Title", name: "title", widget: "string"}
           - {label: "Intro Blurb", name: "description", widget: "text"}
-          - {label: Section title, name: sectionTitle, widget: string}
+          - {label: "Section title", name: "sectionTitle", widget: "string"}
           - {label: "Section description", name: "sectionDescription", widget: "text"}
-          - label: Image Row 1
-            name: imageRow1
-            widget: list
+          - label: "Image Row 1"
+            name: "imageRow1"
+            widget: "list"
             allow_add: false
             fields:
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Alt text", name: "alt", widget: "string"}
-          - label: Values
-            name: values
-            widget: list
+          - label: "Values"
+            name: "values"
+            widget: "list"
             fields:
               - {label: "Value title", name: "title", widget: "string"}
               - {label: "Value description", name: "description", widget: "text"}
-          - label: Image Row 2
-            name: imageRow2
-            widget: list
+          - label: "Image Row 2"
+            name: "imageRow2"
+            widget: "list"
             allow_add: false
             fields:
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Alt text", name: "alt", widget: "string"}
-          - label: Image Row 3
-            name: imageRow3
-            widget: list
+          - label: "Image Row 3"
+            name: "imageRow3"
+            widget: "list"
             allow_add: false
             fields:
               - {label: "Image", name: "image", widget: "image"}
@@ -93,61 +94,61 @@ collections: # A list of collections the CMS should be able to edit
         label: "Contact Page"
         name: "contact"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: markdown}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
   - name: "settings"
     label: "Settings"
     files:
       - file: "site/data/settings/navigation.yml"
-        label: 'Navigation'
-        name: 'navigation'
+        label: "Navigation"
+        name: "navigation"
         fields:
-          - label: 'Navigation'
-            name: 'nav'
-            widget: 'list'
+          - label: "Navigation"
+            name: "nav"
+            widget: "list"
             fields:
-              - {label: Name, name: label, widget: string}
-              - {label: Path, name: URL, widget: string}
-          - label: 'Description'
-            name: 'description'
-            widget: 'text'
-          - label: 'Brands'
-            name: 'brands'
-            widget: 'list'
+              - {label: "Name", name: "label", widget: "string"}
+              - {label: "Path", name: "URL", widget: "string"}
+          - label: "Description"
+            name: "description"
+            widget: "text"
+          - label: "Brands"
+            name: "brands"
+            widget: "list"
             fields:
-              - {label: Brand, name: label, widget: string}
-          - label: 'Services'
-            name: 'services'
-            widget: 'list'
+              - {label: "Brand", name: "label", widget: "string"}
+          - label: "Services"
+            name: "services"
+            widget: "list"
             fields:
-              - {label: Service, name: label, widget: string}
-          - label: 'Contact'
-            name: 'contact'
-            widget: 'string'
+              - {label: "Service", name: "label", widget: "string"}
+          - label: "Contact"
+            name: "contact"
+            widget: "string"
       - file: "site/data/settings/footer.yml"
-        label: 'Footer'
-        name: 'footer'
+        label: "Footer"
+        name: "footer"
         fields:
-          - label: 'Navigation'
-            name: 'nav'
-            widget: 'list'
+          - label: "Navigation"
+            name: "nav"
+            widget: "list"
             fields:
-              - {label: Name, name: label, widget: string}
-              - {label: Path, name: URL, widget: string}
-          - label: 'Description'
-            name: 'footerText'
-            widget: 'text'
-          - {label: Instagram, name: instagram, widget: string}
-          - {label: LinkedIn, name: linkedin, widget: string}
-          - {label: Vimeo, name: vimeo, widget: string}
-          - {label: Spotify, name: spotify, widget: string}
-          - {label: Youtube, name: youtube, widget: string}
-          - {label: Dribbble, name: dribbble, widget: string}
-          - {label: Twitter, name: twitter, widget: string}
+              - {label: "Name", name: "label", widget: "string"}
+              - {label: "Path", name: "URL", widget: "string"}
+          - label: "Description"
+            name: "footerText"
+            widget: "text"
+          - {label: "Instagram", name: "instagram", widget: "string"}
+          - {label: "LinkedIn", name: "linkedin", widget: "string"}
+          - {label: "Vimeo", name: "vimeo", widget: "string"}
+          - {label: "Spotify", name: "spotify", widget: "string"}
+          - {label: "Youtube", name: "youtube", widget: "string"}
+          - {label: "Dribbble", name: "dribbble", widget: "string"}
+          - {label: "Twitter", name: "twitter", widget: "string"}
   - name: "basic-pages"
     label: "Basic Pages"
     folder: "site/content"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: Body, name: body, widget: markdown}
+      - {label: "Body", name: "body", widget: "markdown"}

@@ -43,6 +43,7 @@ module.exports = {
       fill: ['dark'],
       opacity: ['group-hover'],
       fontSize: ['group-hover'],
+      scale: ['group-hover'],
     },
   },
   plugins: [],

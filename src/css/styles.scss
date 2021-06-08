@@ -51,7 +51,7 @@ p {
 }
 
 #auto-feed {
-  grid-auto-rows: 200px;
+  grid-auto-rows: 160px;
 
   a {
     &:nth-child(10n + 1),
@@ -71,6 +71,12 @@ p {
       @apply col-span-1 row-span-2;
     }
   }
+
+ #instafeed-container {
+   a img{
+     padding: 0.5rem;
+   }
+ }
 
   @media only screen and (max-width: 1024px) {
     a {
@@ -99,21 +105,9 @@ p {
   }
 }
 
-.tile .video-height {
-  max-width: unset;
-  height: 100%;
-}
-
 .overlay-text {
   @apply absolute top-1/2 left-1/2 font-semibold text-2xl tracking-widest;
   transform:translateX(-50%)translateY(-50%);
-}
-
-.thumbnail-video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform:translate(-50%, -50%);
 }
 
 .sun {

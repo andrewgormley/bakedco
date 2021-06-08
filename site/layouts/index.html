@@ -1,28 +1,40 @@
 {{ define "main" }}
+  <div class="flex flex-wrap w-full p-2">
 
-  <div id="auto-feed" class="grid animate__animated animate__fadeIn p-2 grid-cols-3 auto-rows-max gap-2 text-white">
+    <div class="w-full lg:w-3/4">
+      <div id="auto-feed" class="grid animate__animated animate__fadeIn grid-cols-3 auto-rows-max gap-2 text-white">
 
-    {{ $paginator := .Paginate (where site.RegularPages "Section" "work") }}
-    {{ range $paginator.Pages }}
+        {{ $paginator := .Paginate (where site.RegularPages "Section" "work") }}
+        {{ range $paginator.Pages }}
 
-      <a href="{{ .Permalink }}" class="tile bg-aqua overflow-hidden cursor-pointer group relative">
-        <div class="overlay-text z-20 opacity-0 group-hover:opacity-100 transition-all text-4xl mix-blend-difference text-center leading-none">
-          {{ .Title }}
-        </div>
-        <img src="{{ .Params.image }}" class="object-cover w-full h-full" alt="">
-        {{ if .Params.thumbnailVideo }}
-          <video autoplay muted loop id="myVideo" class="thumbnail-video z-10">
-            <source src="{{ .Params.thumbnailVideo }}" type="video/mp4">
-          </video>
+          <a href="{{ .Permalink }}" class="tile bg-aqua overflow-hidden cursor-pointer group relative">
+            <div class="overlay-text z-20 opacity-0 group-hover:opacity-100 transition-all text-4xl mix-blend-difference text-center leading-none">
+              {{ .Title }}
+            </div>
+            {{ if .Params.image }}
+              <img src="{{ .Params.image }}" class="object-cover w-full h-full duration-1000 ease-in-out transform group-hover:scale-105" alt="">
+            {{ end }}
+            {{ if .Params.thumbnailVideo }}
+              <video autoplay muted loop class="object-cover w-full h-full duration-1000 ease-in-out transform group-hover:scale-105">
+                <source src="{{ .Params.thumbnailVideo }}" type="video/mp4">
+              </video>
+            {{ end }}
+          </a>
+
         {{ end }}
-      </a>
 
-    {{ end }}
+      </div>
+
+      {{ partial "pagination" . }}
+    </div>
+
+    <div class="w-full lg:w-1/4">
+      <div id="instafeed-container" class="pl-2"></div>
+    </div>
 
   </div>
 
-  {{ partial "pagination" . }}
-
+  <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
   <script type="text/javascript">
     $('#auto-feed').infiniteScroll({
       path: '.pagination-next',
@@ -30,5 +42,15 @@
       status: '.scroller-status',
       hideNav: '.pagination',
     });
+
+    var userFeed = new Instafeed({
+      get: 'user',
+      target: "instafeed-container",
+      resolution: 'low_resolution',
+      limit: 8,
+      accessToken: 'IGQVJWQXhEeGZAZAaFJUMXpJWFJ1NTNjWjRVUS01R0JuY00xMm15cm1TRTZAiWVp0ZAGpwZADYzcEZAtelJrRVFLT294d3YxdFVjcU45UjZACS0EyUzFESmlzWk9BQjNoajNTd0JZAY2ZAZAa2ZAfRUd3T2R6UnRPWgZDZD',
+      template: '<a href="{{ "{{link}}" }}" target="_blank"><img title="{{ "{{caption}}" }}" src="{{ "{{image}}" }}" class="pb-2"/></a>',
+    });
+    userFeed.run();
   </script>
 {{ end }}
