@@ -6,6 +6,11 @@ export default class WorkPreview extends React.Component {
     const {entry, widgetFor, getAsset} = this.props;
     let image = getAsset(entry.getIn(["data", "image"]));
 
+    const vidContainer = {
+      padding: '56.25% 0 0 0',
+      position: 'relative',
+    };
+
     return (
       <div className="text-sm uppercase text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-900 tracking-wide transition-all">
         <div className="animate__animated animate__fadeIn p-2">
@@ -29,7 +34,7 @@ export default class WorkPreview extends React.Component {
             </div>
 
             <div className="px-5">
-              <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="{ entry.getIn(["data", "video"])}" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+              <div style={vidContainer}><iframe src={ entry.getIn(["data", "video"])} className="absolute top-0 left-0 w-full h-full" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
             </div>
 
             <div class="max-w-5xl mx-auto py-10 normal-case markdown p-5 flex flex-wrap">
