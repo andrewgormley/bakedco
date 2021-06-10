@@ -1,10 +1,15 @@
 <nav class="fixed left-0 z-10 hidden lg:block">
 	<ul>
+		{{- $firstUrlElement := print "/" (index (split .URL "/") 1) "/" -}}
     {{ range .Site.Data.settings.navigation.nav }}
 			<li class="mb-4 group">
 				<a class="bg-gray-100 dark:bg-gray-900 cursor-pointer group-hover:text-lg pl-2 py-1 pr-1 transition-all" href="{{ .URL | absURL }}">
 					{{ .label }}
-					<span class="hidden group-hover:inline-block pr-1">👈</span>
+					{{if or (eq .IsHome true) (eq ($firstUrlElement|lower) (.URL|lower)) }}
+						<span class="pr-1">👈</span>
+					{{ else }}
+						<span class="hidden group-hover:inline-block pr-1">👈</span>
+					{{end}}
 				</a>
 			</li>
     {{ end }}
