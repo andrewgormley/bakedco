@@ -1,12 +1,12 @@
 {{ define "main" }}
 
-<div class="animate__animated animate__fadeIn test">
+<div class="animate__animated animate__fadeIn test px-2">
   <div class="max-w-5xl mx-auto pt-20 pb-10">
     <p class="max-w-none font-semibold">{{ .Title }}</p>
     <p class="max-w-none text-4xl normal-case">{{ .Description }}</p>
   </div>
 
-  <div class="about-grid p-2 grid grid-cols-8 grid-rows-9 auto-rows-max gap-2">
+  <div class="about-grid py-2 grid grid-cols-8 grid-rows-9 auto-rows-max gap-2">
     <div class="bg-red-200 col-span-3 col-start-1 row-span-8" style="background:url({{ (index .Params.imageRow1 0).image }}); background-size:cover; background-position: center;"></div>
     <div class="bg-red-200 col-span-2 col-start-4 row-span-3 row-start-2" style="background:url({{ (index .Params.imageRow1 1).image }}); background-size:cover; background-position: center;"></div>
     <div class="bg-red-200 col-span-2 col-start-4 row-span-6" style="background:url({{ (index .Params.imageRow1 2).image }}); background-size:cover; background-position: center;"></div>
@@ -15,7 +15,7 @@
   </div>
 
   <div class="max-w-5xl mx-auto">
-    <ul class="w-1/5 normal-case">
+    <ul class="normal-case">
       <h4 class="uppercase font-semibold mb-2">services:</h4>
       {{ range .Site.Data.settings.navigation.services }}
         <li class="mb-2">{{ .label }}</li>
@@ -23,7 +23,7 @@
     </ul>
   </div>
 
-  <div class="w-full flex flex-wrap py-10 items-center">
+  <div class="w-full flex flex-wrap py-5 lg:py-10 items-center">
     <div class="w-1/3">
 
       <svg class="mx-auto w-20 my-20" width="100" height="34" viewBox="0 0 100 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +67,7 @@
     </div>
   </div>
 
-  <div class="about-grid p-2 grid grid-cols-9 grid-rows-9 auto-rows-max gap-2">
+  <div class="about-grid grid grid-cols-9 grid-rows-9 auto-rows-max gap-2">
     <div class="bg-red-200 col-span-3 col-start-1 row-span-6 row-start-2" style="background:url({{ (index .Params.imageRow2 0).image }}); background-size:cover; background-position: center;"></div>
     <div class="bg-red-200 col-span-3 col-start-4 row-span-8 row-start-1" style="background:url({{ (index .Params.imageRow2 1).image }}); background-size:cover; background-position: center;"></div>
     <div class="bg-red-200 col-span-3 col-start-7 row-span-3 row-start-3" style="background:url({{ (index .Params.imageRow2 2).image }}); background-size:cover; background-position: center;"></div>
@@ -75,10 +75,10 @@
   </div>
 
   <div class="max-w-5xl mx-auto flex flex-wrap py-20 border-b border-solid border-gray-300">
-    <div class="w-1/5 font-semibold">
+    <div class="w-full lg:w-1/5 mb-10 font-semibold">
       Our Values
     </div>
-    <div class="w-4/5">
+    <div class="w-full lg:w-4/5">
       {{ range .Params.values }}
         <p class="normal-case">
           <strong class="uppercase">{{ .title }}</strong><br>
@@ -89,15 +89,15 @@
   </div>
 
   <div class="max-w-5xl mx-auto flex flex-wrap normal-case py-10">
-      <div class="w-1/2 text-4xl">
+      <div class="w-full lg:w-1/2 text-4xl">
         <p>{{ .Params.sectionTitle }}</p>
       </div>
-      <div class="w-1/2">
+      <div class="w-full lg:w-1/2">
         <p>{{ .Params.sectionDescription }}</p>
       </div>
   </div>
 
-  <div class="about-grid p-2 grid grid-cols-3 grid-rows-9 auto-rows-max gap-2 pb-20">
+  <div class="about-grid grid grid-cols-3 grid-rows-9 auto-rows-max gap-2 pb-20">
     <div class="bg-red-200 col-start-1 row-span-4 row-start-2" style="background:url({{ (index .Params.imageRow3 0).image }}); background-size:cover; background-position: center;"></div>
     <div class="bg-red-200 col-start-1 row-span-3 row-start-6 " style="background:url({{ (index .Params.imageRow3 1).image }}); background-size:cover; background-position: center;"></div>
     <div class="bg-red-200 col-start-2 row-span-9" style="background:url({{ (index .Params.imageRow3 2).image }}); background-size:cover; background-position: center;"></div>

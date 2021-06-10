@@ -3,7 +3,7 @@
   <div class="border border-solid border-gray-900 dark:border-white overflow-hidden">
 
     <div class="marquee2" data-duplicated='true' data-direction='left' data-pauseOnHover='false' data-gap='200' data-speed='100' data-startVisible='true'>
-      <span class="text-9xl font-semibold">{{.Title}}</span>
+      <span class="text-7xl lg:text-9xl font-semibold">{{.Title}}</span>
     </div>
 
     <div class="w-full flex flex-row font-semibold border-t border-b border-gray-900 dark:border-white">
@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <div class="max-w-5xl mx-auto py-10 text-4xl normal-case p-5">
+    <div class="max-w-5xl mx-auto py-10 text-2xl lg:text-4xl normal-case p-5">
       {{.Description}}
     </div>
 
@@ -74,9 +74,9 @@
   </div>
 
   <div class="flex flex-wrap max-w-5xl mx-auto py-10">
-    <h2 class="text-4xl normal-case mb-5 w-full">More Projects</h2>
+    <h2 class="text-2xl lg:text-4xl normal-case mb-5 w-full">More Projects</h2>
     {{ range first 3 (shuffle (where (where .Site.RegularPages "Section" "work") "Title" "!=" .Title )) }}
-      <a href="{{.Permalink}}" class="w-1/3 p-1 group">
+      <a href="{{.Permalink}}" class="w-full lg:w-1/3 p-1 group">
         <div class="h-56 relative overflow-hidden bg-aqua">
           {{ if .Params.image }}
             <img src="{{ .Params.image }}" class="object-cover w-full h-full duration-1000 ease-in-out transform group-hover:scale-105" alt="">

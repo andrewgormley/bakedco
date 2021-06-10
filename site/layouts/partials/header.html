@@ -1,7 +1,7 @@
-<a id="logo" class="team__link z-50" href="./">
+<a id="logo" class="team__link z-30" href="./">
   <div class="team__img-container">
     <span class="preloader"></span>
-    <figure class="team__img transform hover:scale-90 transition duration-100 cursor-pointer">
+    <figure class="team__img transform hover:scale-90 transition duration-100 cursor-pointer flex items-center">
       <img src="img/baked-logo.svg" alt=""/>
       <img src="img/web_logos_test-01.svg" alt=""/>
       <img src="img/web_logos_test-02.svg" alt=""/>
@@ -37,9 +37,9 @@
 <div class="nav z-40">
 	<div class="nav__content p-4 z-40 text-white">
 
-		<ul class="nav__list text-8xl md:text-9xl italic font-semibold leading-tight pb-20">
+		<ul class="nav__list text-6xl md:text-9xl italic font-semibold leading-tight pb-20">
       {{ range .Site.Data.settings.navigation.nav }}
-        <li class="nav__list-item"><a href="{{ .URL | absURL }}">{{ .label }}</a></li>
+        <li class="nav__list-item mb-5"><a href="{{ .URL | absURL }}">{{ .label }}</a></li>
       {{ end }}
 		</ul>
 
