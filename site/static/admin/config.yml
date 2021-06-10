@@ -2,18 +2,20 @@ backend:
   name: git-gateway
   branch: master
 
+local_backend: true
+
 display_url: https://vigorous-mahavira-319660.netlify.app/
 logo_url: https://vigorous-mahavira-319660.netlify.app/img/baked-logo.svg
 
-media_folder: "site/static/img" # Folder where user uploaded files should go
+media_folder: "site/static/img"
 public_folder: "img"
 
-collections: # A list of collections the CMS should be able to edit
-  - name: "work" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Work" # Used in the UI, ie.: "New Post"
-    folder: "site/content/work" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
+collections:
+  - name: "work"
+    label: "Work"
+    folder: "site/content/work"
+    create: true
+    fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list"}
@@ -95,6 +97,8 @@ collections: # A list of collections the CMS should be able to edit
         name: "contact"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "WhatsApp", name: "whatsapp", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
   - name: "settings"
     label: "Settings"
@@ -102,6 +106,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/data/settings/navigation.yml"
         label: "Navigation"
         name: "navigation"
+        preview: false
         fields:
           - label: "Navigation"
             name: "nav"
@@ -128,6 +133,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/data/settings/footer.yml"
         label: "Footer"
         name: "footer"
+        preview: false
         fields:
           - label: "Navigation"
             name: "nav"

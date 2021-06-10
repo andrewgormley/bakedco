@@ -34,7 +34,9 @@ export default class WorkPreview extends React.Component {
             </div>
 
             <div className="px-5">
-              <div style={vidContainer}><iframe src={ entry.getIn(["data", "video"])} className="absolute top-0 left-0 w-full h-full" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+              <div style={vidContainer}>
+                <iframe src={ entry.getIn(["data", "video"])} className="absolute top-0 left-0 w-full h-full" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </div>
 
             <div class="max-w-5xl mx-auto py-10 normal-case markdown p-5 flex flex-wrap">
