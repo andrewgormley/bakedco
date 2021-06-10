@@ -8,7 +8,8 @@ tags:
 - Retail
 description: >-
   A premium advertising campaign featuring a collection of the best footwear on offer at the high-street retailer USC.
-image: /img/baked-usc-se-thumb-01.jpg
+image:
+thumbnailVideo: img/16x9_4K_NoGraphics__webthumbnail.mp4
 video: https://player.vimeo.com/video/401253183?title=0&byline=0&portrait=0
 sections:
   - subtitle:

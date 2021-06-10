@@ -12,7 +12,8 @@ tags:
 - Out Of Home
 description: >-
   Capitalising on Trent Alexander-Arnold becoming a Premier League winner for the first time, this campaign defines him as an icon in his home city.
-image: /img/TAA_03-e1600772393418.png
+image:
+thumbnailVideo: img/TAA_THUMBNAIL.mp4
 video: https://player.vimeo.com/video/449712854?title=0&byline=0&portrait=0
 sections:
   - subtitle:

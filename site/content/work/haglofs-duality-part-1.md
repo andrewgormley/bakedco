@@ -9,7 +9,8 @@ tags:
 - Video Production
 description: >-
   Innovative construction, exchangeable midsoles, versatility, robust outdoor performance. Duality is the next generation of outdoor footwear.
-image: /img/baked-haglofs-thumb-02.jpg
+image:
+thumbnailVideo: img/16x9_web_notext_1_1.mp4
 video: https://player.vimeo.com/video/377036080?title=0&byline=0&portrait=0
 sections:
   - subtitle:
