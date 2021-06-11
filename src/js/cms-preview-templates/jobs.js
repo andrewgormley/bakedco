@@ -21,7 +21,7 @@ export default class JobsPreview extends React.Component {
           </div>
 
           <div className="normal-case markdown">
-            { entry.getIn(["data", "body"])}
+            { widgetFor("body") }
           </div>
 
         </div>
