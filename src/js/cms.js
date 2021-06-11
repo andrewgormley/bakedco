@@ -6,6 +6,7 @@ import styles from "!to-string-loader!css-loader!postcss-loader!sass-loader!../c
 
 import HomePreview from "./cms-preview-templates/home";
 import WorkPreview from "./cms-preview-templates/work";
+import JobsPreview from "./cms-preview-templates/work";
 import ProductsPreview from "./cms-preview-templates/products";
 import ValuesPreview from "./cms-preview-templates/values";
 import ContactPreview from "./cms-preview-templates/contact";
@@ -13,6 +14,7 @@ import ContactPreview from "./cms-preview-templates/contact";
 CMS.registerPreviewStyle(styles, { raw: true });
 CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("work", WorkPreview);
+CMS.registerPreviewTemplate("jobs", JobsPreview);
 CMS.registerPreviewTemplate("products", ProductsPreview);
 CMS.registerPreviewTemplate("values", ValuesPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
