@@ -41,14 +41,14 @@ collections:
     folder: "site/content/jobs"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title", name: "title", widget: "string", default: ''}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Category", name: "category", widget: "string"}
-      - {label: "Job Type", name: "jobType", widget: "string"}
-      - {label: "Location", name: "location", widget: "string"}
-      - {label: "Salary", name: "salary", widget: "string"}
-      - {label: "Note", name: "note", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Category", name: "category", widget: "string", default: ''}
+      - {label: "Job Type", name: "jobType", widget: "string", default: ''}
+      - {label: "Location", name: "location", widget: "string", default: ''}
+      - {label: "Salary", name: "salary", widget: "string", default: ''}
+      - {label: "Note", name: "note", widget: "string", default: ''}
+      - {label: "Body", name: "body", widget: "markdown", default: ''}
   - name: "pages"
     label: "Main Pages"
     files:
