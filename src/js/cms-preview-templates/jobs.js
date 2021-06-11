@@ -3,7 +3,7 @@ import format from "date-fns/format";
 
 export default class JobsPreview extends React.Component {
   render() {
-    const {entry, widgetFor, getAsset} = this.props;
+    const entry = this.props;
 
     return (
       <div className="animate__animated animate__fadeIn">
