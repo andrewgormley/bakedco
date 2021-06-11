@@ -4,4 +4,4 @@ import "./css/main.css";
 import "./css/styles.scss"
 
 // Say hello
-console.log("🦊 Hello! Edit me in src/index.js");
+console.log("Baked Creative");
