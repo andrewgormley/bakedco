@@ -6,7 +6,7 @@ tags:
 - 3D Animation
 description: >-
   The L.I.M series is the flagship of Haglöfs. We created a call to action for all "The Outsiders by Nature" who want to explore further than before. This is their cry for Less.
-image: 
+image:
 thumbnailVideo: img/Capsule16x9_1.mp4
 video: https://player.vimeo.com/video/526075524?title=0&byline=0&portrait=0
 sections:
@@ -25,4 +25,5 @@ carousel:
     alt: alt text
   - image: img/baked-haglofs_lessismore-l-05.png
     alt: alt text
+pdf: 
 ---

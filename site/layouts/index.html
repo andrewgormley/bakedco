@@ -28,7 +28,20 @@
       {{ partial "pagination" . }}
     </div>
 
-    <div class="w-full lg:w-1/4">
+    <div class="class w-full lg:w-1/4">
+      <a href="about" class="group">
+        <div class="bg-aqua h-56 ml-2 mb-2 p-2" style="background-image: url('img/bts-1.jpg');background-size:cover;">
+          <div class="border border-solid border-gray-500 h-full text-white">
+            <div class="border-b border-solid border-gray-500 px-2 py-4">
+                <h2 class="text-3xl font-semibold leading-tight mb-1">WHAT GETS OUR DOUGH RISING 🥖</h2>
+            </div>
+            <div class="p-2">
+              <p class="normal-case">Solving the toughest, tastiest client briefs through impactful creativity. <span class="opacity-0 duration-100 ease-in-out group-hover:opacity-100">👉</span></p>
+            </div>
+
+          </div>
+        </div>
+      </a>
       <div id="instafeed-container" class="lg:pl-2 animate__animated animate__fadeIn"></div>
     </div>
 
@@ -49,7 +62,7 @@
       resolution: 'low_resolution',
       limit: 8,
       accessToken: 'IGQVJWQXhEeGZAZAaFJUMXpJWFJ1NTNjWjRVUS01R0JuY00xMm15cm1TRTZAiWVp0ZAGpwZADYzcEZAtelJrRVFLT294d3YxdFVjcU45UjZACS0EyUzFESmlzWk9BQjNoajNTd0JZAY2ZAZAa2ZAfRUd3T2R6UnRPWgZDZD',
-      template: '<a href="{{ "{{link}}" }}" target="_blank" class="flex group relative overflow-hidden mb-2 text-white"><div class="overlay-text w-full p-2 instagram z-20 opacity-0 group-hover:opacity-100 transition-all text-base text-center leading-none mix-blend-difference"><img src="img/insta-mini.svg" class="mx-auto mb-2" alt=""><p class="mix-blend-difference">{{ "{{caption}}" }}</p></div><img class="object-cover w-full h-full duration-1000 ease-in-out transform group-hover:scale-105" src="{{ "{{image}}" }}" class="pb-2"/></a>',
+      template: '<a href="{{ "{{link}}" }}" target="_blank" class="flex group relative overflow-hidden mb-2 text-white bg-black"><div class=" overlay-text w-full p-2 instagram z-20 opacity-0 group-hover:opacity-100 transition-all text-base text-center leading-none"><img src="img/insta-mini.svg" class="mx-auto mb-2" alt=""><p>{{ "{{caption}}" }}</p></div><img class="object-cover w-full h-full duration-1000 ease-in-out transform group-hover:opacity-50 group-hover:scale-105" src="{{ "{{image}}" }}" class="pb-2"/></a>',
     });
     userFeed.run();
   </script>

@@ -36,6 +36,7 @@ collections:
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Video", name: "video", widget: "file"}
           - {label: "Alt text", name: "alt", widget: "string"}
+      - {label: "PDF Case Study", name: "pdf", widget: "file"}
   - name: "jobs"
     label: "Jobs"
     folder: "site/content/jobs"
