@@ -12,7 +12,8 @@ import ProductsPreview from "./cms-preview-templates/products";
 import ValuesPreview from "./cms-preview-templates/values";
 import ContactPreview from "./cms-preview-templates/contact";
 
-CMS.registerPreviewStyle(tailwind, styles, { raw: true });
+CMS.registerPreviewStyle(tailwind, { raw: true });
+CMS.registerPreviewStyle(styles, { raw: true });
 CMS.registerPreviewTemplate("home", HomePreview);
 CMS.registerPreviewTemplate("work", WorkPreview);
 CMS.registerPreviewTemplate("jobs", JobsPreview);
