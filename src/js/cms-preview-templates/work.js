@@ -1,6 +1,6 @@
 import React from "react";
 import format from "date-fns/format";
-import { useRef } from 'react'
+import { useEffect } from "react"
 
 export default class WorkPreview extends React.Component {
   render() {
@@ -39,14 +39,13 @@ export default class WorkPreview extends React.Component {
           perView: 1,
         }
       }
-    };
+    }
 
-    const ref = React.useRef();
+    const slider = new Glide('.glide', sliderConfiguration);
 
-    React.useEffect(() => {
-      const slider = new Glide(ref.current, sliderConfiguration);
-      slider.mount();
-    }, [ref]);
+    useEffect(() => {
+      return () => slider.mount()
+    }, [slider])
 
     return (
       <div className="text-sm uppercase text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-900 tracking-wide transition-all">
@@ -88,7 +87,7 @@ export default class WorkPreview extends React.Component {
             </div>
 
             <div className="carousel pb-10 mx-auto px-5 md:px-0">
-              <div ref={ref} className="glide">
+              <div className="glide">
                 <div className="glide__track" data-glide-el="track">
                   <ul className="glide__slides">
 
