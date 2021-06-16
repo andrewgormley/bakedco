@@ -19,6 +19,29 @@ export default class WorkPreview extends React.Component {
       height: '100%'
     }
 
+    new Glide('.glide', {
+      autoplay: 5000,
+      hoverpause: true,
+      perView: 2,
+      peek: 200,
+      startAt: 1,
+      breakpoints: {
+        600: {
+          peek: 0,
+          startAt: 0
+        },
+        1024: {
+          peek: 100,
+          startAt: 0,
+        },
+        1600: {
+          perView: 1,
+        }
+      }
+    }).mount()
+
+    $('.marquee2').marquee({});
+
     return (
       <div className="text-sm uppercase text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-900 tracking-wide transition-all">
         <div className="animate__animated animate__fadeIn p-2">
@@ -58,11 +81,47 @@ export default class WorkPreview extends React.Component {
               })}
             </div>
 
+            <div className="carousel pb-10 mx-auto px-5 md:px-0">
+              <div className="glide">
+                <div className="glide__track" data-glide-el="track">
+                  <ul className="glide__slides">
+
+                    {this.props.widgetsFor('carousel').map(function(slide, index) {
+                      return (
+                        <li className="glide__slide" key={index}>
+
+                          {slide.getIn(['data', 'image']) ?
+                            <img className="w-full" src={slide.getIn(['data', 'image'])}/>
+                            : null
+                          }
+
+                          {slide.getIn(['data', 'video']) ?
+                            <video autoplay muted loop id="myVideo" className="w-full">
+                              <source src={slide.getIn(['data', 'video'])} type="video/mp4"/>
+                            </video>
+                            : null
+                          }
+
+                          <p className="pt-3">{slide.getIn(['data', 'alt'])}</p>
+                        </li>
+                      )
+                    })}
+
+                  </ul>
+                </div>
+                <div className="glide__arrows" data-glide-el="controls">
+                  <button className="carousel-arrow glide__arrow--left" data-glide-dir="<">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                  </button>
+                  <button className="carousel-arrow glide__arrow--right" data-glide-dir=">">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
-        <script type="text/javascript">
-          $('.marquee2').marquee({});
-        </script>
       </div>
     );
   }
