@@ -4,6 +4,8 @@ import format from "date-fns/format";
 export default class WorkPreview extends React.Component {
   render() {
 
+    const {entry, widgetsFor, getAsset} = this.props;
+
     const vidContainer = {
       padding: '56.25% 0 0 0',
       position: 'relative',
@@ -52,7 +54,7 @@ export default class WorkPreview extends React.Component {
                     <h4 className="font-semibold mb-2">{section.getIn(['data', 'subtitle'])}</h4>
                     <p>{section.getIn(['data', 'copy'])}</p>
                   </div>
-                )
+                );
               })}
             </div>
 
