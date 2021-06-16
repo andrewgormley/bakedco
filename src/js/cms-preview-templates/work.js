@@ -3,8 +3,8 @@ import format from "date-fns/format";
 
 export default class WorkPreview extends React.Component {
   render() {
-    const {entry, widgetsFor, getAsset} = this.props;
-    let image = getAsset(entry.getIn(["data", "image"]));
+    var entry = this.props.entry;
+    var sections = entry.getIn(['data', 'sections']);
 
     const vidContainer = {
       padding: '56.25% 0 0 0',
@@ -48,15 +48,13 @@ export default class WorkPreview extends React.Component {
             </div>
 
             <div className="max-w-5xl mx-auto py-10 normal-case markdown p-5 flex flex-wrap">
-              {this.props.widgetsFor('sections').map(function(section, index) {
-                return (
-                  <div className="w-full md:w-1/2 p-2" {key: index}>
-                    <h4 className="font-semibold mb-2">{sections.getIn(['data', 'subtitle'])}</h4>
-                    <p>{sections.getIn(['data', 'copy'])}</p>
-                  </div>
-                );
-              })}
+              <div className="w-full md:w-1/2 p-2">
+                <h4 className="font-semibold mb-2">{this.props.widgetsFor('sections').getIn(['widgets', 'subtitle'])}</h4>
+                <p>{this.props.widgetsFor('sections').getIn(['widgets', 'copy'])}</p>
+              </div>
+
             </div>
+
 
           </div>
         </div>
