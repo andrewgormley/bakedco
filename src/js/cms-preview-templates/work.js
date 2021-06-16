@@ -2,7 +2,7 @@ import React from "react";
 import format from "date-fns/format";
 import { useEffect } from "react"
 
-function Card(props) {
+function WorkPreview(props) {
 
     const {entry, widgetsFor, getAsset} = this.props;
 
