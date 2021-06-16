@@ -19,7 +19,7 @@ export default class WorkPreview extends React.Component {
       height: '100%'
     }
 
-    new Glide('.glide', {
+    const sliderConfiguration= {
       autoplay: 5000,
       hoverpause: true,
       perView: 2,
@@ -38,9 +38,14 @@ export default class WorkPreview extends React.Component {
           perView: 1,
         }
       }
-    }).mount()
+    };
 
-    $('.marquee2').marquee({});
+    const ref = React.useRef();
+
+    React.useEffect(() => {
+      const slider = new Glide(ref.current, sliderConfiguration);
+      slider.mount();
+    }, [ref]);
 
     return (
       <div className="text-sm uppercase text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-900 tracking-wide transition-all">
@@ -82,7 +87,7 @@ export default class WorkPreview extends React.Component {
             </div>
 
             <div className="carousel pb-10 mx-auto px-5 md:px-0">
-              <div className="glide">
+              <div ref={ref} className="glide">
                 <div className="glide__track" data-glide-el="track">
                   <ul className="glide__slides">
 
