@@ -59,7 +59,7 @@ export default class WorkPreview extends React.Component {
             </div>
 
             <div className="carousel pb-10 mx-auto px-5 md:px-0">
-              <div ref={ref} className="glide">
+              <div className="glide">
                 <div className="glide__track" data-glide-el="track">
                   <ul className="glide__slides">
 
