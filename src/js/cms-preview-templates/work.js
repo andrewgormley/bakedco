@@ -3,13 +3,21 @@ import format from "date-fns/format";
 
 export default class WorkPreview extends React.Component {
   render() {
-    const {entry, widgetFor, getAsset} = this.props;
+    const {entry, widgetsFor, getAsset} = this.props;
     let image = getAsset(entry.getIn(["data", "image"]));
 
     const vidContainer = {
       padding: '56.25% 0 0 0',
       position: 'relative',
     };
+
+    const iFrame = {
+      position: 'absoluite',
+      top: '0',
+      left: '0',
+      width: '100%',
+      height: '100%'
+    }
 
     return (
       <div className="text-sm uppercase text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-900 tracking-wide transition-all">
@@ -35,16 +43,18 @@ export default class WorkPreview extends React.Component {
 
             <div className="px-5">
               <div style={vidContainer}>
-                <iframe src={ entry.getIn(["data", "video"])} className="absolute top-0 left-0 w-full h-full" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                <iframe src={ entry.getIn(["data", "video"])} style={iFrame} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
 
-            <div class="max-w-5xl mx-auto py-10 normal-case markdown p-5 flex flex-wrap">
-              {entry.getIn(["data", "sections"]).map( item => {
-                <div className="w-full md:w-1/2 p-2">
-                  <h4 className="font-semibold mb-2">{item.subtitle}</h4>
-                  <p>{item.copy}</p>
-                </div>
+            <div className="max-w-5xl mx-auto py-10 normal-case markdown p-5 flex flex-wrap">
+              {this.props.widgetsFor('sections').map(function(section, index) {
+                return (
+                  <div className="w-full md:w-1/2 p-2" {key: index}>
+                    <h4 className="font-semibold mb-2">{sections.getIn(['data', 'subtitle'])}</h4>
+                    <p>{sections.getIn(['data', 'copy'])}</p>
+                  </div>
+                );
               })}
             </div>
 
