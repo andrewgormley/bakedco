@@ -1,5 +1,6 @@
 import React from "react";
 import format from "date-fns/format";
+import { useRef } from 'react'
 
 export default class WorkPreview extends React.Component {
   render() {
@@ -18,6 +19,34 @@ export default class WorkPreview extends React.Component {
       width: '100%',
       height: '100%'
     }
+
+    const sliderConfiguration= {
+      autoplay: 5000,
+      hoverpause: true,
+      perView: 2,
+      peek: 200,
+      startAt: 1,
+      breakpoints: {
+        600: {
+          peek: 0,
+          startAt: 0
+        },
+        1024: {
+          peek: 100,
+          startAt: 0,
+        },
+        1600: {
+          perView: 1,
+        }
+      }
+    };
+
+    const ref = React.useRef();
+
+    React.useEffect(() => {
+      const slider = new Glide(ref.current, sliderConfiguration);
+      slider.mount();
+    }, [ref]);
 
     return (
       <div className="text-sm uppercase text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-900 tracking-wide transition-all">
@@ -59,7 +88,7 @@ export default class WorkPreview extends React.Component {
             </div>
 
             <div className="carousel pb-10 mx-auto px-5 md:px-0">
-              <div className="glide">
+              <div ref={ref} className="glide">
                 <div className="glide__track" data-glide-el="track">
                   <ul className="glide__slides">
 
@@ -96,29 +125,6 @@ export default class WorkPreview extends React.Component {
                 </div>
               </div>
             </div>
-
-            {new Glide('.glide', {
-              autoplay: 5000,
-              hoverpause: true,
-              perView: 2,
-              peek: 200,
-              startAt: 1,
-              breakpoints: {
-                600: {
-                  peek: 0,
-                  startAt: 0
-                },
-                1024: {
-                  peek: 100,
-                  startAt: 0,
-                },
-                1600: {
-                  perView: 1,
-                }
-              }
-            }).mount()}
-
-            {$('.marquee2').marquee({})}
 
           </div>
         </div>
