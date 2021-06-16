@@ -2,8 +2,7 @@ import React from "react";
 import format from "date-fns/format";
 import { useEffect } from "react"
 
-export default class WorkPreview extends React.Component {
-  render() {
+const WorkPreview = () => {
 
     const {entry, widgetsFor, getAsset} = this.props;
 
@@ -129,5 +128,7 @@ export default class WorkPreview extends React.Component {
         </div>
       </div>
     );
-  }
+
 }
+
+export default WorkPreview
