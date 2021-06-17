@@ -165,12 +165,9 @@ collections:
         label: "Site Config"
         name: "config"
         fields:
-          - label: "Site Config"
-            name: "config"
-            widget: "list"
-            fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Meta Description", name: "description", widget: "text"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "description", widget: "text"}
+
   - name: "basic-pages"
     label: "Basic Pages"
     folder: "site/content"

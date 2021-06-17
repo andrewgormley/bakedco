@@ -3,7 +3,7 @@
   <title>{{ .Title }} | {{ $.Site.Title }}</title>
   <meta
      name="description"
-     content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ else }}Something hardcoded{{ end }}"
+     content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}"
    />
 
   {{ $stylesheet := .Site.Data.webpack.main }}
