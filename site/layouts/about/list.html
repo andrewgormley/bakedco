@@ -14,16 +14,23 @@
     <div class="bg-red-200 col-span-2 col-start-7 row-span-6 row-start-1" style="background:url({{ (index .Params.imageRow1 4).image }}); background-size:cover; background-position: center;"></div>
   </div>
 
-  <div class="max-w-5xl mx-auto">
-    <ul class="normal-case">
-      <h4 class="uppercase font-semibold mb-2">services:</h4>
-      {{ range .Site.Data.settings.navigation.services }}
-        <li class="mb-2">{{ .label }}</li>
+  <div class="max-w-5xl mx-auto flex flex-wrap pt-20">
+    <div class="w-full mb-10 font-semibold lg:px-4">
+      Services:
+    </div>
+    <div class="w-full flex flex-wrap">
+      {{ range .Params.services }}
+        <div class="w-full lg:w-1/3 lg:px-4">
+          <p class="normal-case">
+            <strong class="uppercase">{{ .title }}</strong><br>
+            {{ .description }}
+          </p>
+        </div>
       {{ end }}
-    </ul>
+    </div>
   </div>
 
-  <div class="w-full flex flex-wrap py-5 lg:py-10 items-center">
+  <div class="flex flex-wrap py-5 lg:py-10 items-center">
     <div class="w-1/3">
 
       <svg class="mx-auto w-20 my-20" width="100" height="34" viewBox="0 0 100 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -74,7 +81,7 @@
     <div class="bg-red-200 col-span-3 col-start-7 row-span-4 row-start-6" style="background:url({{ (index .Params.imageRow2 3).image }}); background-size:cover; background-position: center;"></div>
   </div>
 
-  <div class="max-w-5xl mx-auto flex flex-wrap py-20 border-b border-solid border-gray-300">
+  <div class="max-w-5xl mx-auto flex flex-wrap py-20">
     <div class="w-full lg:w-1/5 mb-10 font-semibold">
       Our Values
     </div>
@@ -86,15 +93,6 @@
         </p>
       {{ end }}
     </div>
-  </div>
-
-  <div class="max-w-5xl mx-auto flex flex-wrap normal-case py-10">
-      <div class="w-full lg:w-1/2 text-4xl">
-        <p>{{ .Params.sectionTitle }}</p>
-      </div>
-      <div class="w-full lg:w-1/2">
-        <p>{{ .Params.sectionDescription }}</p>
-      </div>
   </div>
 
   <div class="about-grid grid grid-cols-3 grid-rows-9 auto-rows-max gap-2 pb-20">

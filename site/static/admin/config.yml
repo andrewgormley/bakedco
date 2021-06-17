@@ -64,8 +64,6 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Intro Blurb", name: "description", widget: "text"}
-          - {label: "Section title", name: "sectionTitle", widget: "string"}
-          - {label: "Section description", name: "sectionDescription", widget: "text"}
           - label: "Image Row 1"
             name: "imageRow1"
             widget: "list"
@@ -73,6 +71,13 @@ collections:
             fields:
               - {label: "Image", name: "image", widget: "image"}
               - {label: "Alt text", name: "alt", widget: "string"}
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            allow_add: false
+            fields:
+              - {label: "Service title", name: "title", widget: "string"}
+              - {label: "Service description", name: "description", widget: "text"}
           - label: "Values"
             name: "values"
             widget: "list"
