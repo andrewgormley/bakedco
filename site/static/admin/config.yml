@@ -25,7 +25,12 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Meta Description", name: "description", widget: "text"}
-      - {label: "Tags", name: "tags", widget: "list"}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        create: true
+        fields:
+          - {widget: "string"}
       - {label: "Thumbnail Image", name: "image", widget: "image"}
       - {label: "Thumbnail Video", name: "thumbnailVideo", widget: "file", required: false}
       - {label: "Intro Blurb", name: "intro", widget: "text", required: false}
@@ -40,10 +45,11 @@ collections:
       - label: "Gallery"
         name: "carousel"
         widget: "list"
+        required: false
         fields:
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Video", name: "video", widget: "file"}
-          - {label: "Alt text", name: "alt", widget: "string"}
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Video", name: "video", widget: "file", required: false}
+          - {label: "Alt text", name: "alt", widget: "string", required: false}
       - {label: "PDF Case Study", name: "pdf", widget: "file", required: false}
   - name: "jobs"
     label: "Jobs"
