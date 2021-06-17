@@ -5,7 +5,7 @@ nav:
   - {label: 'Contact', URL: '/contact/'}
   - {label: 'Jobs', URL: '/jobs/'}
 
-description: 'We bring consumer brands to life through creative strategy, advertising, design, brand development & content creation.'
+description: 'Creativity that never comes down. We solve the toughest, tastiest client briefs through impactful creativity.'
 
 brands:
   - {label: 'Under Armour'}
@@ -15,10 +15,8 @@ brands:
   - {label: 'The North Face'}
 
 services:
-  - {label: 'Creative Strategy'}
-  - {label: 'Advertising'}
-  - {label: 'Design'}
-  - {label: 'Brand Development'}
-  - {label: 'Content Creation'}
+  - {label: 'Strategy'}
+  - {label: 'Creative'}
+  - {label: 'Production'}
 
 contact: 'hello@bakedcreative.co﻿'
