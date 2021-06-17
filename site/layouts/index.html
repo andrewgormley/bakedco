@@ -7,13 +7,10 @@
         {{ $paginator := .Paginate (where site.RegularPages "Section" "work") }}
         {{ range $paginator.Pages }}
 
-          <a href="{{ .Permalink }}" class="tile bg-aqua overflow-hidden cursor-pointer group relative">
+          <a href="{{ .Permalink }}" class="tile bg-aqua overflow-hidden cursor-pointer group relative bg-cover bg-center" style="background-image: url('{{ .Params.image }}')">
             <div class="overlay-text z-20 opacity-0 group-hover:opacity-100 transition-all mix-blend-difference text-center w-full p-2 leading-none">
               {{ .Title }}
             </div>
-            {{ if .Params.image }}
-              <img src="{{ .Params.image }}" class="object-cover w-full h-full duration-1000 ease-in-out transform group-hover:scale-105" alt="">
-            {{ end }}
             {{ if .Params.thumbnailVideo }}
               <video autoplay muted loop class="object-cover w-full h-full duration-1000 ease-in-out transform group-hover:scale-105">
                 <source src="{{ .Params.thumbnailVideo }}" type="video/mp4">

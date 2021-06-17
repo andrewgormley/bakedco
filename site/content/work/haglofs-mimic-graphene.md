@@ -11,7 +11,7 @@ tags:
 - Out Of Home
 intro: >-
   A new bar for synthetic insulation.⁠ Haglöfs lead the development of insulating materials and introduce new technologies every year.
-image:
+image: img/haglofs2.png
 thumbnailVideo: img/HAGLOFFS_MIMIC_HEROFILM_NOTEXT_1.mp4
 video: https://player.vimeo.com/video/432189933?title=0&byline=0&portrait=0
 sections:
