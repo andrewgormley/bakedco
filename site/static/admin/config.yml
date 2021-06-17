@@ -10,23 +10,30 @@ logo_url: https://vigorous-mahavira-319660.netlify.app/img/baked-logo.svg
 media_folder: "site/static/img"
 public_folder: "img"
 
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+
 collections:
   - name: "work"
     label: "Work"
     folder: "site/content/work"
     create: true
+    slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Meta Description", name: "description", widget: "text"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Thumbnail Image", name: "image", widget: "image"}
-      - {label: "Thumbnail Video", name: "thumbnailVideo", widget: "file"}
-      - {label: "Intro Blurb", name: "intro", widget: "text"}
+      - {label: "Thumbnail Video", name: "thumbnailVideo", widget: "file", required: false}
+      - {label: "Intro Blurb", name: "intro", widget: "text", required: "false"}
       - label: "Body section"
         name: "sections"
         widget: "list"
         collapsed: false
+        required: false
         fields:
           - {label: "Sub title", name: "subtitle", widget: "string"}
           - {label: "Copy", name: "copy", widget: "text"}
@@ -37,11 +44,12 @@ collections:
           - {label: "Image", name: "image", widget: "image"}
           - {label: "Video", name: "video", widget: "file"}
           - {label: "Alt text", name: "alt", widget: "string"}
-      - {label: "PDF Case Study", name: "pdf", widget: "file"}
+      - {label: "PDF Case Study", name: "pdf", widget: "file", required: false}
   - name: "jobs"
     label: "Jobs"
     folder: "site/content/jobs"
     create: true
+    slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string", default: ''}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -50,7 +58,7 @@ collections:
       - {label: "Job Type", name: "jobType", widget: "string", default: ''}
       - {label: "Location", name: "location", widget: "string", default: ''}
       - {label: "Salary", name: "salary", widget: "string", default: ''}
-      - {label: "Note", name: "note", widget: "string", default: ''}
+      - {label: "Note", name: "note", widget: "string", default: '', required: false}
       - {label: "Body", name: "body", widget: "markdown", default: ''}
   - name: "pages"
     label: "Main Pages"
@@ -175,6 +183,7 @@ collections:
     label: "Basic Pages"
     folder: "site/content"
     create: true
+    slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Meta Description", name: "description", widget: "text"}
