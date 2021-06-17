@@ -30,7 +30,7 @@ collections:
         widget: "list"
         create: true
         field:
-          - {name: "tag", widget: "string"}
+          - {widget: "string"}
       - {label: "Thumbnail Image", name: "image", widget: "image"}
       - {label: "Thumbnail Video", name: "thumbnailVideo", widget: "file", required: false}
       - {label: "Intro Blurb", name: "intro", widget: "text", required: false}
