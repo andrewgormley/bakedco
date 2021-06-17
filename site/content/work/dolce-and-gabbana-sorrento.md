@@ -1,11 +1,12 @@
 ---
 title: Dolce and Gabbana - Sorrento
 date: 2021-04-25T15:04:10.000Z
+description:
 tags:
 - Motion Graphics
 - Visual Effects
 - 3D
-description: >-
+intro: >-
   D&G have always had their fingers on the pulse of logomania. The Sorrento sneakers, with their bold branding, are the latest manifestation of the trend.
 image: /img/baked-dolce-and-gabbana-thumb-01.jpg
 video: https://player.vimeo.com/video/401094539?title=0&byline=0&portrait=0

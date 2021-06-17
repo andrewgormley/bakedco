@@ -1,6 +1,7 @@
 ---
 title: About us
-description: >-
+description:
+intro: >-
   We’re a creative kitchen baking mouth-watering ideas for brands across the world. We’re specialists in world-class content production, 3D animation and creative design.
 imageRow1:
   - image: img/tunnel.jpg

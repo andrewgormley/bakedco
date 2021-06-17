@@ -1,6 +1,7 @@
 ---
 title: Under Armour - Homegrown Champion
 date: 2021-05-04T15:04:10.000Z
+description:
 tags:
 - Live Action
 - Creative Strategy
@@ -10,7 +11,7 @@ tags:
 - Production
 - Social Media
 - Out Of Home
-description: >-
+intro: >-
   Capitalising on Trent Alexander-Arnold becoming a Premier League winner for the first time, this campaign defines him as an icon in his home city.
 image:
 thumbnailVideo: img/TAA_THUMBNAIL.mp4

@@ -1,11 +1,12 @@
 ---
 title: Under Armour - Anything But Chill
 date: 2021-04-28T15:04:10.000Z
+description:
 tags:
 - Live Action
 - Design
 - Advertising
-description: >-
+intro: >-
   Producing content for TV, retail and digital channels, showcasing the premium autumn winter range of one of the biggest sports brands in the world.
 image: /img/baked-ua-abc-thumb-03.jpg
 video: https://player.vimeo.com/video/399086656?title=0&byline=0&portrait=0

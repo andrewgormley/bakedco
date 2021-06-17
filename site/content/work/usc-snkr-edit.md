@@ -1,12 +1,13 @@
 ---
 title: USC - SNKR Edit
 date: 2021-05-03T15:04:10.000Z
+description:
 tags:
 - Live Action
 - Motion Graphics
 - Visual Effects
 - Retail
-description: >-
+intro: >-
   A premium advertising campaign featuring a collection of the best footwear on offer at the high-street retailer USC.
 image:
 thumbnailVideo: img/16x9_4K_NoGraphics__webthumbnail.mp4

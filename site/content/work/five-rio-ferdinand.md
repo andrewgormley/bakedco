@@ -1,11 +1,12 @@
 ---
 title: Five - Rio Ferdinand
 date: 2021-04-27T15:04:10.000Z
+description:
 tags:
 - Live Action
 - Design
 - Advertising
-description: >-
+intro: >-
   A UK fashion label, founded by Rio Ferdinand, inspired by a true love for sportswear, fitness and contemporary football culture.
 image: /img/baked-five-thumb-01.jpg
 video: https://player.vimeo.com/video/398552768?title=0&byline=0&portrait=0

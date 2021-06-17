@@ -1,13 +1,14 @@
 ---
 title: The North Face - Retro Himalayan Parka
 date: 2021-05-04T15:04:10.000Z
+description:
 tags:
 - Live Action
 - Motion Graphics
 - 3D Animation
 - Visual Effects
 - Retail
-description: >-
+intro: >-
   Establishing the Himalayan Parka as streetwear's essential oversized insulation of the season, and beyond.
 image: /img/baked-thenorhtface-1994retrohim-t-02.png
 video: https://player.vimeo.com/video/468137067?title=0&byline=0&portrait=0

@@ -2,6 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
 title = "Baked | Creative Agency | Independent Creative Studio"
+description = "An independent creative agency. Perfect partners as your creative agency of record and a flexible creative resource for individual projects. We work with consumer brands to bring projects to life through our unique creativity."
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details:

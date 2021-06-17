@@ -1,11 +1,12 @@
 ---
 title: New Balance - Fresh Foam
 date: 2021-04-30T15:04:10.000Z
+description:
 tags:
 - Motion Graphics
 - Visual Effects
 - 3D
-description: >-
+intro: >-
   The Fresh Foam is New Balance's premium expression of runner’s data, supreme comfort, and cutting-edge design.
 image: /img/baked-nb-thumb-01.png
 video: https://player.vimeo.com/video/413542687?title=0&byline=0&portrait=0

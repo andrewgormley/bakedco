@@ -1,10 +1,11 @@
 ---
 title: Haglöfs - L.I.M.
 date: 2021-05-05T15:04:10.000Z
+description:
 tags:
 - Live Action
 - 3D Animation
-description: >-
+intro: >-
   The L.I.M series is the flagship of Haglöfs. We created a call to action for all "The Outsiders by Nature" who want to explore further than before. This is their cry for Less.
 image:
 thumbnailVideo: img/Capsule16x9_1.mp4
@@ -25,5 +26,5 @@ carousel:
     alt: alt text
   - image: img/baked-haglofs_lessismore-l-05.png
     alt: alt text
-pdf: 
+pdf:
 ---

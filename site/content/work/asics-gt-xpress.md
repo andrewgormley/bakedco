@@ -1,13 +1,14 @@
 ---
 title: ASICS - GT-Xpress
 date: 2021-05-02T15:04:10.000Z
+description:
 tags:
 - Live Action
 - Motion Graphics
 - 3D Animation
 - Visual Effects
 - Retail
-description: >-
+intro: >-
   Known for its high-mileage durability and exceptional value, the GT series is worn by runners all over the world.
 image: /img/baked-asics-thumb-01.png
 video: https://player.vimeo.com/video/377036536?title=0&byline=0&portrait=0

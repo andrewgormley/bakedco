@@ -1,11 +1,12 @@
 ---
 title: Under Armour - Back Yourself
 date: 2021-05-06T15:04:10.000Z
+description:
 tags:
 - Live Action
 - Photography
 - Retail
-description: >-
+intro: >-
   A 'back to fitness' campaign to showcase Under Armour at JD Sports. Keeping it simple. Atypically raw, bright and focussed on the product fit, style and detail.
 image: /img/baked-underarmour_jdsports-backyourself-t.png
 video: https://player.vimeo.com/video/526088904?title=0&byline=0&portrait=0

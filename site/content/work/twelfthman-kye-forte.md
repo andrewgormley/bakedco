@@ -1,11 +1,12 @@
 ---
 title: Twelfthman - Kye Forte
 date: 2021-04-26T15:04:10.000Z
+description:
 tags:
 - Live Action
 - Creative Strategy
 - Production
-description: >-
+intro: >-
   Part of a series of films showcasing individuals within sport who embody the spirit and ethos of Twelfthman.
 image: /img/baked-twelthman-k-thumb-01.jpg
 video: https://player.vimeo.com/video/398911382?title=0&byline=0&portrait=0

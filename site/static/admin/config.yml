@@ -18,10 +18,11 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Meta Description", name: "description", widget: "text"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Thumbnail Image", name: "image", widget: "image"}
       - {label: "Thumbnail Video", name: "thumbnailVideo", widget: "file"}
-      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Intro Blurb", name: "intro", widget: "text"}
       - label: "Body section"
         name: "sections"
         widget: "list"
@@ -44,6 +45,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string", default: ''}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Meta Description", name: "description", widget: "text"}
       - {label: "Category", name: "category", widget: "string", default: ''}
       - {label: "Job Type", name: "jobType", widget: "string", default: ''}
       - {label: "Location", name: "location", widget: "string", default: ''}
@@ -63,7 +65,8 @@ collections:
         name: "about"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Intro Blurb", name: "description", widget: "text"}
+          - {label: "Meta Description", name: "description", widget: "text"}
+          - {label: "Intro Blurb", name: "intro", widget: "text"}
           - label: "Image Row 1"
             name: "imageRow1"
             widget: "list"
@@ -103,16 +106,18 @@ collections:
         name: "contact"
         fields:
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "description", widget: "text"}
           - {label: "Email", name: "email", widget: "string"}
           - {label: "WhatsApp", name: "whatsapp", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
   - name: "settings"
     label: "Settings"
+    editor:
+      preview: false
     files:
       - file: "site/data/settings/navigation.yml"
         label: "Navigation"
         name: "navigation"
-        preview: false
         fields:
           - label: "Navigation"
             name: "nav"
@@ -139,7 +144,6 @@ collections:
       - file: "site/data/settings/footer.yml"
         label: "Footer"
         name: "footer"
-        preview: false
         fields:
           - label: "Navigation"
             name: "nav"
@@ -157,10 +161,21 @@ collections:
           - {label: "Youtube", name: "youtube", widget: "string"}
           - {label: "Dribbble", name: "dribbble", widget: "string"}
           - {label: "Twitter", name: "twitter", widget: "string"}
+      - file: "site/config.toml"
+        label: "Site Config"
+        name: "config"
+        fields:
+          - label: "Site Config"
+            name: "config"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
   - name: "basic-pages"
     label: "Basic Pages"
     folder: "site/content"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}

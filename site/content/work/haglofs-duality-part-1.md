@@ -1,13 +1,14 @@
 ---
 title: Haglöfs - Duality - Part 1
 date: 2021-04-29T15:04:10.000Z
+description:
 tags:
 - Creative Strategy
 - 3D Product Scan
 - 3D Animation
 - Design
 - Video Production
-description: >-
+intro: >-
   Innovative construction, exchangeable midsoles, versatility, robust outdoor performance. Duality is the next generation of outdoor footwear.
 image:
 thumbnailVideo: img/16x9_web_notext_1_1.mp4

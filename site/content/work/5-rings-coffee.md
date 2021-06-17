@@ -1,11 +1,12 @@
 ---
 title: 5 Rings Coffee - In A Spin
 date: 2021-04-30T15:04:10.000Z
+description:
 tags:
 - Live Action
 - Motion Graphics
 - Visual Effects
-description: >-
+intro: >-
   Introducing a new coffee brand with a cycling twist. Three Olympic champions with passion for coffee.
 image:
 thumbnailVideo: img/CIRCLE_01.mp4

@@ -1,6 +1,7 @@
 ---
 title: Haglöfs - Mimic Graphene
 date: 2021-05-02T15:04:10.000Z
+description:
 tags:
 - Creative Strategy
 - 3D Product Scan
@@ -8,7 +9,7 @@ tags:
 - Design
 - Video Production
 - Out Of Home
-description: >-
+intro: >-
   A new bar for synthetic insulation.⁠ Haglöfs lead the development of insulating materials and introduce new technologies every year.
 image:
 thumbnailVideo: img/HAGLOFFS_MIMIC_HEROFILM_NOTEXT_1.mp4
