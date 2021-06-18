@@ -13,12 +13,12 @@ export default class AboutPreview extends React.Component {
           <p className="max-w-none text-4xl normal-case">{ entry.getIn(["data", "intro"])}</p>
         </div>
 
-        <div className="about-grid py-2 grid grid-cols-8 grid-rows-9 auto-rows-max gap-2">
-          <div className="bg-cover bg-center bg-red-200 col-span-3 col-start-1 row-span-8" style={{backgroundImage: 'url(' + this.props.widgetsFor('imageRow1')[0]['image'] + ')'}}></div>
-          <div className="bg-cover bg-center bg-red-200 col-span-2 col-start-4 row-span-3 row-start-2" style={{backgroundImage: 'url(' + this.props.widgetsFor('imageRow1')[1]['image'] + ')'}}></div>
-          <div className="bg-cover bg-center bg-red-200 col-span-2 col-start-4 row-span-6" style={{backgroundImage: 'url(' + this.props.widgetsFor('imageRow1')[2]['image'] + ')'}}></div>
-          <div className="bg-cover bg-center bg-red-200 col-span-1 col-start-6 row-span-6 row-start-3" style={{backgroundImage: 'url(' + this.props.widgetsFor('imageRow1')[3]['image'] + ')'}}></div>
-          <div className="bg-cover bg-center bg-red-200 col-span-2 col-start-7 row-span-6 row-start-1" style={{backgroundImage: 'url(' + this.props.widgetsFor('imageRow1')[4]['image'] + ')'}}></div>
+        <div class="about-grid about-grid-1 py-2 grid grid-cols-8 grid-rows-9 auto-rows-max gap-2">
+          {this.props.widgetsFor('imageRow1').map(function(item, index) {
+            return (
+              <div class="bg-red-200 bg-cover bg-center" style="background-image:url({item.getIn(['data', 'image'])});" key={index}></div>
+            );
+          })}
         </div>
 
         <div className="max-w-5xl mx-auto flex flex-wrap pt-20">
@@ -39,11 +39,12 @@ export default class AboutPreview extends React.Component {
           </div>
         </div>
 
-        <div className="about-grid grid grid-cols-9 grid-rows-9 auto-rows-max gap-2">
-          <div className="bg-red-200 col-span-3 col-start-1 row-span-6 row-start-2" style={{backgroundImage: 'url(' + this.props.widgetsFor('imageRow2')[0]['image'] + ')'}}></div>
-          <div className="bg-red-200 col-span-3 col-start-4 row-span-8 row-start-1" style={{backgroundImage: 'url(' + this.props.widgetsFor('imageRow2')[1]['image'] + ')'}}></div>
-          <div className="bg-red-200 col-span-3 col-start-7 row-span-3 row-start-3" style={{backgroundImage: 'url(' + this.props.widgetsFor('imageRow2')[2]['image'] + ')'}}></div>
-          <div className="bg-red-200 col-span-3 col-start-7 row-span-4 row-start-6" style={{backgroundImage: 'url(' + this.props.widgetsFor('imageRow2')[3]['image'] + ')'}}></div>
+        <div class="about-grid about-grid-2 py-2 grid grid-cols-8 grid-rows-9 auto-rows-max gap-2">
+          {this.props.widgetsFor('imageRow1').map(function(item, index) {
+            return (
+              <div class="bg-red-200 bg-cover bg-center" style="background-image:url({item.getIn(['data', 'image'])});" key={index}></div>
+            );
+          })}
         </div>
 
         <div class="max-w-5xl mx-auto flex flex-wrap py-20">
@@ -62,11 +63,12 @@ export default class AboutPreview extends React.Component {
           </div>
         </div>
 
-        <div className="about-grid grid grid-cols-3 grid-rows-9 auto-rows-max gap-2 pb-20">
-          <div className="bg-red-200 col-start-1 row-span-4 row-start-2" style={{backgroundImage: 'url(' + this.props.widgetsFor('imageRow3')[0]['image'] + ')'}}></div>
-          <div className="bg-red-200 col-start-1 row-span-3 row-start-6 " style={{backgroundImage: 'url(' + this.props.widgetsFor('imageRow3')[1]['image'] + ')'}}></div>
-          <div className="bg-red-200 col-start-2 row-span-9" style={{backgroundImage: 'url(' + this.props.widgetsFor('imageRow3')[2]['image'] + ')'}}></div>
-          <div className="bg-red-200 col-start-3 row-span-6 row-start-3" style={{backgroundImage: 'url(' + this.props.widgetsFor('imageRow3')[3]['image'] + ')'}}></div>
+        <div class="about-grid about-grid-3 py-2 grid grid-cols-8 grid-rows-9 auto-rows-max gap-2">
+          {this.props.widgetsFor('imageRow1').map(function(item, index) {
+            return (
+              <div class="bg-red-200 bg-cover bg-center" style="background-image:url({item.getIn(['data', 'image'])});" key={index}></div>
+            );
+          })}
         </div>
 
       </div>
