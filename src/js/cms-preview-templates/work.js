@@ -4,29 +4,6 @@ import Glide from '@glidejs/glide'
 
 export default class WorkPreview extends React.Component {
 
-  componentDidMount() {
-    new Glide('.glide', {
-      autoplay: 5000,
-      hoverpause: true,
-      perView: 2,
-      peek: 200,
-      startAt: 1,
-      breakpoints: {
-        600: {
-          peek: 0,
-          startAt: 0
-        },
-        1024: {
-          peek: 100,
-          startAt: 0,
-        },
-        1600: {
-          perView: 1,
-        }
-      }
-    }).mount()
-  }
-
   render() {
 
     const {entry, widgetsFor, getAsset} = this.props;
