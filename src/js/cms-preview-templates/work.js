@@ -1,13 +1,30 @@
 import React from "react";
 import format from "date-fns/format";
+import Glide from '@glidejs/glide'
 
 export default class WorkPreview extends React.Component {
 
   componentDidMount() {
-    const { document } = this.props;
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js';
-    document.head.appendChild(script);
+    new Glide('.glide', {
+      autoplay: 5000,
+      hoverpause: true,
+      perView: 2,
+      peek: 200,
+      startAt: 1,
+      breakpoints: {
+        600: {
+          peek: 0,
+          startAt: 0
+        },
+        1024: {
+          peek: 100,
+          startAt: 0,
+        },
+        1600: {
+          perView: 1,
+        }
+      }
+    }).mount()
   }
 
   render() {
@@ -76,7 +93,7 @@ export default class WorkPreview extends React.Component {
                         <li className="glide__slide" key={index}>
 
                           {slide.getIn(['data', 'image']) ?
-                            <img className="w-full" src={slide.getIn(['data', 'image'])}/>
+                            <img className="w-full" src={getAsset(item.getIn(['data', 'image']))}/>
                             : null
                           }
 
