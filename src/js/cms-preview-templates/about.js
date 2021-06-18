@@ -40,7 +40,7 @@ export default class AboutPreview extends React.Component {
         </div>
 
         <div class="about-grid about-grid-2 grid grid-cols-9 grid-rows-9 auto-rows-max gap-2">
-          {this.props.widgetsFor('imageRow1').map(function(item, index) {
+          {this.props.widgetsFor('imageRow2').map(function(item, index) {
             return (
               <div class="bg-red-200 bg-cover bg-center" style={{backgroundImage: `url(${getAsset(item.getIn(['data', 'image']))})`}} key={index}></div>
             );
@@ -64,7 +64,7 @@ export default class AboutPreview extends React.Component {
         </div>
 
         <div class="about-grid about-grid-3 grid grid-cols-3 grid-rows-9 auto-rows-max gap-2 pb-20">
-          {this.props.widgetsFor('imageRow1').map(function(item, index) {
+          {this.props.widgetsFor('imageRow3').map(function(item, index) {
             return (
               <div class="bg-red-200 bg-cover bg-center" style={{backgroundImage: `url(${getAsset(item.getIn(['data', 'image']))})`}} key={index}></div>
             );
