@@ -16,7 +16,7 @@ export default class AboutPreview extends React.Component {
         <div class="about-grid about-grid-1 py-2 grid grid-cols-8 grid-rows-9 auto-rows-max gap-2">
           {this.props.widgetsFor('imageRow1').map(function(item, index) {
             return (
-              <div class="bg-red-200 bg-cover bg-center" style={{backgroundImage: `url(${service.getIn(['item', 'image'])})`}} key={index}></div>
+              <div class="bg-red-200 bg-cover bg-center" style={{backgroundImage: `url(${item.getIn(['data', 'image'])})`}} key={index}></div>
             );
           })}
         </div>
@@ -42,7 +42,7 @@ export default class AboutPreview extends React.Component {
         <div class="about-grid about-grid-2 py-2 grid grid-cols-8 grid-rows-9 auto-rows-max gap-2">
           {this.props.widgetsFor('imageRow1').map(function(item, index) {
             return (
-              <div class="bg-red-200 bg-cover bg-center" style={{backgroundImage: `url(${service.getIn(['item', 'image'])})`}} key={index}></div>
+              <div class="bg-red-200 bg-cover bg-center" style={{backgroundImage: `url(${item.getIn(['data', 'image'])})`}} key={index}></div>
             );
           })}
         </div>
@@ -66,7 +66,7 @@ export default class AboutPreview extends React.Component {
         <div class="about-grid about-grid-3 py-2 grid grid-cols-8 grid-rows-9 auto-rows-max gap-2">
           {this.props.widgetsFor('imageRow1').map(function(item, index) {
             return (
-              <div class="bg-red-200 bg-cover bg-center" style={{backgroundImage: `url(${service.getIn(['item', 'image'])})`}} key={index}></div>
+              <div class="bg-red-200 bg-cover bg-center" style={{backgroundImage: `url(${item.getIn(['data', 'image'])})`}} key={index}></div>
             );
           })}
         </div>
