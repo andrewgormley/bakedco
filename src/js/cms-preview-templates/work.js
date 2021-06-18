@@ -93,7 +93,7 @@ export default class WorkPreview extends React.Component {
                         <li className="glide__slide" key={index}>
 
                           {slide.getIn(['data', 'image']) ?
-                            <img className="w-full" src={getAsset(item.getIn(['data', 'image']))}/>
+                            <img className="w-full" src={getAsset(slide.getIn(['data', 'image']))}/>
                             : null
                           }
 
