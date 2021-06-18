@@ -8,27 +8,6 @@ export default class WorkPreview extends React.Component {
     const script = document.createElement('script');
     script.src = 'https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js';
     document.head.appendChild(script);
-    
-    new Glide('.glide', {
-      autoplay: 5000,
-      hoverpause: true,
-      perView: 2,
-      peek: 200,
-      startAt: 1,
-      breakpoints: {
-        600: {
-          peek: 0,
-          startAt: 0
-        },
-        1024: {
-          peek: 100,
-          startAt: 0,
-        },
-        1600: {
-          perView: 1,
-        }
-      }
-    }).mount()
   }
 
   render() {
