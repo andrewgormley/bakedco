@@ -5,15 +5,10 @@ intro: >-
   We’re a creative kitchen baking mouth-watering ideas for brands across the world. We’re specialists in world-class content production, 3D animation and creative design.
 imageRow1:
   - image: img/tunnel.jpg
-    alt: alt text
   - image: img/flag.jpg
-    alt: alt text
   - image: img/air-max-1.jpg
-    alt: alt text
   - image: img/nf.jpg
-    alt: alt text
   - image: img/cotton.jpg
-    alt: alt text
 services:
   - title: Strategy
     description: Preheating the good stuff. We produce impactful creative ideas grounded in culture, the consumer and our client’s goals.
@@ -23,13 +18,9 @@ services:
     description: There's no need for the butchers or the candlestick makers. From the perfect idea through to post-production we handle everything - quickly, efficiently and with impact.
 imageRow2:
   - image: img/rio.jpg
-    alt: alt text
   - image: img/bts-1.jpg
-    alt: alt text
   - image: img/rocks.jpg
-    alt: alt text
   - image: img/trent.jpg
-    alt: alt text
 values:
   - title: We live every day with kindness & empathy
     description: We want everyone to look forward to coming to work for us, and with us. We live in a ‘TGIM’ mentality.
@@ -43,11 +34,7 @@ values:
     description: We aren’t just another creative shop. We stand as a brand amongst a sea of ‘me too’ agencies. We don’t do vanilla and we believe the worst phrase in the world is ‘it’s always been done that way
 imageRow3:
   - image: img/haglofs.jpg
-    alt: alt text
   - image: img/bts-2.jpg
-    alt: alt text
   - image: img/band.jpg
-    alt: alt text
   - image: img/air-max-2.jpg
-    alt: alt text
 ---
