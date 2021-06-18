@@ -65,60 +65,61 @@ collections:
       - {label: "Salary", name: "salary", widget: "string", default: ''}
       - {label: "Note", name: "note", widget: "string", default: '', required: false}
       - {label: "Body", name: "body", widget: "markdown", default: ''}
-  - file: "site/content/_index.md"
-    label: "Home Page"
-    name: "home"
-    editor:
-      preview: false
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-  - file: "site/content/about/_index.md"
-    label: "About Page"
-    name: "about"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Meta Description", name: "description", widget: "text"}
-      - {label: "Intro Blurb", name: "intro", widget: "text"}
-      - label: "Image Row 1"
-        name: "imageRow1"
-        widget: "list"
-        allow_add: false
+  - name: "pages"
+    label: "Main Pages"
+    files:
+      - file: "site/content/_index.md"
+        label: "Home Page"
+        name: "home"
         fields:
-          - {label: "Image", name: "image", widget: "image"}
-      - label: "Services"
-        name: "services"
-        widget: "list"
-        allow_add: false
+          - {label: "Title", name: "title", widget: "string"}
+      - file: "site/content/about/_index.md"
+        label: "About Page"
+        name: "about"
         fields:
-          - {label: "Service title", name: "title", widget: "string"}
-          - {label: "Service description", name: "description", widget: "text"}
-      - label: "Values"
-        name: "values"
-        widget: "list"
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "description", widget: "text"}
+          - {label: "Intro Blurb", name: "intro", widget: "text"}
+          - label: "Image Row 1"
+            name: "imageRow1"
+            widget: "list"
+            allow_add: false
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            allow_add: false
+            fields:
+              - {label: "Service title", name: "title", widget: "string"}
+              - {label: "Service description", name: "description", widget: "text"}
+          - label: "Values"
+            name: "values"
+            widget: "list"
+            fields:
+              - {label: "Value title", name: "title", widget: "string"}
+              - {label: "Value description", name: "description", widget: "text"}
+          - label: "Image Row 2"
+            name: "imageRow2"
+            widget: "list"
+            allow_add: false
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+          - label: "Image Row 3"
+            name: "imageRow3"
+            widget: "list"
+            allow_add: false
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+      - file: "site/content/contact/_index.md"
+        label: "Contact Page"
+        name: "contact"
         fields:
-          - {label: "Value title", name: "title", widget: "string"}
-          - {label: "Value description", name: "description", widget: "text"}
-      - label: "Image Row 2"
-        name: "imageRow2"
-        widget: "list"
-        allow_add: false
-        fields:
-          - {label: "Image", name: "image", widget: "image"}
-      - label: "Image Row 3"
-        name: "imageRow3"
-        widget: "list"
-        allow_add: false
-        fields:
-          - {label: "Image", name: "image", widget: "image"}
-  - file: "site/content/contact/_index.md"
-    label: "Contact Page"
-    name: "contact"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Meta Description", name: "description", widget: "text"}
-      - {label: "Email", name: "email", widget: "string"}
-      - {label: "WhatsApp", name: "whatsapp", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Description", name: "description", widget: "text"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "WhatsApp", name: "whatsapp", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
   - name: "settings"
     label: "Settings"
     editor:
