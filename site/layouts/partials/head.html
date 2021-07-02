@@ -1,6 +1,6 @@
 <head>
 
-  <title>{{ .Title }} | {{ $.Site.Title }}</title>
+  <title>{{ .Title }} {{ $.Site.Title }}</title>
   <meta
      name="description"
      content="{{ if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}"

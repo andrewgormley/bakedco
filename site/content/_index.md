@@ -1,3 +1,3 @@
 ---
-title: "Baked Creative"
+title: ""
 ---
