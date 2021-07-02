@@ -4,8 +4,9 @@ backend:
 
 local_backend: true
 
-display_url: https://vigorous-mahavira-319660.netlify.app/
-logo_url: https://vigorous-mahavira-319660.netlify.app/img/baked-logo.svg
+site_url: https://bakedcreative.co
+display_url: https://bakedcreative.co
+logo_url: https://bakedcreative.co/img/baked-logo.svg
 
 media_folder: "site/static/img"
 public_folder: "img"
