@@ -1,10 +1,15 @@
 ---
-title: "Privacy Policy"
+title: Privacy Policy
+description: This privacy policy sets out how we collect, use, and protect any
+  information you give us when you use our website. We are committed to ensuring
+  your privacy is protected. Should we ask you to provide certain information by
+  which you can be identified when using our website, it will only be used in
+  accordance with this privacy policy.
 ---
-
 ## Privacy Policy
 
 ### Who we are
+
 Baked Creative Limited (we, us, our) is a company registered in England and Wales under company number 12099792 and our registered office address is 8 Bridge Road, Shaldon, Teignmouth, Devon, England, TQ14 0DD.
 
 You can get in touch with our data protection officer by writing to The Data Protection Officer at our address above or email hello@bakedcreative.co.
@@ -26,6 +31,7 @@ We need to collect data and personal information from you to provide the informa
 #### What information do we collect?
 
 We may collect the following information:
+
 * Name
 * Email address
 * Phone number
@@ -35,6 +41,7 @@ We may collect the following information:
 * Bank account and payment details
 
 We use this personal information we collect to:
+
 * Manage and provide our services to you
 * Verify your identity
 * Improve our services
@@ -42,6 +49,7 @@ We use this personal information we collect to:
 We will only use your personal information for the purposes you have permitted and we won’t share it for marketing purposes outside of Baked Creative Limited, unless you have given us permission to do so. If this practice changes in the future, we will update this privacy policy to identify the non-agent third parties and provide an opt-out option. Every time you visit our website, we may also automatically collect the following information:
 
 Technical information including:
+
 * The Internet Protocol (IP) address used to connect your computer to the Internet
 * Browser type and version
 * Log in details to our website
@@ -50,6 +58,7 @@ Technical information including:
 * Operating systems and platforms, etc
 
 Visit information including:
+
 * Uniform Resource Locators (URLs) of the websites that you came through to our website and which pages you visited (including date and time)
 * Our website page response times
 * Download errors
@@ -84,6 +93,7 @@ We use Cookies to distinguish you from other users of our website and to help us
 #### What we do with the information we collect
 
 We require personal information to process your request/s and provide you with a better service. In particular:
+
 * For internal record keeping
 * To process payment from you
 * To improve our products and services
@@ -129,6 +139,16 @@ Further information can be found on the Information Commissioner’s Office webs
 
 We use Google Invisible reCAPTCHA on our website to help prevent spam and abuse. By visiting our website you agree to us collecting hardware and software information, such as device and application data and the results of integrity checks, and sending that data to Google for analysis.
 
+#### Third Party Processors
+
+Our carefully selected partners and service providers may process personal information about you on our behalf as described below:\
+\
+**Digital Marketing Service Providers**
+
+We periodically appoint digital marketing agents to conduct marketing activity on our behalf, such activity may result in the compliant processing of personal information. Our appointed data processors include:
+
+(i)Prospect Global Ltd (trading as Sopro) Reg. UK Co. 09648733. You can contact Sopro and view their privacy policy here: [http://sopro.io](http://sopro.io/). Sopro are registered with the ICO Reg: ZA346877 their Data Protection Officer can be emailed at: [dpo@sopro.io](mailto:dpo@sopro.io "mailto\:dpo@sopro.io").
+
 #### Changes to this website privacy policy
 
-This privacy policy was published on 20th March 2020 and last updated on 20th March 2020. We may change this privacy policy from time to time. When we do, all changes to this privacy policy will be published on this page. Check this page from time to time to ensure that you remain happy.
+This privacy policy was published on 20th March 2020 and last updated on 9th August 2021. We may change this privacy policy from time to time. When we do, all changes to this privacy policy will be published on this page. Check this page from time to time to ensure that you remain happy.
