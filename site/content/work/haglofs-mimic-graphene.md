@@ -1,5 +1,6 @@
 ---
 title: Haglöfs - Mimic Graphene
+inPageTitle: Haglöfs - Mimic Graphene
 date: 2021-05-02T15:04:10.000Z
 description:
 tags:

@@ -1,5 +1,6 @@
 ---
 title: Haglöfs - L.I.M.
+inPageTitle: Haglöfs - L.I.M.
 date: 2021-05-05T15:04:10.000Z
 description:
 tags:

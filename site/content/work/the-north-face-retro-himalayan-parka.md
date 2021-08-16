@@ -1,5 +1,6 @@
 ---
 title: The North Face - Retro Himalayan Parka
+inPageTitle: The North Face - Retro Himalayan Parka
 date: 2021-05-04T15:04:10.000Z
 description:
 tags:

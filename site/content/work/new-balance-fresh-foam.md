@@ -1,5 +1,6 @@
 ---
 title: New Balance - Fresh Foam
+inPageTitle: New Balance - Fresh Foam
 date: 2021-04-30T15:04:10.000Z
 description:
 tags:

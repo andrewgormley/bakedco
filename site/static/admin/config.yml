@@ -23,8 +23,9 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "In Page Title", name: "inPageTitle", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Meta Title", name: "title", widget: "string"}
       - {label: "Meta Description", name: "description", widget: "text"}
       - label: "Tags"
         name: "tags"
@@ -57,8 +58,9 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string", default: ''}
+      - {label: "In Page Title", name: "inPageTitle", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Meta Title", name: "title", widget: "string", default: ''}
       - {label: "Meta Description", name: "description", widget: "text"}
       - {label: "Category", name: "category", widget: "string", default: ''}
       - {label: "Job Type", name: "jobType", widget: "string", default: ''}
@@ -78,7 +80,8 @@ collections:
         label: "About Page"
         name: "about"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
+          - {label: "In Page Title", name: "inPageTitle", widget: "string"}
+          - {label: "Meta Title", name: "title", widget: "string"}
           - {label: "Meta Description", name: "description", widget: "text"}
           - {label: "Intro Blurb", name: "intro", widget: "text"}
           - label: "Image Row 1"
@@ -116,7 +119,7 @@ collections:
         label: "Contact Page"
         name: "contact"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Title", name: "title", widget: "string"}
           - {label: "Meta Description", name: "description", widget: "text"}
           - {label: "Email", name: "email", widget: "string"}
           - {label: "WhatsApp", name: "whatsapp", widget: "string"}
@@ -188,6 +191,6 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Title", name: "title", widget: "string"}
       - {label: "Meta Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}

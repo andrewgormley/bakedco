@@ -1,5 +1,6 @@
 ---
 title: Under Armour - Back Yourself
+inPageTitle: Under Armour - Back Yourself
 date: 2021-05-06T15:04:10.000Z
 description: A 'back to fitness' campaign to showcase Under Armour at JD Sports. Keeping it simple. Atypically raw, bright and focussed on the product fit, style and detail.
 tags:
