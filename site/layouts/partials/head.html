@@ -19,6 +19,16 @@
     }
   </script>
 
+  <script>
+    (function (o, u, t, b, a, s, e) {
+      window[b] = window[b] || {}; (e = e || [])['key'] = o; a = [];
+      u.location.search.replace('?', '').split('&').forEach(function (q) { if (q.startsWith(b) || q.startsWith('_obid=')) e[q.split('=')[0]] = q.split('=')[1]; });
+      e['_obid'] = e['_obid'] || (u.cookie.match('(^|;)\s*__outbasep\s*=\s*([^;]+)') || []).pop() || 0;
+      for (k in e) { if (e.hasOwnProperty(k)) a.push(encodeURIComponent(k) + '=' + encodeURIComponent(e[k])); }
+      s = u.createElement('script'); s.src = t + '?' + a.join('&'); u.head.appendChild(s);
+    })('9e6d5cdd-10c0-4fba-a856-413594dc3609', document, 'https://plugin.sopro.io/hq.js', 'outbase')
+  </script>
+
   <!-- Animate CSS -->
   <link
     rel="stylesheet"
