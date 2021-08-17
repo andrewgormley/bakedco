@@ -1,5 +1,6 @@
 ---
-title: "Cookie Policy"
+title: Cookie Policy |
+description: " "
 ---
 
 ## Cookie Policy
