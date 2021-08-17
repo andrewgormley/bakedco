@@ -1,6 +1,6 @@
 ---
+inPageTitle: About Us | Baked
 title: About Us
-inPageTitle: About Us
 description: Baked is an independent creative studio working with some of the
   world’s biggest brands. We’re specialists in world-class content production,
   3D animation and creative design.
