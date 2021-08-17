@@ -1,5 +1,5 @@
 ---
-title: Privacy Policy
+title: Privacy Policy |
 description: This privacy policy sets out how we collect, use, and protect any
   information you give us when you use our website. We are committed to ensuring
   your privacy is protected. Should we ask you to provide certain information by
