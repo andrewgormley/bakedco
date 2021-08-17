@@ -22,6 +22,8 @@ collections:
     folder: "site/content/work"
     create: true
     slug: "{{slug}}"
+    editor:
+      preview: false
     fields:
       - {label: "In Page Title", name: "inPageTitle", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}

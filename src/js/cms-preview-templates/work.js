@@ -27,7 +27,7 @@ export default class WorkPreview extends React.Component {
           <div className="border border-solid border-gray-900 dark:border-white overflow-hidden">
 
             <div className="marquee2" data-duplicated='true' data-direction='left' data-pauseOnHover='false' data-gap='200' data-speed='100' data-startVisible='true'>
-              <span className="text-6xl font-semibold">{ entry.getIn(["data", "title"])}</span>
+              <span className="text-6xl font-semibold">{ entry.getIn(["data", "inPageTitle"])}</span>
             </div>
 
             <div className="w-full flex flex-row font-semibold border-t border-b border-gray-900 dark:border-white">

@@ -9,7 +9,7 @@ export default class AboutPreview extends React.Component {
     return (
       <div className="animate__animated animate__fadeIn test px-2">
         <div className="max-w-5xl mx-auto pt-20 pb-10">
-          <p className="max-w-none font-semibold">{ entry.getIn(["data", "title"])}</p>
+          <p className="max-w-none font-semibold">{ entry.getIn(["data", "inPageTitle"])}</p>
           <p className="max-w-none text-4xl normal-case">{ entry.getIn(["data", "intro"])}</p>
         </div>
 
