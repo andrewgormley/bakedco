@@ -1,5 +1,6 @@
 ---
-title: "Modern Slavery & Human Trafficking Statement"
+title: Modern Slavery & Human Trafficking Statement |
+description: " "
 ---
 
 ## Modern Slavery & Human Trafficking Statement
