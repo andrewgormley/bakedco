@@ -18,6 +18,7 @@ slug:
 
 collections:
   - name: "work"
+    identifier_field: title
     label: "Work"
     folder: "site/content/work"
     create: true
@@ -37,7 +38,7 @@ collections:
       - {label: "Thumbnail Image", name: "image", widget: "image"}
       - {label: "Thumbnail Video", name: "thumbnailVideo", widget: "file", required: false}
       - {label: "Intro Blurb", name: "intro", widget: "text", required: false}
-      - {label: "Video", name: "video", widget: "text", required: false}
+      - {label: "Video", name: "video", widget: "string", required: false}
       - label: "Body section"
         name: "sections"
         widget: "list"
@@ -56,6 +57,7 @@ collections:
           - {label: "Alt text", name: "alt", widget: "string", required: false}
       - {label: "PDF Case Study", name: "pdf", widget: "file", required: false}
   - name: "jobs"
+    identifier_field: title
     label: "Jobs"
     folder: "site/content/jobs"
     create: true
@@ -189,6 +191,7 @@ collections:
             fields:
               - {label: "Meta Description", name: "description", widget: "text"}
   - name: "basic-pages"
+    identifier_field: title
     label: "Basic Pages"
     folder: "site/content"
     create: true
