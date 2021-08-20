@@ -20,4 +20,7 @@ sections:
       Dartmouth, Devon.
 carousel:
   - image: img/main_edit_cal_colour.00_02_24_11.still033.jpg
+  - image: img/main_edit_cal_colour.00_02_29_21.still036.jpg
+  - image: img/main_edit_cal_colour.00_02_27_14.still035.jpg
+  - image: img/main_edit_cal_colour.00_01_06_12.still019.jpg
 ---
