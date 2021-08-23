@@ -22,7 +22,7 @@ sections:
       sell-through in the men’s training category at one of their key retail
       partners, Sports Direct. "
   - subtitle: Our Approach
-    copy: >
+    copy: >-
       Capturing Maro Itoje training in a stylised environment that highlights
       warm conditions and mimics the garments self-cooling properties, we
       reinforced the product technology & its benefits.
