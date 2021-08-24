@@ -26,14 +26,14 @@
     </div>
 
     <div class="class w-full lg:w-1/4">
-      <a href="about" class="group">
-        <div class="bg-aqua h-56 ml-2 mb-2 p-2" style="background-image: url('img/bts-1.jpg');background-size:cover;">
+      <a href="{{.Params.link}}" class="group">
+        <div class="bg-aqua h-56 ml-2 mb-2 p-2" style="background-image: url('{{ .Params.image }}');background-size:cover;">
           <div class="border border-solid border-gray-500 h-full text-white">
             <div class="border-b border-solid border-gray-500 px-2 py-4">
-                <h2 class="text-3xl font-semibold leading-tight mb-1">WHAT GETS OUR DOUGH RISING 🥖</h2>
+                <h2 class="text-3xl font-semibold leading-tight mb-1">{{.Params.featuredBlockTitle}}</h2>
             </div>
             <div class="p-2">
-              <p class="normal-case">Solving the toughest, tastiest client briefs through impactful creativity. <span class="opacity-0 duration-100 ease-in-out group-hover:opacity-100">👉</span></p>
+              <p class="normal-case">{{.Params.featuredBlockCopy}}<span class="opacity-0 duration-100 ease-in-out group-hover:opacity-100">👉</span></p>
             </div>
 
           </div>

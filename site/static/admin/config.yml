@@ -46,7 +46,7 @@ collections:
         required: false
         fields:
           - {label: "Sub title", name: "subtitle", widget: "string"}
-          - {label: "Copy", name: "copy", widget: "text"}
+          - {label: "Copy", name: "copy", widget: "markdown"}
       - label: "Gallery"
         name: "carousel"
         widget: "list"
@@ -80,7 +80,11 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
-          - {label: "Title", name: "title", widget: "string", required: false}
+          - {label: "Meta Title", name: "title", widget: "string", required: false}
+          - {label: "Featured Block Link", name: "link", widget: "string", required: true}
+          - {label: "Featured Block Title", name: "featuredBlockTitle", widget: "string", required: true}
+          - {label: "Featured Block Copy", name: "featuredBlockcopy", widget: "string", required: true}
+          - {label: "Featured Block Image", name: "image", widget: "image", required: true}
       - file: "site/content/about/_index.md"
         label: "About Page"
         name: "about"
