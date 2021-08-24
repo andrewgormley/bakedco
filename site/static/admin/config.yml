@@ -79,6 +79,8 @@ collections:
       - file: "site/content/_index.md"
         label: "Home Page"
         name: "home"
+        editor:
+          preview: false
         fields:
           - {label: "Meta Title", name: "title", widget: "string", required: false}
           - {label: "Featured Block Link", name: "link", widget: "string", required: true}
