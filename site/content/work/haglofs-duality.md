@@ -3,6 +3,7 @@ title: Haglöfs - Duality - Part 2
 inPageTitle: Haglöfs - Duality - Part 2
 date: 2021-05-01T15:04:10.000Z
 description:
+visible: true
 tags:
 - Creative Strategy
 - 3D Product Scan

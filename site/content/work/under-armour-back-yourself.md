@@ -5,6 +5,7 @@ title: Under Armour - Back Yourself
 description: A 'back to fitness' campaign to showcase Under Armour at JD Sports.
   Keeping it simple. Atypically raw, bright and focussed on the product fit,
   style and detail.
+visible: true
 tags:
   - Live Action
   - Photography

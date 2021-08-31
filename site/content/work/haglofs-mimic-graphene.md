@@ -3,6 +3,7 @@ title: Haglöfs - Mimic Graphene
 inPageTitle: Haglöfs - Mimic Graphene
 date: 2021-05-02T15:04:10.000Z
 description:
+visible: true
 tags:
 - Creative Strategy
 - 3D Product Scan

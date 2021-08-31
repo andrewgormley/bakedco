@@ -22,6 +22,7 @@ collections:
     label: "Work"
     folder: "site/content/work"
     create: true
+    filter: {field: "visible", value: true}
     slug: "{{slug}}"
     editor:
       preview: false
@@ -30,6 +31,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Meta Title", name: "title", widget: "string"}
       - {label: "Meta Description", name: "description", widget: "text"}
+      - {label: "Visible", name: "visible", widget: hidden, default: true}
       - label: "Tags"
         name: "tags"
         widget: "list"
@@ -61,12 +63,14 @@ collections:
     label: "Jobs"
     folder: "site/content/jobs"
     create: true
+    filter: {field: "visible", value: true}
     slug: "{{slug}}"
     fields:
       - {label: "In Page Title", name: "inPageTitle", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Meta Title", name: "title", widget: "string", default: ''}
       - {label: "Meta Description", name: "description", widget: "text"}
+      - {label: "Visible", name: "visible", widget: hidden, default: true}
       - {label: "Category", name: "category", widget: "string", default: ''}
       - {label: "Job Type", name: "jobType", widget: "string", default: ''}
       - {label: "Location", name: "location", widget: "string", default: ''}

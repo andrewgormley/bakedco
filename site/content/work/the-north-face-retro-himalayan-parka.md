@@ -4,6 +4,7 @@ date: 2021-05-04T15:04:10.000Z
 title: The North Face - Retro Himalayan Parka
 description: Establishing the Himalayan Parka as streetwear's essential
   oversized insulation of the season, and beyond.
+visible: true
 tags:
   - Live Action
   - Motion Graphics

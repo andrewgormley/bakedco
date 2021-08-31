@@ -4,6 +4,7 @@ date: 2021-08-23T08:51:59.822Z
 title: Under Armour Iso-Chill |
 description: Brrr 🥶! A digital campaign to make an impact in the engage &
   convert sections of the funnel? Whoa, that’s cold!
+visible: true
 tags:
   - Live Action
   - Strategy

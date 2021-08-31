@@ -5,6 +5,7 @@ title: Haglöfs - L.I.M.
 description: The L.I.M series is the flagship of Haglöfs. We created a call to
   action for all "The Outsiders by Nature" who want to explore further than
   before. This is their cry for Less.
+visible: true
 tags:
   - Live Action
   - 3D Animation

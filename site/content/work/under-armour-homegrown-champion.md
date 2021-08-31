@@ -3,6 +3,7 @@ title: Under Armour - Homegrown Champion
 inPageTitle: Under Armour - Homegrown Champion
 date: 2021-05-04T15:04:10.000Z
 description:
+visible: true
 tags:
 - Live Action
 - Creative Strategy
