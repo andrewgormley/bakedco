@@ -75,7 +75,7 @@
             {{.Date.Format "Jan 2, 2006"}}
           </div>
           <div class="w-3/12">
-            {{.Title}}
+            {{.Params.inPageTitle}}
           </div>
           <div class="w-7/12 pl-2">
             {{.Description}}
@@ -91,7 +91,7 @@
 <div class="px-2 pt-2">
   <div class="marquee overflow-hidden w-full" data-duplicated='true' data-direction='left' data-pauseOnHover='true' data-speed='50' data-gap='0' data-startVisible='true'>
     {{ range where site.RegularPages "Section" "work" }}
-      <span class=""><a class="hover:bg-aqua hover:text-gray-900 transition-all py-1 px-2 mr-2" href="{{.Permalink}}">{{ .Title }}</a>*</span>
+      <span class=""><a class="hover:bg-aqua hover:text-gray-900 transition-all py-1 px-2 mr-2" href="{{.Permalink}}">{{.Params.inPageTitle}}</a>*</span>
     {{ end }}
   </div>
 </div>
