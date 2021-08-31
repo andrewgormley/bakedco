@@ -4,27 +4,31 @@
   <div class="max-w-5xl mx-auto pt-20 pb-10 jobs px-2">
 
     <ul>
-      {{ range .Pages }}
+      {{ if gt .Pages 0}}
+        {{ range .Pages }}
 
-        <li class="text-gray-900 mb-1 bg-aqua">
-          <a href="{{.Permalink}}">
+          <li class="text-gray-900 mb-1 bg-aqua">
+            <a href="{{.Permalink}}">
 
-            <div class="px-3 py-2 text-4xl normal-case border-b border-solid border-white dark:border-gray-900">
-              {{.Title}}
-            </div>
-
-            <div class="w-full flex flex-wrap">
-              <div class="w-1/2 border-r border-solid border-white dark:border-gray-900 px-3 py-2">
-                {{.Params.jobType}}
+              <div class="px-3 py-2 text-4xl normal-case border-b border-solid border-white dark:border-gray-900">
+                {{.Params.inPageTitle}}
               </div>
-              <div class="w-1/2 px-3 py-2">
-                {{.Params.location}}
+
+              <div class="w-full flex flex-wrap">
+                <div class="w-1/2 border-r border-solid border-white dark:border-gray-900 px-3 py-2">
+                  {{.Params.jobType}}
+                </div>
+                <div class="w-1/2 px-3 py-2">
+                  {{.Params.location}}
+                </div>
               </div>
-            </div>
 
-          </a>
-        </li>
+            </a>
+          </li>
 
+        {{ end }}
+      {{ else }}
+        <p class="text-4xl normal-case text-center">{{.Params.emptyState}}</p>
       {{ end }}
     </ul>
 

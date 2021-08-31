@@ -87,6 +87,23 @@ collections:
           - {label: "Featured Block Title", name: "featuredBlockTitle", widget: "string", required: true}
           - {label: "Featured Block Copy", name: "featuredBlockCopy", widget: "string", required: true}
           - {label: "Featured Block Image", name: "image", widget: "image", required: true}
+      - file: "site/work/_index.md"
+        label: "Work"
+        name: "work"
+        editor:
+          preview: false
+        fields:
+          - {label: "Meta Title", name: "title", widget: "string", required: false}
+          - {label: "Meta Description", name: "description", widget: "text"}
+      - file: "site/jobs/_index.md"
+        label: "Jobs"
+        name: "jobs"
+        editor:
+          preview: false
+        fields:
+          - {label: "Meta Title", name: "title", widget: "string", required: false}
+          - {label: "Meta Description", name: "description", widget: "text"}
+          - {label: "Empty State", name: "emptyState", widget: "text"}
       - file: "site/content/about/_index.md"
         label: "About Page"
         name: "about"
