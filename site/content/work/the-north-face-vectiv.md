@@ -11,7 +11,7 @@ tags:
   - PRODUCTION
 image: img/baked_tnf_vectiv_large_01.png
 thumbnailVideo: img/tnf_vectiv_16x9_4mbps.mp4
-video: https://vimeo.com/581122852
+video: https://player.vimeo.com/video/581122852
 sections:
   - subtitle: Project Summary
     copy: >-
