@@ -32,7 +32,7 @@
             <h4 class="font-semibold mb-2">{{ .subtitle }}</h4>
           {{ end }}
           {{ if .copy }}
-            <p>{{ .copy }}</p>
+            <p>{{ .copy | markdownify }}</p>
           {{ end }}
         </div>
       {{ end }}
