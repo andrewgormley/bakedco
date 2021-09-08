@@ -1,6 +1,6 @@
 ---
 inPageTitle: Under Armour - HOVR™ MEGA 2 CLONE
-date: 2021-09-13T12:09:23.608Z
+date: 2021-09-08T14:21:54.519Z
 title: Under Armour | HOVR™ MEGA 2 CLONE |
 description: Creative content showcasing the unique material of the UA Clone
   upper, which adapts to your foot's shape and movements for a more precise fit.
