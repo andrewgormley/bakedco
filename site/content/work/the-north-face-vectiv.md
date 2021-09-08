@@ -19,7 +19,7 @@ sections:
       introduced their 'venturer' consumer to the benefits of the new VECTIV™
       Futurelight trail running shoes. This content had the ultimate goal of
       educating consumers on the new technology, as well as leading them to
-      conversion.
+      conversion. 
 
 
       We were talking to the everyday trail runner - someone who runs often, enjoys adventure and is looking for comfort and protection over lightweight speed and performance.
