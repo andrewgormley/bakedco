@@ -26,14 +26,17 @@ sections:
     copy: >-
       Capturing Maro Itoje training in a stylised environment that highlights
       warm conditions and mimics the garments self-cooling properties, we
-      reinforced the product technology & its benefits.
+      reinforced the product technology & its benefits.\
 
+      \
 
-      Using coloured lighting techniques and haze, we added drama to the scene, emulating the products Iso-Chill technology, whilst adding a creative visual point of difference to the content.
+      Using coloured lighting techniques and haze, we added drama to the scene, emulating the products Iso-Chill technology, whilst adding a creative visual point of difference to the content.\
 
+      \
 
-      We used warm (red) lighting to give the impression Maro was training in a warm environment. By moving to a mixture of red & blue lighting and then finishing the clips in colder blue tones, we visually demonstrate the benefits of Iso-Chill to the consumer.
+      We used warm (red) lighting to give the impression Maro was training in a warm environment. By moving to a mixture of red & blue lighting and then finishing the clips in colder blue tones, we visually demonstrate the benefits of Iso-Chill to the consumer.\
 
+      \
 
       Using a chalkboard as a visual reference to demonstrate workout repetition and the passing of time, we demonstrated how the product helps you train for longer. Capturing shots of Maro Itoje doing rugby training drills, coupled with cutaways of him striking off a tally on a chalkboard, we emphasised how hard he is training. By visually seeing repetition in the training, we hammered home the 'train for longer' message.
 carousel:
