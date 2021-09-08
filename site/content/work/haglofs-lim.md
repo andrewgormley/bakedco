@@ -1,7 +1,7 @@
 ---
 inPageTitle: Haglöfs - L.I.M.
 date: 2021-05-05T15:04:10.000Z
-title: Haglöfs - L.I.M.
+title: Haglöfs | L.I.M. |
 description: The L.I.M series is the flagship of Haglöfs. We created a call to
   action for all "The Outsiders by Nature" who want to explore further than
   before. This is their cry for Less.
