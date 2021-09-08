@@ -28,11 +28,13 @@ sections:
       After over a year of confinement, consumers were seeking the freedom of
       adventure more than ever before. The invigorating thrill of exploring
       nature. The rush of adrenaline we get from moving our bodies unbounded by
-      four walls.
+      four walls.\
 
+      \
 
-      The content showcased the running and hiking adventures of two protagonists in different locations, positioning the VECTIV™ x Futurelight shoe as the common thread that ties them together - allowing them to adventure further than ever before. The two narratives highlighted the versatility of the product, enhanced with the inclusion of 3D environments, which focused on the waterproof Futurelight upper.
+      The content showcased the running and hiking adventures of two protagonists in different locations, positioning the VECTIV™ x Futurelight shoe as the common thread that ties them together - allowing them to adventure further than ever before. The two narratives highlighted the versatility of the product, enhanced with the inclusion of 3D environments, which focused on the waterproof Futurelight upper.\
 
+      \
 
       This is more than just a run. It’s not about the calories burned or the PB. It’s about the adventure; the money can’t buy experience that we need to find balance in our hectic lives, to escape and feel alive. Each timeline highlights the key technology and how the VECTIV™ shoes help power you further; further along the coast, higher up the mountain, deeper into the forest.
 carousel:
