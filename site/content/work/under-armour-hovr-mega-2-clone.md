@@ -24,7 +24,7 @@ sections:
       genders, focused on the CLONE technology.
 
 
-      We translated technical information so it was easy to understand and highlighted the benefits to the consumer - a customised fit and optimised comfort. We grew the attention to each of these areas through the use of Phantom Ultrahigh-Speed slow-motion shots of the shoe in action, mixed alongside running content and 3D shoe renders with graphical elements.
+      We translated technical information so it was easy to understand and highlighted the benefits to the consumer - a customised fit and optimised comfort. We drew the attention to each of these areas through the use of Phantom Ultrahigh-Speed slow-motion shots of the shoe in action, mixed alongside running content and 3D shoe renders with graphical elements.
 carousel:
   - image: img/baked_underarmour_mega2clone_large_01.png
   - image: img/baked_underarmour_mega2clone_large_02.png
