@@ -40,11 +40,8 @@ sections:
 
 
       We built all three films to exist in the same world, with each space will having subtle changes that help tie into some of the key benefits of that shoe. No props or objects had greater detail than the product itself.
-
-
-      So, on to the technology itself and our visual metaphors. 
-
-
+  - subtitle: Visual Metaphors
+    copy: >-
       First up, ASICSGRIP™ - a grippy shoe for trail running. 
 
 
