@@ -5,6 +5,10 @@ title: ASICS | Technology Films |
 description: How we used minimalist environments and actions to guide the viewer
   into the ASICS world of self-fulfilment and self-improvement.
 visible: true
+tags:
+  - 3D
+  - Strategy
+  - Visual Direction
 image: img/image-6-.png
 thumbnailVideo: ""
 intro: How we used minimalist environments and actions to guide the viewer into
