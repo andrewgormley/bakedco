@@ -2,13 +2,13 @@
 inPageTitle: ASICS - Technology Films
 date: 2021-09-15T10:36:26.711Z
 title: ASICS | Technology Films |
-description: How ASICS used minimalist environments and actions to guide the
-  viewer into a world of self-fulfilment and self-improvement.
+description: How we used minimalist environments and actions to guide the viewer
+  into the ASICS world of self-fulfilment and self-improvement.
 visible: true
 image: img/image-6-.png
 thumbnailVideo: ""
-intro: How ASICS used minimalist environments and actions to guide the viewer
-  into a world of self-fulfilment and self-improvement.
+intro: How we used minimalist environments and actions to guide the viewer into
+  the ASICS world of self-fulfilment and self-improvement.
 video: https://player.vimeo.com/video/559908789
 sections:
   - subtitle: Project Summary
