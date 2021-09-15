@@ -19,9 +19,7 @@ sections:
       their key brand narrative: the benefits of running go beyond the body.
 
 
-      **Our challenge?**
-
-      Demonstrating that a sound body leads to a sound mind.
+      Our challenge was demonstrating that a sound body leads to a sound mind.
 
 
       Each innovation and shoe were unique and have proven superiority vs. their competitors. They tapped into specific needs and insights from their audience and have been acclaimed by influencers and media.
