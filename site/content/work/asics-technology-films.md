@@ -84,5 +84,6 @@ sections:
       Showing the detail of the product and close-ups of the technology in dynamic positions, we used light to create contrasting areas of focus and highlight the technology of the shoe. Environmental lighting helped show the wider minimalist world through tranquil, soft shadows and moving light.
 carousel:
   - image: img/asics_trubaco_thumbnail.png
+  - image: img/asics-cumulus.png
   - image: img/guidesole-hero-image.png
 ---
