@@ -12,7 +12,7 @@ intro: Creative content showcasing the unique material of the UA Clone upper,
 video: https://player.vimeo.com/video/600211281
 sections:
   - subtitle: Project Summary
-    copy: Under Armour challenged us to produce assets to introduce the HOVR Mega 2
+    copy: Under Armour challenged us to produce assets to introduce the HOVR™ Mega 2
       CLONE, to be used in their FW21 Connected Running paid media campaign. The
       tone? Urban, gritty & authentic.
   - subtitle: Our Approach
