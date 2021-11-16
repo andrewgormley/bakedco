@@ -11,6 +11,8 @@ tags:
   - PRODUCTION
 image: img/thenorthfaceamk.png
 thumbnailVideo: img/thenorthfaceamk.mp4
+intro: Presenting the ground-breaking technologies of the Advanced Mountain Kit,
+  whilst showing how the entire layering system works together.
 video: https://player.vimeo.com/video/646389490
 sections:
   - subtitle: Project Summary
