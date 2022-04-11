@@ -11,8 +11,7 @@ category: Creative
 jobType: Full Time
 location: Torquay, Devon, UK
 salary: £28,000 - £30,000
-note: This role is remote but requires you to work for 1 week per month in
-  Torquay, Devon, UK
+note: ""
 ---
 **The role in brief...**\
 The role of the Art Director / Creative Designer is to bake amazing content. Working closely with the Brand Director and Creative Directors, you’ll come up with ideas, help inspire our clients and be part of executing on the idea to bring brilliant creative to life.
