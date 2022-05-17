@@ -9,6 +9,7 @@ visible: true
 tags:
   - Live Action
 image: img/main_edit_cal_colour.00_02_24_11.still033.jpg
+thumbnailVideo: img/andria_homepagethumbnail.mp4
 intro: The first in our Baked Stories series featuring long time friend and chef
   Luca Beradino. In this short story we talk with Luca about what drives him and
   what cooking means to him.
