@@ -84,19 +84,13 @@ sections:
       The creative concept was driven by a window into nature. A metaphor that nature is for everyone, accessible to all. We conveyed this using three components that tell the city to nature story.
 
 
-      1. Using a green screen backdrop
-
-      With a contrasting environment to constantly reinforce the city to nature and nature is everywhere messages - uniquely and symbolically.
+      Firstly, by using a green screen backdrop we were able to bring in a contrasting environment to constantly reinforce the city to nature and nature is everywhere messages - uniquely and symbolically.
 
 
-      2. Shot-matched split screens
-
-      We showed two contrasting environments by displaying the same action or movement happening in the nature and city setting.
+      Secondly, by using shot-matched split screens we showed two contrasting environments by displaying the same action or movement happening in the nature and city setting.
 
 
-      3. Shooting authenticators in nature and the city. 
-
-      Following their interactions with each other and with nature. This kept the content real and relatable for the consumer.
+      Finally, by shooting authenticators in nature and the city - following their interactions with each other and with nature. This kept the content real and relatable for the consumer.
 carousel:
   - image: img/timberland-afnnaf-day-3-15-12-213733-v2.jpg
   - image: img/_18a4950.jpg
