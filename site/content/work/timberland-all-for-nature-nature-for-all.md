@@ -9,7 +9,7 @@ tags:
   - Production
   - Strategy
   - Live Action
-image: img/_18a5019.jpg
+image: img/_18a4950.jpg
 thumbnailVideo: ""
 intro: Establishing an ownable position in the outdoors for Timberland, with a
   focus on equality.
@@ -96,5 +96,5 @@ carousel:
   - image: img/_18a9686.jpg
   - image: img/_18a9667.jpg
   - image: img/_18a9667-v2.jpg
-  - image: img/_18a4950.jpg
+  - image: img/_18a5019.jpg
 ---
