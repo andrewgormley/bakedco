@@ -85,11 +85,18 @@ sections:
 
 
       1. Using a green screen backdrop
-         With a contrasting environment to constantly reinforce the city to nature and nature is everywhere messages - uniquely and symbolically.
+
+      With a contrasting environment to constantly reinforce the city to nature and nature is everywhere messages - uniquely and symbolically.
+
+
       2. Shot-matched split screens
-         We showed two contrasting environments by displaying the same action or movement happening in the nature and city setting.
+
+      We showed two contrasting environments by displaying the same action or movement happening in the nature and city setting.
+
+
       3. Shooting authenticators in nature and the city. 
-         Following their interactions with each other and with nature. This kept the content real and relatable for the consumer.
+
+      Following their interactions with each other and with nature. This kept the content real and relatable for the consumer.
 carousel:
   - image: img/timberland-afnnaf-day-3-15-12-213733-v2.jpg
   - image: img/_18a9690-v2.jpg
