@@ -9,7 +9,7 @@ tags:
   - Production
   - Strategy
   - Live Action
-image: img/_18a4950.jpg
+image: img/_18a9690-v2.jpg
 thumbnailVideo: ""
 intro: Establishing an ownable position in the outdoors for Timberland, with a
   focus on equality.
@@ -99,7 +99,7 @@ sections:
       Following their interactions with each other and with nature. This kept the content real and relatable for the consumer.
 carousel:
   - image: img/timberland-afnnaf-day-3-15-12-213733-v2.jpg
-  - image: img/_18a9690-v2.jpg
+  - image: img/_18a4950.jpg
   - image: img/_18a9686.jpg
   - image: img/_18a9667.jpg
   - image: img/_18a9667-v2.jpg
