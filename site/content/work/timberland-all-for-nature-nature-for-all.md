@@ -1,6 +1,6 @@
 ---
 inPageTitle: Timberland - All For Nature, Nature For All
-date: 2022-05-17T09:25:11.808Z
+date: 2022-04-05T09:25:11.808Z
 title: Timberland | All For Nature, Nature For All |
 description: How Timberland created and defined the lifestyle of hiking, from
   the city to the outside and back.
