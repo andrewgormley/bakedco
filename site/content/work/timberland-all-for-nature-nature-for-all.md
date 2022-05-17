@@ -95,6 +95,7 @@ carousel:
   - video: img/01.mp4
   - image: img/02.jpg
   - image: img/03.jpg
+    alt: "3"
   - video: img/04.mp4
   - image: img/05.jpg
   - video: img/06.mp4
