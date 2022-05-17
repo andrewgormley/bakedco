@@ -9,7 +9,7 @@ tags:
   - LIVE ACTION
   - STRATEGY
   - PRODUCTION
-image: img/thenorthfaceamk.png
+image: img/thenorthface_amk_16-07-21_012-1-.jpg
 thumbnailVideo: img/thenorthfaceamk.mp4
 intro: Presenting the ground-breaking technologies of the Advanced Mountain Kit,
   whilst showing how the entire layering system works together.
