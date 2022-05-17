@@ -10,7 +10,7 @@ tags:
   - Strategy
   - Live Action
 image: img/_18a9690-v2.jpg
-thumbnailVideo: img/homepagethumbnail.mp4
+thumbnailVideo: img/untitled.mp4
 intro: Establishing an ownable position in the outdoors for Timberland, with a
   focus on equality.
 video: https://player.vimeo.com/video/710714066
@@ -98,4 +98,7 @@ carousel:
   - image: img/_18a9667.jpg
   - image: img/_18a9667-v2.jpg
   - image: img/_18a5019.jpg
+  - video: img/untitled-1-.mp4
+  - video: img/untitled-2-.mp4
+  - video: img/untitled-3-.mp4
 ---
