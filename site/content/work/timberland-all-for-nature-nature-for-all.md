@@ -26,8 +26,8 @@ sections:
       Timberland’s mission is to equip people to make a difference in the world. They do this by creating outstanding products and by trying to make a difference in the communities in which they live and work. They demonstrate this philosophy across all facets of their company, from their products to their employee involvement in their communities.
   - subtitle: Challenge
     copy: >-
-      **Establish an ownable position in the outdoors for Timberland, with a
-      focus on equality**
+      Establish an ownable position in the outdoors for Timberland, with a focus
+      on equality
 
 
       The ambition for this global campaign spanned four areas. Firstly, owning the journey from the city to the outside. Secondly, leveraging community authenticators in our content. Thirdly, leading the city to outside movement through the lens of Timberland’s GreenStride™ technology. And finally, building lifestyle with eco-innovation apparel.
@@ -81,7 +81,7 @@ sections:
       > All for nature, nature for all.
 
 
-      The creative concept was driven by a window into nature. A metaphor that nature is for everyone, accessible to all. We convey ed this using three components that tell the city to nature story.
+      The creative concept was driven by a window into nature. A metaphor that nature is for everyone, accessible to all. We conveyed this using three components that tell the city to nature story.
 
 
       1. Using a green screen backdrop
