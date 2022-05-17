@@ -92,13 +92,13 @@ sections:
 
       Finally, by shooting authenticators in nature and the city - following their interactions with each other and with nature. This kept the content real and relatable for the consumer.
 carousel:
+  - video: img/untitled-1-.mp4
   - image: img/timberland-afnnaf-day-3-15-12-213733-v2.jpg
   - image: img/_18a4950.jpg
+  - video: img/untitled-2-.mp4
   - image: img/_18a9686.jpg
   - image: img/_18a9667.jpg
+  - video: img/untitled-3-.mp4
   - image: img/_18a9667-v2.jpg
   - image: img/_18a5019.jpg
-  - video: img/untitled-1-.mp4
-  - video: img/untitled-2-.mp4
-  - video: img/untitled-3-.mp4
 ---
