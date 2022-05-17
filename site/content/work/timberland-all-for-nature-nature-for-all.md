@@ -48,7 +48,7 @@ sections:
       And by creating separate product vignettes, we were able to position GreenStride™ as the tool to bring comfort to the outside as well as elevating key head-to-toe looks focused on the brand’s EcoOriginal apparel.
   - subtitle: Creative Concept
     copy: >-
-      > A story of change makers.
+      > "A story of change makers.
 
       > Challenging under-representation. Driving inclusivity.
 
@@ -78,7 +78,7 @@ sections:
 
       > From the city to the outdoors. And back again.
 
-      > All for nature, nature for all.
+      > All for nature, nature for all."
 
 
       The creative concept was driven by a window into nature. A metaphor that nature is for everyone, accessible to all. We conveyed this using three components that tell the city to nature story.
