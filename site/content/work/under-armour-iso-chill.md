@@ -14,7 +14,7 @@ image: img/baked_underarmour_isochill_maro_itoje_large_01.png
 thumbnailVideo: img/isochill-thumbnail.mp4
 intro: Brrr 🥶! A digital campaign to make an impact in the engage & convert
   sections of the funnel? Whoa, that’s cold!
-video: https://player.vimeo.com/video/559895832?h=e898f86642
+video: https://player.vimeo.com/video/580293682
 sections:
   - subtitle: Project Summary
     copy: "Under Armour challenged us to create a digital campaign for their
