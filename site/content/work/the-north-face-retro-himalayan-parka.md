@@ -12,6 +12,7 @@ tags:
   - Visual Effects
   - Retail
 image: /img/baked-thenorhtface-1994retrohim-t-02.png
+thumbnailVideo: img/retrohim_thumbnailgif.mp4
 intro: Establishing the Himalayan Parka as streetwear's essential oversized
   insulation of the season, and beyond.
 video: https://player.vimeo.com/video/468137067?title=0&byline=0&portrait=0
