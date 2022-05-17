@@ -10,7 +10,7 @@ tags:
   - Strategy
   - Visual Direction
 image: img/image-6-.png
-thumbnailVideo: ""
+thumbnailVideo: img/grip_homepagethumbnail.mp4
 intro: How we used minimalist environments and actions to guide the viewer into
   the ASICS world of self-fulfilment and self-improvement.
 video: https://player.vimeo.com/video/559908789
