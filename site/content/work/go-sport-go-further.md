@@ -24,37 +24,18 @@ sections:
       Arabia, and United Arab Emirates.
 
 
-      \r
-
-      \r
-
       GO Sport brings the best multi-brand sporting goods experience to
       the marketplace from all the major and local sports brands. They have a
       strong mission to support and encourage sports participation, allowing
       everyone regardless of age and ability to adopt an active lifestyle by
       offering the right product to suit individual needs. \r\n"
   - subtitle: Our Approach
-    copy: "Go Further. It means pushing yourself. \r
-
-      \r
-
-      Through the pain, through the barriers. \r
-
-      Breaking down the boundaries that exist in your mind.\r
-
-      \r
-
-      In gear that holds up. That works as hard as you do.\r
-
-      Gear that's got you covered.\r
-
-      \r
-
-      This is a campaign talking to the grinders. \r
-
-      Those who are inspired to better themselves. \r
-
-      Those who are pushing themselves outside of their comfort zone.\r\n"
+    copy: "Go Further. It means pushing yourself. Through the pain, through the
+      barriers. Breaking down the boundaries that exist in your mind.\r In gear
+      that holds up. That works as hard as you do. Gear that's got you
+      covered.\r This is a campaign talking to the grinders. Those who are
+      inspired to better themselves. Those who are pushing themselves outside of
+      their comfort zone.\r\n"
   - subtitle: Creative Concept
     copy: "Running is a varied and often miscommunicated sport. We took the approach
       of translating GO Sport's values to an audience that run AS a sport, as
