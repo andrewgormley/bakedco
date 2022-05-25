@@ -23,6 +23,7 @@ sections:
       direction. The brief covered the Middle East, primarily Qatar, Saudi
       Arabia, and United Arab Emirates.
 
+
       GO Sport brings the best multi-brand sporting goods experience to
       the marketplace from all the major and local sports brands. They have a
       strong mission to support and encourage sports participation, allowing
@@ -40,10 +41,12 @@ sections:
       of translating GO Sport's values to an audience that run AS a sport, as
       well as run FOR sport.
 
+
       By creating an anthem film that drives the core messages of
       inclusivity, community and self-motivation, we inspired and educated the
       audience on the freedom running can provide and how GO Sport facilitate
       this with the best equipment.
+
 
       The consumer is driven and dedicated, so our anthem film shows
       on-screen talent pushing themselves to their limits. Though this doesn’t
@@ -51,9 +54,11 @@ sections:
       moments as well. We show all the hard work and dedication that it takes to
       get to where you want to go - it's that ‘Go Further’ mentality.\ 
 
+
       Weaving between 3 scenes captured in different locations: desert
       roads, desert trail and downtown, the contrast gave the content variety
       and added a sense of journey.
+
 
       We captured an eye-catching and visually stimulating b-roll that is
       sliced between hero imagery. This added another layer to the content and
@@ -61,6 +66,7 @@ sections:
       campaign's overall narrative. These moments are paramount in showing how
       committed these individuals are to being the best version of themselves.
       These are the nuts and bolts. The blood, sweat and tears.
+
 
       Focussing on real athletes, this is a genuine story of handwork and
       determination. Our cast resonated with the consumer and inspired them to
