@@ -1,7 +1,7 @@
 ---
-inPageTitle: GO Sport - Go Further
+inPageTitle: "GO Sport - Go Further: Running"
 date: 2022-05-25T09:47:34.383Z
-title: GO Sport | Go Further |
+title: "GO Sport | Go Further: Running |"
 description: We helped GO Sport establish a premium, gritty and aspirational
   content pillar in the Middle East.
 visible: true
