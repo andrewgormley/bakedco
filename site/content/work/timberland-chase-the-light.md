@@ -9,7 +9,7 @@ tags:
   - Production
   - Strategy
   - Live Action
-image: img/04.jpg
+image: img/ctl-04.jpg
 thumbnailVideo: img/chase_the_light_gif.mp4
 intro: Establishing an ownable position in the outdoors for Timberland, with a
   focus on equality.
