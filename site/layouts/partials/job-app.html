@@ -1,0 +1,47 @@
+<!-- Contact -->
+<div class="mb4">
+  <h4 class="text-2xl lg:text-4xl py-5 normal-case">Apply for this position</h4>
+
+  <form name="job-app" method="POST" data-netlify="true" class="border border-solid border-gray-900 dark:border-white mb-3">
+    <div class="w-full flex flex-wrap mb-2">
+      <!-- Name -->
+      <div class="w-1/2 border-b border-solid border-gray-900 dark:border-white p-3">
+          <label for="name" class="uppercase font-semibold">Name</label>
+          <input type="text" id="name" name="name" placeholder="Jules Winnfield" class="w-full bg-transparent pt-1">
+      </div>
+      <!-- Email -->
+      <div class="w-1/2 border-b border-l border-solid border-gray-900 dark:border-white p-3">
+          <label for="email" class="uppercase font-semibold">Email</label>
+          <input type="email" id="email" name="email" placeholder="jules@example.com" class="w-full bg-transparent pt-1">
+      </div>
+      <!-- Phone -->
+      <div class="w-1/2 border-b border-solid border-gray-900 dark:border-white p-3">
+          <label for="phone" class="uppercase font-semibold">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter phone number" class="w-full bg-transparent pt-1">
+      </div>
+      <!-- Resume -->
+      <div class="w-1/2 border-b border-l border-solid border-gray-900 dark:border-white p-3">
+        <label for="resume" class="uppercase font-semibold">Upload CV/Resume</label>
+        <input type="file" name="resume" class="w-full bg-transparent pt-1"/>
+      </div>
+      <!-- Role -->
+      <div class="w-full border-b border-solid border-gray-900 dark:border-white p-3">
+        <label for="role" class="uppercase font-semibold">Role</label>
+        <input type="text" name="role" placeholder="Which role are you applying for?" class="w-full bg-transparent pt-1"/>
+      </div>
+    </div>
+
+    <!-- Message -->
+    <div class="p-3">
+      <label for="message" class="uppercase font-semibold">Cover Letter</label>
+      <textarea id="message" name="message" placeholder="Tell us about yourself" rows="7" class="w-full bg-transparent pt-1"></textarea>
+    </div>
+
+    <!-- Button -->
+    <div class="ml-3 mb-3">
+      <p class="mb-2 normal-case text-xs">By using this form you agree with the storage and handling of your data by this website.</p>
+      <button type="submit" class="text-center p-3 text-4xl bg-primary shadow-lg">Send Message</button>
+    </div>
+  </form>
+
+</div>

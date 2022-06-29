@@ -1,13 +1,17 @@
 <!doctype html>
-<html class="transition-all bg-black" lang="{{ $.Site.Language.Lang }}">
+<html class="transition-all" lang="{{ $.Site.Language.Lang }}">
   {{ partial "head" . }}
-  <body class="text-sm text-gray-400">
+  <body class="text-sm uppercase text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-900 tracking-wide transition-all">
+
+    {{ partial "nav" . }}
 
     {{ partial "header" . }}
 
     {{ block "main" . }}{{ end }}
 
     {{ partial "footer" . }}
+
+    {{ partial "theme-switch" .}}
 
     {{ $script := .Site.Data.webpack.main }}
     {{ with $script.js }}
