@@ -7,11 +7,11 @@ description: " "
 
 This statement is made on behalf of Baked Creative Limited pursuant to section 54 (1) of the Modern Slavery Act 2015 (the “Act”) and constitutes our slavery and human trafficking statement.
 
-This statement sets out Baked’s actions to understand all potential modern slavery risks related to its business and to put in place steps that are aimed at ensuring that there is no slavery or human trafficking in its own business and its supply chains. This statement relates to actions and activities during the financial year 1 April 2020 to 31 March 2021. Baked recognises that it has a responsibility to take a robust approach to preventing slavery and human trafficking and is committed to do so in our corporate activities and supply chains.
+This statement sets out Baked’s actions to understand all potential modern slavery risks related to its business and to put in place steps that are aimed at ensuring that there is no slavery or human trafficking in its own business and its supply chains. This statement relates to actions and activities during the financial year 1 January 2022 to 31 December 2022. Baked recognises that it has a responsibility to take a robust approach to preventing slavery and human trafficking and is committed to do so in our corporate activities and supply chains.
 
 #### Organisational Structure
 
-Baked Creative Limited is a company registered in England and Wales (12099792). Baked is a creative agency operating globally across EMEA, APAC and the US, with its European HQ in Shaldon, TQ14 0DD.
+Baked Creative Limited is a company registered in England and Wales (12099792). Baked is a creative agency operating globally across EMEA, APAC and the US, with its European HQ in Torquay, TQ2 5EG.
 
 #### Our Approach
 
@@ -53,6 +53,6 @@ We will be looking to introduce specific measures to ensure that our obligations
 
 Relevant e-learning training materials are available to all staff and will be made compulsory for those involved in recruiting and sourcing/managing a supply chain so that they are able to identify risk factors, understand the implications and assist us with implementing the requirements of the Act effectively.
 
-This statement is made pursuant to section 54 (1) of the UK Modern Slavery Act 2015 and constitutes Baked’s slavery and human trafficking statement for the financial year ending 31st March 2021.
+This statement is made pursuant to section 54 (1) of the UK Modern Slavery Act 2015 and constitutes Baked’s slavery and human trafficking statement for the financial year ending 31st December 2022.
 
 This statement was approved by Dan Bulman, CEO of Baked Creative Limited, and will be updated and reviewed annually.
