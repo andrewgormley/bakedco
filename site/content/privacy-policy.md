@@ -10,7 +10,7 @@ description: This privacy policy sets out how we collect, use, and protect any
 
 ### Who we are
 
-Baked Creative Limited (we, us, our) is a company registered in England and Wales under company number 12099792 and our registered office address is 8 Bridge Road, Shaldon, Teignmouth, Devon, England, TQ14 0DD.
+Baked Creative Limited (we, us, our) is a company registered in England and Wales under company number 12099792 and our registered office address is C/O Smooth Accounting Limited, Building 1000 Lakeside North Harbour, Western Road, Portsmouth, United Kingdom, PO6 3EN.
 
 You can get in touch with our data protection officer by writing to The Data Protection Officer at our address above or email hello@bakedcreative.co.
 
@@ -73,12 +73,12 @@ You have the right under EU regulation and Privacy Shield to see what informatio
 
 The Data Protection Officer,
 Baked Creative Limited,
-8 Bridge Road,
-Shaldon,
-Teignmouth,
-Devon,
-England,
-TQ14 0DD
+C/O Smooth Accounting Limited, 
+Building 1000 Lakeside North Harbour, 
+Western Road, 
+Portsmouth, 
+United Kingdom, 
+PO6 3EN
 
 We hope you will benefit from all the communications we send to you but if at any time you change your mind, you may unsubscribe. If you have given us permission to contact you and you change your mind, please email hello@bakedcreative.co, let us know and we’ll unsubscribe you. If we do not hear from you, we will assume that the information you provide to us is accurate and up-to-date and that you are happy for us to continue to use the information to send you any communications you have requested.
 
@@ -143,11 +143,6 @@ We use Google Invisible reCAPTCHA on our website to help prevent spam and abuse.
 
 Our carefully selected partners and service providers may process personal information about you on our behalf as described below:\
 \
-**Digital Marketing Service Providers**
-
-We periodically appoint digital marketing agents to conduct marketing activity on our behalf, such activity may result in the compliant processing of personal information. Our appointed data processors include:
-
-(i)Prospect Global Ltd (trading as Sopro) Reg. UK Co. 09648733. You can contact Sopro and view their privacy policy here: [http://sopro.io](http://sopro.io/). Sopro are registered with the ICO Reg: ZA346877 their Data Protection Officer can be emailed at: [dpo@sopro.io](mailto:dpo@sopro.io "mailto\:dpo@sopro.io").
 
 #### Changes to this website privacy policy
 
